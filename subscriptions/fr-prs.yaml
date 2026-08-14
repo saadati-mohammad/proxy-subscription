@@ -659,15 +659,15 @@ proxies:
 - name: FR-PRS-079-parisian-2-fr-nexorcdn-com
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 50664
+  port: 49958
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: FR-PRS-080-parisian-3-fr-nexorcdn-com
+- name: FR-PRS-080-parisian-2-fr-nexorcdn-com
   type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 14320
+  server: parisian-2-fr.nexorcdn.com
+  port: 50664
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -827,7 +827,7 @@ proxy-groups:
   - FR-PRS-077-parisian-2-fr-nexorcdn-com
   - FR-PRS-078-parisian-2-fr-nexorcdn-com
   - FR-PRS-079-parisian-2-fr-nexorcdn-com
-  - FR-PRS-080-parisian-3-fr-nexorcdn-com
+  - FR-PRS-080-parisian-2-fr-nexorcdn-com
   - FR-PRS-081-parisian-3-fr-nexorcdn-com
   - FR-PRS-082-parisian-3-fr-nexorcdn-com
   - FR-PRS-083-parisian-3-fr-nexorcdn-com
