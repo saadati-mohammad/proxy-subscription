@@ -664,6 +664,14 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
+- name: SG-080-singha-sg-nexorcdn-com
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 55803
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
 proxy-groups:
 - name: Proxy
   type: url-test
@@ -747,6 +755,7 @@ proxy-groups:
   - SG-077-singha-sg-nexorcdn-com
   - SG-078-singha-sg-nexorcdn-com
   - SG-079-singha-sg-nexorcdn-com
+  - SG-080-singha-sg-nexorcdn-com
   url: https://www.gstatic.com/generate_204
   interval: 30
   tolerance: 50

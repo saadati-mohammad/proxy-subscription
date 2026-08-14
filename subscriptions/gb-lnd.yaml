@@ -403,7 +403,7 @@ proxies:
 - name: GB-LND-047-erith-6-uk-nexorcdn-com
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 36384
+  port: 35588
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -411,12 +411,20 @@ proxies:
 - name: GB-LND-048-erith-6-uk-nexorcdn-com
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 37969
+  port: 36384
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
 - name: GB-LND-049-erith-6-uk-nexorcdn-com
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 37969
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: GB-LND-050-erith-6-uk-nexorcdn-com
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 40582
@@ -477,6 +485,7 @@ proxy-groups:
   - GB-LND-047-erith-6-uk-nexorcdn-com
   - GB-LND-048-erith-6-uk-nexorcdn-com
   - GB-LND-049-erith-6-uk-nexorcdn-com
+  - GB-LND-050-erith-6-uk-nexorcdn-com
   url: https://www.gstatic.com/generate_204
   interval: 30
   tolerance: 50
