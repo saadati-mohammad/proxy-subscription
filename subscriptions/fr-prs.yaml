@@ -699,7 +699,7 @@ proxies:
 - name: FR-PRS-084-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 37351
+  port: 36352
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -707,7 +707,7 @@ proxies:
 - name: FR-PRS-085-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 41600
+  port: 37351
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -715,7 +715,7 @@ proxies:
 - name: FR-PRS-086-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 45876
+  port: 41600
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -723,7 +723,7 @@ proxies:
 - name: FR-PRS-087-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 45996
+  port: 45876
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -731,12 +731,20 @@ proxies:
 - name: FR-PRS-088-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 47703
+  port: 45996
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
 - name: FR-PRS-089-parisian-3-fr-nexorcdn-com
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 47703
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: FR-PRS-090-parisian-3-fr-nexorcdn-com
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 48544
@@ -837,6 +845,7 @@ proxy-groups:
   - FR-PRS-087-parisian-3-fr-nexorcdn-com
   - FR-PRS-088-parisian-3-fr-nexorcdn-com
   - FR-PRS-089-parisian-3-fr-nexorcdn-com
+  - FR-PRS-090-parisian-3-fr-nexorcdn-com
   url: https://www.gstatic.com/generate_204
   interval: 30
   tolerance: 50
