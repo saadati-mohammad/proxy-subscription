@@ -76,6 +76,4 @@ jobs:
           fi
 
           git commit -m "Update Clash subscriptions"
-          git fetch origin main
-          git merge -X ours origin/main --no-edit
           git push
