@@ -10,7 +10,13 @@ from pathlib import Path
 from typing import Any
 
 import requests
+import urllib3
 import yaml
+
+# The health-check step deliberately connects through proxies with
+# skip-cert-verify semantics (verify=False), which is expected and not
+# a bug. Silence the resulting InsecureRequestWarning noise in logs.
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 # =============================================================================
@@ -59,6 +65,50 @@ HTTP_TIMEOUT = 15
 MAX_WORKERS = 12
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "subscriptions"
+
+
+# =============================================================================
+# HEALTH CHECK / SPEED TEST CONFIG
+# =============================================================================
+#
+# Why this exists:
+#
+# Each region can collect 100+ raw candidate nodes from the free providers.
+# If ALL of them are shipped in the subscription file, Clash on the phone
+# has to url-test every single one before it can pick a working proxy:
+#   - startup / group selection becomes slow
+#   - Clash frequently lands on a dead or slow node while testing is
+#     still in progress
+#
+# The fix: do the speed testing here, once, on the server, against every
+# candidate, then ship only the nodes that are actually fast and alive -
+# already sorted fastest-first. Clash then only has to choose between a
+# small, pre-vetted set instead of gambling across 100+ unknowns.
+
+# Endpoint used to measure real latency THROUGH each proxy.
+# Small, fast, CDN-backed, returns 204 with no body.
+HEALTH_CHECK_URL = "https://www.gstatic.com/generate_204"
+
+# Per-request timeout for a single health-check attempt.
+HEALTH_CHECK_TIMEOUT = 6
+
+# A node is retried once if the first attempt fails/times out, to avoid
+# throwing away a genuinely good node because of one flaky connection.
+HEALTH_CHECK_ATTEMPTS = 2
+
+# How many nodes are speed-tested at once. This is independent of
+# MAX_WORKERS (which limits provider scraping) because testing a live
+# TLS proxy connection is a different, lighter workload.
+HEALTH_CHECK_WORKERS = 40
+
+# Anything slower than this (or that fails every attempt) is dropped
+# entirely - it would never be a good pick on the phone anyway.
+MAX_ACCEPTABLE_LATENCY_MS = 2500
+
+# Final cap on how many *tested, working* nodes are shipped per region,
+# fastest-first. This is the main lever for how quick Clash's own
+# selection feels: fewer good nodes beats hundreds of unknown ones.
+MAX_NODES_PER_REGION = 15
 
 
 # =============================================================================
@@ -364,6 +414,142 @@ def node_key(node: dict[str, Any]) -> tuple[Any, ...]:
 
 
 # =============================================================================
+# HEALTH CHECK / SPEED TEST
+# =============================================================================
+
+def _build_proxy_url(node: dict[str, Any]) -> str:
+    """
+    Builds an http://user:pass@host:port URL suitable for requests'
+    `proxies=` argument, matching the credentials of the Clash HTTP
+    proxy entry itself (percent-encoded, since providers occasionally
+    hand out passwords with special characters).
+    """
+
+    from urllib.parse import quote
+
+    user = quote(node["username"], safe="")
+    pwd = quote(node["password"], safe="")
+
+    return f"http://{user}:{pwd}@{node['server']}:{node['port']}"
+
+
+def measure_latency_ms(node: dict[str, Any]) -> float | None:
+    """
+    Makes a real request THROUGH the proxy and times it.
+
+    Returns the latency in milliseconds on success, or None if the
+    node is dead, refuses the connection, or is slower than
+    MAX_ACCEPTABLE_LATENCY_MS.
+    """
+
+    proxy_url = _build_proxy_url(node)
+    proxies = {"http": proxy_url, "https": proxy_url}
+
+    best_latency: float | None = None
+
+    for _ in range(HEALTH_CHECK_ATTEMPTS):
+        start = time.monotonic()
+
+        try:
+            response = requests.get(
+                HEALTH_CHECK_URL,
+                proxies=proxies,
+                timeout=HEALTH_CHECK_TIMEOUT,
+                verify=False,
+            )
+        except requests.RequestException:
+            continue
+
+        elapsed_ms = (time.monotonic() - start) * 1000
+
+        if response.status_code not in (200, 204):
+            continue
+
+        if best_latency is None or elapsed_ms < best_latency:
+            best_latency = elapsed_ms
+
+    if best_latency is None:
+        return None
+
+    if best_latency > MAX_ACCEPTABLE_LATENCY_MS:
+        return None
+
+    return best_latency
+
+
+def health_check_and_rank(
+    nodes: list[dict[str, Any]],
+    region: str,
+) -> list[dict[str, Any]]:
+    """
+    Speed-tests every candidate node concurrently, drops dead/slow
+    ones, and returns only the fastest MAX_NODES_PER_REGION nodes,
+    sorted fastest-first.
+    """
+
+    if not nodes:
+        return []
+
+    print("")
+    print(
+        f"    [HEALTH CHECK] {region}: testing {len(nodes)} "
+        f"candidate node(s)..."
+    )
+
+    passed: list[dict[str, Any]] = []
+
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=min(HEALTH_CHECK_WORKERS, len(nodes))
+    ) as executor:
+
+        future_map = {
+            executor.submit(measure_latency_ms, node): node
+            for node in nodes
+        }
+
+        checked = 0
+
+        for future in concurrent.futures.as_completed(future_map):
+            node = future_map[future]
+            checked += 1
+
+            try:
+                latency_ms = future.result()
+            except Exception:
+                latency_ms = None
+
+            if latency_ms is not None:
+                node["_latency_ms"] = latency_ms
+                passed.append(node)
+
+            if checked % 20 == 0 or checked == len(nodes):
+                print(
+                    f"        tested={checked:03d}/{len(nodes):03d} "
+                    f"alive={len(passed):03d}"
+                )
+
+    passed.sort(key=lambda n: n["_latency_ms"])
+
+    kept = passed[:MAX_NODES_PER_REGION]
+
+    print(
+        f"    [HEALTH CHECK] {region}: {len(passed)}/{len(nodes)} alive, "
+        f"keeping fastest {len(kept)} "
+        f"(cap={MAX_NODES_PER_REGION})"
+    )
+
+    if kept:
+        best = kept[0]["_latency_ms"]
+        worst = kept[-1]["_latency_ms"]
+        print(
+            f"    [HEALTH CHECK] {region}: latency range in final set "
+            f"{best:.0f}ms - {worst:.0f}ms"
+        )
+
+    return kept
+
+
+# =============================================================================
 # COLLECT FROM ONE PROVIDER / ONE REGION
 # =============================================================================
 
@@ -486,21 +672,24 @@ def collect_region(
                 if key not in all_unique:
                     all_unique[key] = node
 
-    # Stable sorting.
-    result = list(all_unique.values())
-
-    result.sort(
-        key=lambda x: (
-            x["server"],
-            x["port"],
-            x["username"],
-        )
-    )
+    collected = list(all_unique.values())
 
     print("")
     print(
-        f"[RESULT] {region}: {len(result)} unique nodes"
+        f"[RESULT] {region}: {len(collected)} unique candidate nodes "
+        f"collected"
     )
+
+    # Speed-test every candidate and keep only the fastest, working
+    # subset. This is what keeps the final subscription small enough
+    # for Clash to test quickly on the phone, and correct enough that
+    # it doesn't land on a dead node while doing it.
+    result = health_check_and_rank(collected, region)
+
+    if not result:
+        print(
+            f"[WARNING] {region}: no candidate passed the health check."
+        )
 
     return result
 
@@ -606,13 +795,25 @@ def build_yaml(
 
     config["proxies"] = proxies
 
+    # "Auto" only ever contains the small, pre-vetted, speed-tested set
+    # of nodes (see health_check_and_rank), so Clash's own url-test on
+    # the phone has very little work left to do and converges fast.
     config["proxy-groups"] = [
         {
             "name": "Proxy",
+            "type": "select",
+            # proxy_names is already sorted fastest-first from the
+            # server-side health check, so the first real entry here
+            # (right after "Auto") is the fastest node we measured -
+            # picking it manually needs zero on-device testing at all.
+            "proxies": ["Auto"] + proxy_names,
+        },
+        {
+            "name": "Auto",
             "type": "url-test",
             "proxies": proxy_names,
             "url": "https://www.gstatic.com/generate_204",
-            "interval": 30,
+            "interval": 300,
             "tolerance": 50,
         },
         {
