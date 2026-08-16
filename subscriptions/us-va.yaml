@@ -643,7 +643,7 @@ proxies:
 - name: US-VA-077-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 48792
+  port: 40756
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -651,12 +651,20 @@ proxies:
 - name: US-VA-078-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 49222
+  port: 48792
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
 - name: US-VA-079-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 49222
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-080-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
   port: 57030
@@ -747,6 +755,7 @@ proxy-groups:
   - US-VA-077-trout-east-7-us-nexorcdn-com
   - US-VA-078-trout-east-7-us-nexorcdn-com
   - US-VA-079-trout-east-7-us-nexorcdn-com
+  - US-VA-080-trout-east-7-us-nexorcdn-com
   url: https://www.gstatic.com/generate_204
   interval: 30
   tolerance: 50
