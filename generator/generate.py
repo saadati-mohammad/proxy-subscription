@@ -60,69 +60,6 @@ MAX_WORKERS = 12
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "subscriptions"
 
-# Single combined subscription file. Regions are no longer shipped as
-# separate files -- they are merged and reorganized into proxy-groups
-# instead (see "GROUPING" section below).
-OUTPUT_FILE = "subscription.yaml"
-
-
-# =============================================================================
-# GROUPING
-# =============================================================================
-#
-# Old behaviour: one giant "Proxy" group of type "url-test" that
-# health-checked EVERY single node on every Clash interval tick. With
-# 500+ nodes that is slow, noisy, and pointless.
-#
-# New behaviour:
-#   1. A single "خودکار" (Auto) group. This is the ONLY group that is
-#      actually health-checked by Clash. It contains a small, curated
-#      pool of nodes (sampled evenly across every region) wrapped in
-#      two url-test sub-groups that race against real YouTube / Instagram
-#      endpoints -- i.e. exactly the kind of request an Iranian user
-#      would make when opening those apps. Clash keeps whichever node
-#      answers fastest.
-#   2. Everything else (nodes that were never health-checked) is sliced
-#      into fixed-size batches and exposed as plain "select" groups with
-#      creative names, so the user can browse/pick manually. No
-#      background health-check traffic is generated for these at all.
-#
-# This keeps the script itself 100% passive/read-only towards the
-# proxy providers (it only *lists* servers), the actual health-check
-# traffic only ever happens on the end-user's own device, inside their
-# own Clash client, against public YouTube/Instagram endpoints.
-
-# Total number of nodes placed inside the "خودکار" (Auto) group.
-AUTO_GROUP_SIZE = 30
-
-# Every remaining node is grouped into fixed-size, manually selectable
-# batches of this size.
-BATCH_GROUP_SIZE = 20
-
-# Endpoints used by the two url-test sub-groups inside "خودکار".
-# Both are real, lightweight, platform-owned URLs that are blocked
-# directly inside Iran but reachable through a working proxy -- so a
-# successful check genuinely means "this node can load YouTube/Instagram
-# from Iran right now", not just "this node can reach the internet".
-YOUTUBE_TEST_URL = "https://www.youtube.com/generate_204"
-INSTAGRAM_TEST_URL = "https://www.instagram.com/favicon.ico"
-
-AUTO_GROUP_NAME = "🎯 خودکار (اتصال هوشمند)"
-YOUTUBE_SUBGROUP_NAME = "📺 پینگ یوتیوب"
-INSTAGRAM_SUBGROUP_NAME = "📸 پینگ اینستاگرام"
-MAIN_SELECTOR_NAME = "🛡 انتخاب کانکشن"
-IRAN_DIRECT_NAME = "Iran-Direct"
-
-# Creative, Silk-Road/caravan themed names for the manually selectable
-# batch groups -- each one carried a different kind of good along the
-# old trade routes, same idea here, just carrying your traffic instead.
-CARAVAN_GOODS = [
-    "ابریشم", "زعفران", "فیروزه", "یاقوت", "عاج", "ادویه", "عطر",
-    "گلاب", "قالی", "لاجورد", "مروارید", "کهربا", "عقیق", "نقره",
-    "طلا", "صندل", "کتان", "مخمل", "حریر", "چای", "قند", "نمک",
-    "کندر", "مشک", "بلور", "پوست", "خرما", "انار", "پسته", "بادام",
-]
-
 
 # =============================================================================
 # HTTP
@@ -589,48 +526,6 @@ def make_proxy_name(
     return f"{region.upper()}-{index:03d}-{clean_server}"
 
 
-def pick_auto_nodes(
-    nodes_by_region: dict[str, list[dict[str, Any]]],
-    total: int,
-) -> list[dict[str, Any]]:
-    """
-    Deterministically samples `total` nodes evenly across every region
-    (round-robin), so the Auto group always has geographic diversity
-    instead of being dominated by whichever region happened to return
-    the most nodes.
-
-    Deterministic on purpose: this script re-runs unattended on a
-    schedule via GitHub Actions, so the same input should always
-    produce the same shape of output (no randomness to chase).
-    """
-
-    picked: list[dict[str, Any]] = []
-    pools = {region: list(nodes) for region, nodes in nodes_by_region.items()}
-    regions_cycle = [r for r in nodes_by_region if pools[r]]
-
-    while len(picked) < total and regions_cycle:
-        for region in list(regions_cycle):
-            if len(picked) >= total:
-                break
-
-            if pools[region]:
-                picked.append(pools[region].pop(0))
-
-            if not pools[region]:
-                regions_cycle.remove(region)
-
-    return picked
-
-
-def chunked(
-    items: list[dict[str, Any]],
-    size: int,
-) -> list[list[dict[str, Any]]]:
-    """Splits `items` into consecutive chunks of at most `size` elements."""
-
-    return [items[i:i + size] for i in range(0, len(items), size)]
-
-
 DNS_CONFIG = {
     "mixed-port": 7890,
     "allow-lan": False,
@@ -674,141 +569,64 @@ DNS_CONFIG = {
 }
 
 
-def batch_group_name(index: int) -> str:
-    """
-    Creative, caravan/Silk-Road themed name for batch group #index
-    (1-based). Cycles through CARAVAN_GOODS if there are ever more
-    batches than goods.
-    """
-
-    good = CARAVAN_GOODS[(index - 1) % len(CARAVAN_GOODS)]
-    return f"🐫 کاروان {index:02d} - {good}"
-
-
 def build_yaml(
-    nodes_by_region: dict[str, list[dict[str, Any]]],
+    region: str,
+    nodes: list[dict[str, Any]],
 ) -> str:
-    """
-    Builds the single combined Clash config from nodes collected across
-    ALL regions.
-
-    Proxy-group layout:
-      🛡 انتخاب کانکشن   (top-level selector, this is what rules point to)
-        ├─ 🎯 خودکار (اتصال هوشمند)   (select, wraps the two health-checked groups below)
-        │    ├─ 📺 پینگ یوتیوب        (url-test against YouTube, 15 nodes)
-        │    └─ 📸 پینگ اینستاگرام     (url-test against Instagram, 15 nodes)
-        ├─ 🐫 کاروان 01 - ...          (select, 20 nodes, no health-check)
-        ├─ 🐫 کاروان 02 - ...          (select, 20 nodes, no health-check)
-        └─ ... one batch group per 20 remaining nodes
-    """
 
     proxies: list[dict[str, Any]] = []
-    all_named_nodes: list[dict[str, Any]] = []
+    proxy_names: list[str] = []
 
-    # Assign final Clash names to every node, per-region numbering
-    # preserved (e.g. NL-001, FR-PRS-002, ...) so origin stays visible.
-    for region, region_nodes in nodes_by_region.items():
-        for index, node in enumerate(region_nodes, start=1):
-            name = make_proxy_name(
-                region=region,
-                index=index,
-                server=node["server"],
-            )
+    for index, node in enumerate(nodes, start=1):
 
-            named_node = dict(node)
-            named_node["_name"] = name
-            all_named_nodes.append(named_node)
+        name = make_proxy_name(
+            region=region,
+            index=index,
+            server=node["server"],
+        )
 
-            proxies.append({
-                "name": name,
-                "type": "http",
-                "server": node["server"],
-                "port": node["port"],
-                "username": node["username"],
-                "password": node["password"],
-                "tls": True,
-                "skip-cert-verify": True,
-            })
+        proxy_names.append(name)
 
-    # ---- Auto group: small, curated, health-checked pool -------------
-
-    named_by_region: dict[str, list[dict[str, Any]]] = {}
-    for node in all_named_nodes:
-        named_by_region.setdefault(node["_region"], []).append(node)
-
-    auto_pool = pick_auto_nodes(named_by_region, AUTO_GROUP_SIZE)
-    auto_names = {n["_name"] for n in auto_pool}
-
-    half = len(auto_pool) // 2
-    youtube_names = [n["_name"] for n in auto_pool[:half or len(auto_pool)]]
-    instagram_names = [n["_name"] for n in auto_pool[half:]] or youtube_names
-
-    proxy_groups: list[dict[str, Any]] = []
-
-    proxy_groups.append({
-        "name": YOUTUBE_SUBGROUP_NAME,
-        "type": "url-test",
-        "proxies": youtube_names,
-        "url": YOUTUBE_TEST_URL,
-        "interval": 180,
-        "tolerance": 50,
-    })
-
-    proxy_groups.append({
-        "name": INSTAGRAM_SUBGROUP_NAME,
-        "type": "url-test",
-        "proxies": instagram_names,
-        "url": INSTAGRAM_TEST_URL,
-        "interval": 180,
-        "tolerance": 50,
-    })
-
-    proxy_groups.append({
-        "name": AUTO_GROUP_NAME,
-        "type": "select",
-        "proxies": [YOUTUBE_SUBGROUP_NAME, INSTAGRAM_SUBGROUP_NAME],
-    })
-
-    # ---- Batch groups: everything else, no health-check --------------
-
-    remaining_nodes = [n for n in all_named_nodes if n["_name"] not in auto_names]
-
-    batch_group_names: list[str] = []
-
-    for batch_index, batch in enumerate(chunked(remaining_nodes, BATCH_GROUP_SIZE), start=1):
-        name = batch_group_name(batch_index)
-        batch_group_names.append(name)
-
-        proxy_groups.append({
+        proxy = {
             "name": name,
-            "type": "select",
-            "proxies": [n["_name"] for n in batch],
-        })
+            "type": "http",
+            "server": node["server"],
+            "port": node["port"],
+            "username": node["username"],
+            "password": node["password"],
+            "tls": True,
+            "skip-cert-verify": True,
+        }
 
-    # ---- Top-level selector + Iran direct -----------------------------
-
-    proxy_groups.append({
-        "name": MAIN_SELECTOR_NAME,
-        "type": "select",
-        "proxies": [AUTO_GROUP_NAME, *batch_group_names],
-    })
-
-    proxy_groups.append({
-        "name": IRAN_DIRECT_NAME,
-        "type": "select",
-        "proxies": ["DIRECT"],
-    })
+        proxies.append(proxy)
 
     config: dict[str, Any] = {}
 
     config.update(DNS_CONFIG)
 
     config["proxies"] = proxies
-    config["proxy-groups"] = proxy_groups
+
+    config["proxy-groups"] = [
+        {
+            "name": "Proxy",
+            "type": "url-test",
+            "proxies": proxy_names,
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 30,
+            "tolerance": 50,
+        },
+        {
+            "name": "Iran-Direct",
+            "type": "select",
+            "proxies": [
+                "DIRECT",
+            ],
+        },
+    ]
 
     config["rules"] = [
-        f"GEOIP,IR,{IRAN_DIRECT_NAME}",
-        f"MATCH,{MAIN_SELECTOR_NAME}",
+        "GEOIP,IR,Iran-Direct",
+        "MATCH,Proxy",
     ]
 
     return yaml.safe_dump(
@@ -825,7 +643,8 @@ def build_yaml(
 # =============================================================================
 
 def save_subscription(
-    nodes_by_region: dict[str, list[dict[str, Any]]],
+    region: str,
+    nodes: list[dict[str, Any]],
 ) -> Path:
 
     OUTPUT_DIR.mkdir(
@@ -833,9 +652,12 @@ def save_subscription(
         exist_ok=True,
     )
 
-    output_path = OUTPUT_DIR / OUTPUT_FILE
+    output_path = OUTPUT_DIR / f"{region}.yaml"
 
-    yaml_content = build_yaml(nodes_by_region)
+    yaml_content = build_yaml(
+        region,
+        nodes,
+    )
 
     output_path.write_text(
         yaml_content,
@@ -914,7 +736,7 @@ def main() -> int:
     print("")
     print("[3/5] Collecting servers...")
 
-    nodes_by_region: dict[str, list[dict[str, Any]]] = {}
+    generated: dict[str, int] = {}
 
     for region in REGIONS:
 
@@ -924,41 +746,27 @@ def main() -> int:
             token_manager=token_manager,
         )
 
+        # Important:
+        # Never overwrite a previously generated good file with
+        # an empty result.
         if not nodes:
             print(
-                f"[WARNING] No nodes found for {region}."
+                f"[WARNING] No nodes found for {region}. "
+                f"Existing file will be preserved."
             )
             continue
 
-        nodes_by_region[region] = nodes
-
-    # -------------------------------------------------------------------------
-    # Build + save the single combined subscription file
-    # -------------------------------------------------------------------------
-
-    print("")
-    print("[4/5] Building combined subscription...")
-
-    total_nodes = sum(len(v) for v in nodes_by_region.values())
-
-    # Important:
-    # Never overwrite a previously generated good file with an empty
-    # result -- if every region came back empty (provider outage,
-    # token issue, etc.) just keep whatever subscription.yaml already
-    # exists in the repo.
-    if total_nodes == 0:
-        print(
-            "[FATAL] No nodes were found in any region. "
-            "Existing subscription.yaml will be preserved."
+        output_path = save_subscription(
+            region=region,
+            nodes=nodes,
         )
-        return 1
 
-    output_path = save_subscription(nodes_by_region)
+        generated[region] = len(nodes)
 
-    print(
-        f"[SAVED] {output_path} "
-        f"({total_nodes} nodes total)"
-    )
+        print(
+            f"[SAVED] {output_path} "
+            f"({len(nodes)} nodes)"
+        )
 
     # -------------------------------------------------------------------------
     # Summary
@@ -966,22 +774,21 @@ def main() -> int:
 
     print("")
     print("=" * 80)
-    print("SUMMARY")
+    print("[4/5] SUMMARY")
     print("=" * 80)
 
-    for region, nodes in nodes_by_region.items():
+    if not generated:
+        print(
+            "[FATAL] No subscription files were generated."
+        )
+        return 1
+
+    for region, count in generated.items():
         print(
             f"  {region:<8} "
             f"{REGIONS[region]:<18} "
-            f"{len(nodes):>4} nodes"
+            f"{count:>4} nodes"
         )
-
-    auto_count = min(AUTO_GROUP_SIZE, total_nodes)
-    batch_count = -(-(total_nodes - auto_count) // BATCH_GROUP_SIZE)  # ceil div
-
-    print("-" * 80)
-    print(f"  {AUTO_GROUP_NAME:<28} {auto_count:>4} nodes (health-checked)")
-    print(f"  {batch_count} caravan batch group(s) of up to {BATCH_GROUP_SIZE} nodes each (manual, no health-check)")
 
     print("=" * 80)
     print("[5/5] DONE")
