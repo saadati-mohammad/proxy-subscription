@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import concurrent.futures
+import base64
 import json
 import os
+import socket
+import ssl
 import sys
 import threading
 import time
@@ -10,13 +13,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
-import urllib3
 import yaml
-
-# The health-check step deliberately connects through proxies with
-# skip-cert-verify semantics (verify=False), which is expected and not
-# a bug. Silence the resulting InsecureRequestWarning noise in logs.
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 # =============================================================================
@@ -85,9 +82,10 @@ OUTPUT_DIR = Path(__file__).resolve().parent.parent / "subscriptions"
 # already sorted fastest-first. Clash then only has to choose between a
 # small, pre-vetted set instead of gambling across 100+ unknowns.
 
-# Endpoint used to measure real latency THROUGH each proxy.
-# Small, fast, CDN-backed, returns 204 with no body.
-HEALTH_CHECK_URL = "https://www.gstatic.com/generate_204"
+# Target used to measure real latency THROUGH each proxy. We only need
+# the CONNECT tunnel to succeed - a small, always-up, CDN-backed host.
+HEALTH_CHECK_TARGET_HOST = "www.gstatic.com"
+HEALTH_CHECK_TARGET_PORT = 443
 
 # Per-request timeout for a single health-check attempt.
 HEALTH_CHECK_TIMEOUT = 6
@@ -418,57 +416,127 @@ def node_key(node: dict[str, Any]) -> tuple[Any, ...]:
 # =============================================================================
 
 def _build_proxy_url(node: dict[str, Any]) -> str:
-    """
-    Builds an http://user:pass@host:port URL suitable for requests'
-    `proxies=` argument, matching the credentials of the Clash HTTP
-    proxy entry itself (percent-encoded, since providers occasionally
-    hand out passwords with special characters).
-    """
+    """Kept for reference/logging only - the real health check below
+    talks to the proxy over raw TLS sockets, since these nodes are
+    TLS-wrapped HTTP proxies (Clash "type: http, tls: true"), which
+    the `requests` library cannot connect to directly."""
 
-    from urllib.parse import quote
+    return f"{node['server']}:{node['port']}"
 
-    user = quote(node["username"], safe="")
-    pwd = quote(node["password"], safe="")
 
-    return f"http://{user}:{pwd}@{node['server']}:{node['port']}"
+# A small, globally rate-limited sample of raw failure reasons, printed
+# once per run so we can tell "the proxy is actually dead" apart from
+# "our health check itself is broken" without flooding the logs.
+_DEBUG_ERROR_LOCK = threading.Lock()
+_DEBUG_ERROR_COUNT = 0
+_DEBUG_ERROR_LIMIT = 8
+
+
+def _debug_print_error(node: dict[str, Any], reason: str) -> None:
+    global _DEBUG_ERROR_COUNT
+
+    with _DEBUG_ERROR_LOCK:
+        if _DEBUG_ERROR_COUNT >= _DEBUG_ERROR_LIMIT:
+            return
+        _DEBUG_ERROR_COUNT += 1
+
+        print(
+            f"        [HEALTH DEBUG] {node['server']}:{node['port']} "
+            f"-> {reason}"
+        )
 
 
 def measure_latency_ms(node: dict[str, Any]) -> float | None:
     """
-    Makes a real request THROUGH the proxy and times it.
+    Measures real latency THROUGH the proxy by:
+      1. opening a raw TCP socket to the proxy server,
+      2. wrapping it in TLS (this is the "tls: true" part of the
+         Clash config - the tunnel to the proxy itself is encrypted,
+         which is exactly why `requests` can't do this on its own),
+      3. sending an HTTP CONNECT request for a lightweight target
+         inside that TLS tunnel, authenticated the same way Clash
+         authenticates ("Proxy-Authorization: Basic ..."),
+      4. checking for a 200 response to the CONNECT.
 
-    Returns the latency in milliseconds on success, or None if the
-    node is dead, refuses the connection, or is slower than
+    Returns latency in milliseconds on success, or None if the node
+    is dead, refuses the connection, or is slower than
     MAX_ACCEPTABLE_LATENCY_MS.
     """
 
-    proxy_url = _build_proxy_url(node)
-    proxies = {"http": proxy_url, "https": proxy_url}
+    host = node["server"]
+    port = node["port"]
+
+    credentials = base64.b64encode(
+        f"{node['username']}:{node['password']}".encode("utf-8")
+    ).decode("ascii")
+
+    connect_request = (
+        f"CONNECT {HEALTH_CHECK_TARGET_HOST}:{HEALTH_CHECK_TARGET_PORT} "
+        f"HTTP/1.1\r\n"
+        f"Host: {HEALTH_CHECK_TARGET_HOST}:{HEALTH_CHECK_TARGET_PORT}\r\n"
+        f"Proxy-Authorization: Basic {credentials}\r\n"
+        f"User-Agent: {PLATFORM_VERSION}\r\n"
+        f"Proxy-Connection: Close\r\n"
+        f"Connection: Close\r\n"
+        f"\r\n"
+    ).encode("ascii")
+
+    # skip-cert-verify equivalent: we don't validate the proxy's own
+    # TLS certificate, matching what the Clash config already does.
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+    ssl_context.check_hostname = False
+    ssl_context.verify_mode = ssl.CERT_NONE
 
     best_latency: float | None = None
+    last_error = "unknown error"
 
     for _ in range(HEALTH_CHECK_ATTEMPTS):
         start = time.monotonic()
+        tls_sock = None
 
         try:
-            response = requests.get(
-                HEALTH_CHECK_URL,
-                proxies=proxies,
+            raw_sock = socket.create_connection(
+                (host, port),
                 timeout=HEALTH_CHECK_TIMEOUT,
-                verify=False,
             )
-        except requests.RequestException:
+
+            try:
+                tls_sock = ssl_context.wrap_socket(
+                    raw_sock,
+                    server_hostname=host,
+                )
+                tls_sock.settimeout(HEALTH_CHECK_TIMEOUT)
+
+                tls_sock.sendall(connect_request)
+                response = tls_sock.recv(1024)
+
+            finally:
+                try:
+                    (tls_sock or raw_sock).close()
+                except OSError:
+                    pass
+
+        except Exception as exc:
+            last_error = f"{type(exc).__name__}: {exc}"
             continue
 
         elapsed_ms = (time.monotonic() - start) * 1000
 
-        if response.status_code not in (200, 204):
+        if not (
+            response.startswith(b"HTTP/1.1 200")
+            or response.startswith(b"HTTP/1.0 200")
+        ):
+            last_error = (
+                "unexpected CONNECT response: "
+                f"{response[:60]!r}"
+            )
             continue
 
         if best_latency is None or elapsed_ms < best_latency:
             best_latency = elapsed_ms
 
     if best_latency is None:
+        _debug_print_error(node, last_error)
         return None
 
     if best_latency > MAX_ACCEPTABLE_LATENCY_MS:
