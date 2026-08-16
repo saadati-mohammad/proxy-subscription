@@ -76,4 +76,5 @@ jobs:
           fi
 
           git commit -m "Update Clash subscriptions"
+          git pull --rebase origin main
           git push
