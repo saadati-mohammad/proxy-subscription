@@ -1,11 +1,8 @@
 from __future__ import annotations
 
 import concurrent.futures
-import base64
 import json
 import os
-import socket
-import ssl
 import sys
 import threading
 import time
@@ -63,50 +60,68 @@ MAX_WORKERS = 12
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "subscriptions"
 
+# Single combined subscription file. Regions are no longer shipped as
+# separate files -- they are merged and reorganized into proxy-groups
+# instead (see "GROUPING" section below).
+OUTPUT_FILE = "subscription.yaml"
+
 
 # =============================================================================
-# HEALTH CHECK / SPEED TEST CONFIG
+# GROUPING
 # =============================================================================
 #
-# Why this exists:
+# Old behaviour: one giant "Proxy" group of type "url-test" that
+# health-checked EVERY single node on every Clash interval tick. With
+# 500+ nodes that is slow, noisy, and pointless.
 #
-# Each region can collect 100+ raw candidate nodes from the free providers.
-# If ALL of them are shipped in the subscription file, Clash on the phone
-# has to url-test every single one before it can pick a working proxy:
-#   - startup / group selection becomes slow
-#   - Clash frequently lands on a dead or slow node while testing is
-#     still in progress
+# New behaviour:
+#   1. A single "خودکار" (Auto) group. This is the ONLY group that is
+#      actually health-checked by Clash. It contains a small, curated
+#      pool of nodes (sampled evenly across every region) wrapped in
+#      two url-test sub-groups that race against real YouTube / Instagram
+#      endpoints -- i.e. exactly the kind of request an Iranian user
+#      would make when opening those apps. Clash keeps whichever node
+#      answers fastest.
+#   2. Everything else (nodes that were never health-checked) is sliced
+#      into fixed-size batches and exposed as plain "select" groups with
+#      creative names, so the user can browse/pick manually. No
+#      background health-check traffic is generated for these at all.
 #
-# The fix: do the speed testing here, once, on the server, against every
-# candidate, then ship only the nodes that are actually fast and alive -
-# already sorted fastest-first. Clash then only has to choose between a
-# small, pre-vetted set instead of gambling across 100+ unknowns.
+# This keeps the script itself 100% passive/read-only towards the
+# proxy providers (it only *lists* servers), the actual health-check
+# traffic only ever happens on the end-user's own device, inside their
+# own Clash client, against public YouTube/Instagram endpoints.
 
-# Target used to measure real latency THROUGH each proxy. We only need
-# the CONNECT tunnel to succeed - a small, always-up, CDN-backed host.
-HEALTH_CHECK_TARGET_HOST = "www.gstatic.com"
-HEALTH_CHECK_TARGET_PORT = 443
+# Total number of nodes placed inside the "خودکار" (Auto) group.
+AUTO_GROUP_SIZE = 30
 
-# Per-request timeout for a single health-check attempt.
-HEALTH_CHECK_TIMEOUT = 6
+# Every remaining node is grouped into fixed-size, manually selectable
+# batches of this size.
+BATCH_GROUP_SIZE = 20
 
-# A node is retried once if the first attempt fails/times out, to avoid
-# throwing away a genuinely good node because of one flaky connection.
-HEALTH_CHECK_ATTEMPTS = 2
+# Endpoints used by the two url-test sub-groups inside "خودکار".
+# Both are real, lightweight, platform-owned URLs that are blocked
+# directly inside Iran but reachable through a working proxy -- so a
+# successful check genuinely means "this node can load YouTube/Instagram
+# from Iran right now", not just "this node can reach the internet".
+YOUTUBE_TEST_URL = "https://www.youtube.com/generate_204"
+INSTAGRAM_TEST_URL = "https://www.instagram.com/favicon.ico"
 
-# How many nodes are speed-tested at once. This is independent of
-# MAX_WORKERS (which limits provider scraping) because testing a live
-# TLS proxy connection is a different, lighter workload.
-HEALTH_CHECK_WORKERS = 40
+AUTO_GROUP_NAME = "🎯 خودکار (اتصال هوشمند)"
+YOUTUBE_SUBGROUP_NAME = "📺 پینگ یوتیوب"
+INSTAGRAM_SUBGROUP_NAME = "📸 پینگ اینستاگرام"
+MAIN_SELECTOR_NAME = "🛡 انتخاب کانکشن"
+IRAN_DIRECT_NAME = "Iran-Direct"
 
-# Anything slower than this (or that fails every attempt) is dropped
-# entirely - it would never be a good pick on the phone anyway.
-MAX_ACCEPTABLE_LATENCY_MS = 2500
-
-# Final cap on how many *tested, working* nodes are shipped per region,
-# fastest-first. This is the main lever for how quick Clash's own
-# selection feels: fewer good nodes beats hundreds of unknown ones.
-MAX_NODES_PER_REGION = 15
+# Creative, Silk-Road/caravan themed names for the manually selectable
+# batch groups -- each one carried a different kind of good along the
+# old trade routes, same idea here, just carrying your traffic instead.
+CARAVAN_GOODS = [
+    "ابریشم", "زعفران", "فیروزه", "یاقوت", "عاج", "ادویه", "عطر",
+    "گلاب", "قالی", "لاجورد", "مروارید", "کهربا", "عقیق", "نقره",
+    "طلا", "صندل", "کتان", "مخمل", "حریر", "چای", "قند", "نمک",
+    "کندر", "مشک", "بلور", "پوست", "خرما", "انار", "پسته", "بادام",
+]
 
 
 # =============================================================================
@@ -412,212 +427,6 @@ def node_key(node: dict[str, Any]) -> tuple[Any, ...]:
 
 
 # =============================================================================
-# HEALTH CHECK / SPEED TEST
-# =============================================================================
-
-def _build_proxy_url(node: dict[str, Any]) -> str:
-    """Kept for reference/logging only - the real health check below
-    talks to the proxy over raw TLS sockets, since these nodes are
-    TLS-wrapped HTTP proxies (Clash "type: http, tls: true"), which
-    the `requests` library cannot connect to directly."""
-
-    return f"{node['server']}:{node['port']}"
-
-
-# A small, globally rate-limited sample of raw failure reasons, printed
-# once per run so we can tell "the proxy is actually dead" apart from
-# "our health check itself is broken" without flooding the logs.
-_DEBUG_ERROR_LOCK = threading.Lock()
-_DEBUG_ERROR_COUNT = 0
-_DEBUG_ERROR_LIMIT = 8
-
-
-def _debug_print_error(node: dict[str, Any], reason: str) -> None:
-    global _DEBUG_ERROR_COUNT
-
-    with _DEBUG_ERROR_LOCK:
-        if _DEBUG_ERROR_COUNT >= _DEBUG_ERROR_LIMIT:
-            return
-        _DEBUG_ERROR_COUNT += 1
-
-        print(
-            f"        [HEALTH DEBUG] {node['server']}:{node['port']} "
-            f"-> {reason}"
-        )
-
-
-def measure_latency_ms(node: dict[str, Any]) -> float | None:
-    """
-    Measures real latency THROUGH the proxy by:
-      1. opening a raw TCP socket to the proxy server,
-      2. wrapping it in TLS (this is the "tls: true" part of the
-         Clash config - the tunnel to the proxy itself is encrypted,
-         which is exactly why `requests` can't do this on its own),
-      3. sending an HTTP CONNECT request for a lightweight target
-         inside that TLS tunnel, authenticated the same way Clash
-         authenticates ("Proxy-Authorization: Basic ..."),
-      4. checking for a 200 response to the CONNECT.
-
-    Returns latency in milliseconds on success, or None if the node
-    is dead, refuses the connection, or is slower than
-    MAX_ACCEPTABLE_LATENCY_MS.
-    """
-
-    host = node["server"]
-    port = node["port"]
-
-    credentials = base64.b64encode(
-        f"{node['username']}:{node['password']}".encode("utf-8")
-    ).decode("ascii")
-
-    connect_request = (
-        f"CONNECT {HEALTH_CHECK_TARGET_HOST}:{HEALTH_CHECK_TARGET_PORT} "
-        f"HTTP/1.1\r\n"
-        f"Host: {HEALTH_CHECK_TARGET_HOST}:{HEALTH_CHECK_TARGET_PORT}\r\n"
-        f"Proxy-Authorization: Basic {credentials}\r\n"
-        f"User-Agent: {PLATFORM_VERSION}\r\n"
-        f"Proxy-Connection: Close\r\n"
-        f"Connection: Close\r\n"
-        f"\r\n"
-    ).encode("ascii")
-
-    # skip-cert-verify equivalent: we don't validate the proxy's own
-    # TLS certificate, matching what the Clash config already does.
-    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-    ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE
-
-    best_latency: float | None = None
-    last_error = "unknown error"
-
-    for _ in range(HEALTH_CHECK_ATTEMPTS):
-        start = time.monotonic()
-        tls_sock = None
-
-        try:
-            raw_sock = socket.create_connection(
-                (host, port),
-                timeout=HEALTH_CHECK_TIMEOUT,
-            )
-
-            try:
-                tls_sock = ssl_context.wrap_socket(
-                    raw_sock,
-                    server_hostname=host,
-                )
-                tls_sock.settimeout(HEALTH_CHECK_TIMEOUT)
-
-                tls_sock.sendall(connect_request)
-                response = tls_sock.recv(1024)
-
-            finally:
-                try:
-                    (tls_sock or raw_sock).close()
-                except OSError:
-                    pass
-
-        except Exception as exc:
-            last_error = f"{type(exc).__name__}: {exc}"
-            continue
-
-        elapsed_ms = (time.monotonic() - start) * 1000
-
-        if not (
-            response.startswith(b"HTTP/1.1 200")
-            or response.startswith(b"HTTP/1.0 200")
-        ):
-            last_error = (
-                "unexpected CONNECT response: "
-                f"{response[:60]!r}"
-            )
-            continue
-
-        if best_latency is None or elapsed_ms < best_latency:
-            best_latency = elapsed_ms
-
-    if best_latency is None:
-        _debug_print_error(node, last_error)
-        return None
-
-    if best_latency > MAX_ACCEPTABLE_LATENCY_MS:
-        return None
-
-    return best_latency
-
-
-def health_check_and_rank(
-    nodes: list[dict[str, Any]],
-    region: str,
-) -> list[dict[str, Any]]:
-    """
-    Speed-tests every candidate node concurrently, drops dead/slow
-    ones, and returns only the fastest MAX_NODES_PER_REGION nodes,
-    sorted fastest-first.
-    """
-
-    if not nodes:
-        return []
-
-    print("")
-    print(
-        f"    [HEALTH CHECK] {region}: testing {len(nodes)} "
-        f"candidate node(s)..."
-    )
-
-    passed: list[dict[str, Any]] = []
-
-    with concurrent.futures.ThreadPoolExecutor(
-        max_workers=min(HEALTH_CHECK_WORKERS, len(nodes))
-    ) as executor:
-
-        future_map = {
-            executor.submit(measure_latency_ms, node): node
-            for node in nodes
-        }
-
-        checked = 0
-
-        for future in concurrent.futures.as_completed(future_map):
-            node = future_map[future]
-            checked += 1
-
-            try:
-                latency_ms = future.result()
-            except Exception:
-                latency_ms = None
-
-            if latency_ms is not None:
-                node["_latency_ms"] = latency_ms
-                passed.append(node)
-
-            if checked % 20 == 0 or checked == len(nodes):
-                print(
-                    f"        tested={checked:03d}/{len(nodes):03d} "
-                    f"alive={len(passed):03d}"
-                )
-
-    passed.sort(key=lambda n: n["_latency_ms"])
-
-    kept = passed[:MAX_NODES_PER_REGION]
-
-    print(
-        f"    [HEALTH CHECK] {region}: {len(passed)}/{len(nodes)} alive, "
-        f"keeping fastest {len(kept)} "
-        f"(cap={MAX_NODES_PER_REGION})"
-    )
-
-    if kept:
-        best = kept[0]["_latency_ms"]
-        worst = kept[-1]["_latency_ms"]
-        print(
-            f"    [HEALTH CHECK] {region}: latency range in final set "
-            f"{best:.0f}ms - {worst:.0f}ms"
-        )
-
-    return kept
-
-
-# =============================================================================
 # COLLECT FROM ONE PROVIDER / ONE REGION
 # =============================================================================
 
@@ -740,24 +549,21 @@ def collect_region(
                 if key not in all_unique:
                     all_unique[key] = node
 
-    collected = list(all_unique.values())
+    # Stable sorting.
+    result = list(all_unique.values())
+
+    result.sort(
+        key=lambda x: (
+            x["server"],
+            x["port"],
+            x["username"],
+        )
+    )
 
     print("")
     print(
-        f"[RESULT] {region}: {len(collected)} unique candidate nodes "
-        f"collected"
+        f"[RESULT] {region}: {len(result)} unique nodes"
     )
-
-    # Speed-test every candidate and keep only the fastest, working
-    # subset. This is what keeps the final subscription small enough
-    # for Clash to test quickly on the phone, and correct enough that
-    # it doesn't land on a dead node while doing it.
-    result = health_check_and_rank(collected, region)
-
-    if not result:
-        print(
-            f"[WARNING] {region}: no candidate passed the health check."
-        )
 
     return result
 
@@ -781,6 +587,48 @@ def make_proxy_name(
     )
 
     return f"{region.upper()}-{index:03d}-{clean_server}"
+
+
+def pick_auto_nodes(
+    nodes_by_region: dict[str, list[dict[str, Any]]],
+    total: int,
+) -> list[dict[str, Any]]:
+    """
+    Deterministically samples `total` nodes evenly across every region
+    (round-robin), so the Auto group always has geographic diversity
+    instead of being dominated by whichever region happened to return
+    the most nodes.
+
+    Deterministic on purpose: this script re-runs unattended on a
+    schedule via GitHub Actions, so the same input should always
+    produce the same shape of output (no randomness to chase).
+    """
+
+    picked: list[dict[str, Any]] = []
+    pools = {region: list(nodes) for region, nodes in nodes_by_region.items()}
+    regions_cycle = [r for r in nodes_by_region if pools[r]]
+
+    while len(picked) < total and regions_cycle:
+        for region in list(regions_cycle):
+            if len(picked) >= total:
+                break
+
+            if pools[region]:
+                picked.append(pools[region].pop(0))
+
+            if not pools[region]:
+                regions_cycle.remove(region)
+
+    return picked
+
+
+def chunked(
+    items: list[dict[str, Any]],
+    size: int,
+) -> list[list[dict[str, Any]]]:
+    """Splits `items` into consecutive chunks of at most `size` elements."""
+
+    return [items[i:i + size] for i in range(0, len(items), size)]
 
 
 DNS_CONFIG = {
@@ -826,76 +674,141 @@ DNS_CONFIG = {
 }
 
 
+def batch_group_name(index: int) -> str:
+    """
+    Creative, caravan/Silk-Road themed name for batch group #index
+    (1-based). Cycles through CARAVAN_GOODS if there are ever more
+    batches than goods.
+    """
+
+    good = CARAVAN_GOODS[(index - 1) % len(CARAVAN_GOODS)]
+    return f"🐫 کاروان {index:02d} - {good}"
+
+
 def build_yaml(
-    region: str,
-    nodes: list[dict[str, Any]],
+    nodes_by_region: dict[str, list[dict[str, Any]]],
 ) -> str:
+    """
+    Builds the single combined Clash config from nodes collected across
+    ALL regions.
+
+    Proxy-group layout:
+      🛡 انتخاب کانکشن   (top-level selector, this is what rules point to)
+        ├─ 🎯 خودکار (اتصال هوشمند)   (select, wraps the two health-checked groups below)
+        │    ├─ 📺 پینگ یوتیوب        (url-test against YouTube, 15 nodes)
+        │    └─ 📸 پینگ اینستاگرام     (url-test against Instagram, 15 nodes)
+        ├─ 🐫 کاروان 01 - ...          (select, 20 nodes, no health-check)
+        ├─ 🐫 کاروان 02 - ...          (select, 20 nodes, no health-check)
+        └─ ... one batch group per 20 remaining nodes
+    """
 
     proxies: list[dict[str, Any]] = []
-    proxy_names: list[str] = []
+    all_named_nodes: list[dict[str, Any]] = []
 
-    for index, node in enumerate(nodes, start=1):
+    # Assign final Clash names to every node, per-region numbering
+    # preserved (e.g. NL-001, FR-PRS-002, ...) so origin stays visible.
+    for region, region_nodes in nodes_by_region.items():
+        for index, node in enumerate(region_nodes, start=1):
+            name = make_proxy_name(
+                region=region,
+                index=index,
+                server=node["server"],
+            )
 
-        name = make_proxy_name(
-            region=region,
-            index=index,
-            server=node["server"],
-        )
+            named_node = dict(node)
+            named_node["_name"] = name
+            all_named_nodes.append(named_node)
 
-        proxy_names.append(name)
+            proxies.append({
+                "name": name,
+                "type": "http",
+                "server": node["server"],
+                "port": node["port"],
+                "username": node["username"],
+                "password": node["password"],
+                "tls": True,
+                "skip-cert-verify": True,
+            })
 
-        proxy = {
+    # ---- Auto group: small, curated, health-checked pool -------------
+
+    named_by_region: dict[str, list[dict[str, Any]]] = {}
+    for node in all_named_nodes:
+        named_by_region.setdefault(node["_region"], []).append(node)
+
+    auto_pool = pick_auto_nodes(named_by_region, AUTO_GROUP_SIZE)
+    auto_names = {n["_name"] for n in auto_pool}
+
+    half = len(auto_pool) // 2
+    youtube_names = [n["_name"] for n in auto_pool[:half or len(auto_pool)]]
+    instagram_names = [n["_name"] for n in auto_pool[half:]] or youtube_names
+
+    proxy_groups: list[dict[str, Any]] = []
+
+    proxy_groups.append({
+        "name": YOUTUBE_SUBGROUP_NAME,
+        "type": "url-test",
+        "proxies": youtube_names,
+        "url": YOUTUBE_TEST_URL,
+        "interval": 180,
+        "tolerance": 50,
+    })
+
+    proxy_groups.append({
+        "name": INSTAGRAM_SUBGROUP_NAME,
+        "type": "url-test",
+        "proxies": instagram_names,
+        "url": INSTAGRAM_TEST_URL,
+        "interval": 180,
+        "tolerance": 50,
+    })
+
+    proxy_groups.append({
+        "name": AUTO_GROUP_NAME,
+        "type": "select",
+        "proxies": [YOUTUBE_SUBGROUP_NAME, INSTAGRAM_SUBGROUP_NAME],
+    })
+
+    # ---- Batch groups: everything else, no health-check --------------
+
+    remaining_nodes = [n for n in all_named_nodes if n["_name"] not in auto_names]
+
+    batch_group_names: list[str] = []
+
+    for batch_index, batch in enumerate(chunked(remaining_nodes, BATCH_GROUP_SIZE), start=1):
+        name = batch_group_name(batch_index)
+        batch_group_names.append(name)
+
+        proxy_groups.append({
             "name": name,
-            "type": "http",
-            "server": node["server"],
-            "port": node["port"],
-            "username": node["username"],
-            "password": node["password"],
-            "tls": True,
-            "skip-cert-verify": True,
-        }
+            "type": "select",
+            "proxies": [n["_name"] for n in batch],
+        })
 
-        proxies.append(proxy)
+    # ---- Top-level selector + Iran direct -----------------------------
+
+    proxy_groups.append({
+        "name": MAIN_SELECTOR_NAME,
+        "type": "select",
+        "proxies": [AUTO_GROUP_NAME, *batch_group_names],
+    })
+
+    proxy_groups.append({
+        "name": IRAN_DIRECT_NAME,
+        "type": "select",
+        "proxies": ["DIRECT"],
+    })
 
     config: dict[str, Any] = {}
 
     config.update(DNS_CONFIG)
 
     config["proxies"] = proxies
-
-    # "Auto" only ever contains the small, pre-vetted, speed-tested set
-    # of nodes (see health_check_and_rank), so Clash's own url-test on
-    # the phone has very little work left to do and converges fast.
-    config["proxy-groups"] = [
-        {
-            "name": "Proxy",
-            "type": "select",
-            # proxy_names is already sorted fastest-first from the
-            # server-side health check, so the first real entry here
-            # (right after "Auto") is the fastest node we measured -
-            # picking it manually needs zero on-device testing at all.
-            "proxies": ["Auto"] + proxy_names,
-        },
-        {
-            "name": "Auto",
-            "type": "url-test",
-            "proxies": proxy_names,
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": 300,
-            "tolerance": 50,
-        },
-        {
-            "name": "Iran-Direct",
-            "type": "select",
-            "proxies": [
-                "DIRECT",
-            ],
-        },
-    ]
+    config["proxy-groups"] = proxy_groups
 
     config["rules"] = [
-        "GEOIP,IR,Iran-Direct",
-        "MATCH,Proxy",
+        f"GEOIP,IR,{IRAN_DIRECT_NAME}",
+        f"MATCH,{MAIN_SELECTOR_NAME}",
     ]
 
     return yaml.safe_dump(
@@ -912,8 +825,7 @@ def build_yaml(
 # =============================================================================
 
 def save_subscription(
-    region: str,
-    nodes: list[dict[str, Any]],
+    nodes_by_region: dict[str, list[dict[str, Any]]],
 ) -> Path:
 
     OUTPUT_DIR.mkdir(
@@ -921,12 +833,9 @@ def save_subscription(
         exist_ok=True,
     )
 
-    output_path = OUTPUT_DIR / f"{region}.yaml"
+    output_path = OUTPUT_DIR / OUTPUT_FILE
 
-    yaml_content = build_yaml(
-        region,
-        nodes,
-    )
+    yaml_content = build_yaml(nodes_by_region)
 
     output_path.write_text(
         yaml_content,
@@ -1005,7 +914,7 @@ def main() -> int:
     print("")
     print("[3/5] Collecting servers...")
 
-    generated: dict[str, int] = {}
+    nodes_by_region: dict[str, list[dict[str, Any]]] = {}
 
     for region in REGIONS:
 
@@ -1015,27 +924,41 @@ def main() -> int:
             token_manager=token_manager,
         )
 
-        # Important:
-        # Never overwrite a previously generated good file with
-        # an empty result.
         if not nodes:
             print(
-                f"[WARNING] No nodes found for {region}. "
-                f"Existing file will be preserved."
+                f"[WARNING] No nodes found for {region}."
             )
             continue
 
-        output_path = save_subscription(
-            region=region,
-            nodes=nodes,
-        )
+        nodes_by_region[region] = nodes
 
-        generated[region] = len(nodes)
+    # -------------------------------------------------------------------------
+    # Build + save the single combined subscription file
+    # -------------------------------------------------------------------------
 
+    print("")
+    print("[4/5] Building combined subscription...")
+
+    total_nodes = sum(len(v) for v in nodes_by_region.values())
+
+    # Important:
+    # Never overwrite a previously generated good file with an empty
+    # result -- if every region came back empty (provider outage,
+    # token issue, etc.) just keep whatever subscription.yaml already
+    # exists in the repo.
+    if total_nodes == 0:
         print(
-            f"[SAVED] {output_path} "
-            f"({len(nodes)} nodes)"
+            "[FATAL] No nodes were found in any region. "
+            "Existing subscription.yaml will be preserved."
         )
+        return 1
+
+    output_path = save_subscription(nodes_by_region)
+
+    print(
+        f"[SAVED] {output_path} "
+        f"({total_nodes} nodes total)"
+    )
 
     # -------------------------------------------------------------------------
     # Summary
@@ -1043,21 +966,22 @@ def main() -> int:
 
     print("")
     print("=" * 80)
-    print("[4/5] SUMMARY")
+    print("SUMMARY")
     print("=" * 80)
 
-    if not generated:
-        print(
-            "[FATAL] No subscription files were generated."
-        )
-        return 1
-
-    for region, count in generated.items():
+    for region, nodes in nodes_by_region.items():
         print(
             f"  {region:<8} "
             f"{REGIONS[region]:<18} "
-            f"{count:>4} nodes"
+            f"{len(nodes):>4} nodes"
         )
+
+    auto_count = min(AUTO_GROUP_SIZE, total_nodes)
+    batch_count = -(-(total_nodes - auto_count) // BATCH_GROUP_SIZE)  # ceil div
+
+    print("-" * 80)
+    print(f"  {AUTO_GROUP_NAME:<28} {auto_count:>4} nodes (health-checked)")
+    print(f"  {batch_count} caravan batch group(s) of up to {BATCH_GROUP_SIZE} nodes each (manual, no health-check)")
 
     print("=" * 80)
     print("[5/5] DONE")
