@@ -43,7 +43,7 @@ proxies:
 - name: RU-SPB-002-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 19645
+  port: 17443
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -51,7 +51,7 @@ proxies:
 - name: RU-SPB-003-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 31243
+  port: 19645
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -59,7 +59,7 @@ proxies:
 - name: RU-SPB-004-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 39056
+  port: 23388
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -67,7 +67,7 @@ proxies:
 - name: RU-SPB-005-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 42506
+  port: 31243
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -75,7 +75,7 @@ proxies:
 - name: RU-SPB-006-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 47142
+  port: 39056
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -83,7 +83,7 @@ proxies:
 - name: RU-SPB-007-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 50959
+  port: 42506
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -91,23 +91,23 @@ proxies:
 - name: RU-SPB-008-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
+  port: 47142
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-009-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 50959
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-010-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
   port: 58007
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-009-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 11290
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-010-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 12572
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -115,7 +115,7 @@ proxies:
 - name: RU-SPB-011-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 19172
+  port: 11290
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -123,7 +123,7 @@ proxies:
 - name: RU-SPB-012-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 23872
+  port: 12572
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: RU-SPB-013-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 24353
+  port: 13022
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -139,7 +139,7 @@ proxies:
 - name: RU-SPB-014-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 27800
+  port: 19172
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -147,7 +147,7 @@ proxies:
 - name: RU-SPB-015-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 42432
+  port: 23872
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -155,31 +155,31 @@ proxies:
 - name: RU-SPB-016-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
+  port: 24353
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-017-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 27800
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-018-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 28686
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-019-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
   port: 51976
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-017-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 16781
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-018-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 17443
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-019-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 19645
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -187,7 +187,7 @@ proxies:
 - name: RU-SPB-020-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 31243
+  port: 16781
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -195,7 +195,7 @@ proxies:
 - name: RU-SPB-021-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 42506
+  port: 17443
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -203,7 +203,7 @@ proxies:
 - name: RU-SPB-022-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 47142
+  port: 19645
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -211,7 +211,7 @@ proxies:
 - name: RU-SPB-023-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 50959
+  port: 23388
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -219,39 +219,39 @@ proxies:
 - name: RU-SPB-024-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
+  port: 31243
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-025-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 39056
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-026-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 47142
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-027-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 50959
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-028-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
   port: 58007
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-025-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 11290
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-026-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 13022
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-027-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 23872
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-028-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 24353
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -259,7 +259,7 @@ proxies:
 - name: RU-SPB-029-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 27800
+  port: 11290
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -267,7 +267,7 @@ proxies:
 - name: RU-SPB-030-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 28686
+  port: 12572
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -275,7 +275,7 @@ proxies:
 - name: RU-SPB-031-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 42432
+  port: 13022
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -283,116 +283,12 @@ proxies:
 - name: RU-SPB-032-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 51976
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-033-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 16781
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-034-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 17443
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-035-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 19645
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-036-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 23388
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-037-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 31243
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-038-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 39056
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-039-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 42506
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-040-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 47142
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-041-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 50959
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-042-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 58007
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-043-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 11290
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-044-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 13022
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-045-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
   port: 19172
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-046-chalo-ru-nexorcdn-com
+- name: RU-SPB-033-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 23872
@@ -400,7 +296,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-047-chalo-ru-nexorcdn-com
+- name: RU-SPB-034-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 24353
@@ -408,15 +304,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-048-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 27800
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-049-chalo-ru-nexorcdn-com
+- name: RU-SPB-035-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 28686
@@ -424,143 +312,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-050-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 51976
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-051-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 17443
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-052-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 19645
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-053-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 23388
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-054-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 31243
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-055-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 39056
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-056-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 42506
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-057-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 47142
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-058-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 50959
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-059-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 58007
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-060-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 12572
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-061-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 13022
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-062-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 19172
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-063-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 23872
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-064-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 24353
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-065-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 27800
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-066-chalo-ru-nexorcdn-com
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 28686
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-067-chalo-ru-nexorcdn-com
+- name: RU-SPB-036-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 42432
@@ -568,7 +320,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-068-chalo-ru-nexorcdn-com
+- name: RU-SPB-037-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 51976
@@ -576,7 +328,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-069-brolen-ru-nexorcdn-com
+- name: RU-SPB-038-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 16781
@@ -584,7 +336,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-070-brolen-ru-nexorcdn-com
+- name: RU-SPB-039-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 17443
@@ -592,7 +344,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-071-brolen-ru-nexorcdn-com
+- name: RU-SPB-040-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 19645
@@ -600,7 +352,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-072-brolen-ru-nexorcdn-com
+- name: RU-SPB-041-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 23388
@@ -608,7 +360,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-073-brolen-ru-nexorcdn-com
+- name: RU-SPB-042-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 31243
@@ -616,7 +368,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-074-brolen-ru-nexorcdn-com
+- name: RU-SPB-043-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 39056
@@ -624,15 +376,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-075-brolen-ru-nexorcdn-com
-  type: http
-  server: brolen-ru.nexorcdn.com
-  port: 42506
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: RU-SPB-076-brolen-ru-nexorcdn-com
+- name: RU-SPB-044-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 47142
@@ -640,7 +384,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-077-brolen-ru-nexorcdn-com
+- name: RU-SPB-045-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 50959
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-046-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
   port: 58007
@@ -648,7 +400,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-078-chalo-ru-nexorcdn-com
+- name: RU-SPB-047-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 11290
@@ -656,7 +408,135 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-079-chalo-ru-nexorcdn-com
+- name: RU-SPB-048-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 19172
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-049-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 23872
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-050-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 24353
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-051-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 27800
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-052-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 28686
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-053-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 42432
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-054-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 51976
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-055-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 16781
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-056-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 17443
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-057-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 19645
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-058-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 23388
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-059-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 31243
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-060-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 42506
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-061-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 47142
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-062-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 58007
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-063-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 11290
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-064-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 12572
@@ -664,7 +544,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-080-chalo-ru-nexorcdn-com
+- name: RU-SPB-065-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 13022
@@ -672,10 +552,130 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-081-chalo-ru-nexorcdn-com
+- name: RU-SPB-066-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 19172
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-067-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 23872
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-068-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 24353
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-069-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 27800
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-070-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 28686
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-071-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 51976
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-072-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 16781
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-073-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 19645
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-074-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 23388
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-075-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 31243
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-076-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 39056
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-077-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 50959
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-078-brolen-ru-nexorcdn-com
+  type: http
+  server: brolen-ru.nexorcdn.com
+  port: 58007
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-079-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 11290
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-080-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 12572
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-081-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 13022
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -731,7 +731,7 @@ proxies:
 - name: RU-SPB-088-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 19645
+  port: 17443
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -739,7 +739,7 @@ proxies:
 - name: RU-SPB-089-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 23388
+  port: 19645
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -747,7 +747,7 @@ proxies:
 - name: RU-SPB-090-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 39056
+  port: 31243
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -755,7 +755,7 @@ proxies:
 - name: RU-SPB-091-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 42506
+  port: 39056
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -763,7 +763,7 @@ proxies:
 - name: RU-SPB-092-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 47142
+  port: 42506
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -771,7 +771,7 @@ proxies:
 - name: RU-SPB-093-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 50959
+  port: 47142
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -779,15 +779,15 @@ proxies:
 - name: RU-SPB-094-brolen-ru-nexorcdn-com
   type: http
   server: brolen-ru.nexorcdn.com
-  port: 58007
+  port: 50959
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: RU-SPB-095-chalo-ru-nexorcdn-com
+- name: RU-SPB-095-brolen-ru-nexorcdn-com
   type: http
-  server: chalo-ru.nexorcdn.com
-  port: 11290
+  server: brolen-ru.nexorcdn.com
+  port: 58007
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -795,7 +795,7 @@ proxies:
 - name: RU-SPB-096-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 13022
+  port: 11290
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -803,7 +803,7 @@ proxies:
 - name: RU-SPB-097-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 19172
+  port: 12572
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -811,7 +811,7 @@ proxies:
 - name: RU-SPB-098-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 23872
+  port: 13022
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -819,7 +819,7 @@ proxies:
 - name: RU-SPB-099-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 24353
+  port: 23872
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -827,7 +827,7 @@ proxies:
 - name: RU-SPB-100-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 27800
+  port: 24353
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -835,7 +835,7 @@ proxies:
 - name: RU-SPB-101-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 28686
+  port: 27800
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -843,12 +843,20 @@ proxies:
 - name: RU-SPB-102-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
-  port: 42432
+  port: 28686
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
 - name: RU-SPB-103-chalo-ru-nexorcdn-com
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 42432
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: RU-SPB-104-chalo-ru-nexorcdn-com
   type: http
   server: chalo-ru.nexorcdn.com
   port: 51976
@@ -877,88 +885,88 @@ proxy-groups:
   - RU-SPB-006-brolen-ru-nexorcdn-com
   - RU-SPB-007-brolen-ru-nexorcdn-com
   - RU-SPB-008-brolen-ru-nexorcdn-com
-  - RU-SPB-009-chalo-ru-nexorcdn-com
-  - RU-SPB-010-chalo-ru-nexorcdn-com
+  - RU-SPB-009-brolen-ru-nexorcdn-com
+  - RU-SPB-010-brolen-ru-nexorcdn-com
   - RU-SPB-011-chalo-ru-nexorcdn-com
   - RU-SPB-012-chalo-ru-nexorcdn-com
   - RU-SPB-013-chalo-ru-nexorcdn-com
   - RU-SPB-014-chalo-ru-nexorcdn-com
   - RU-SPB-015-chalo-ru-nexorcdn-com
   - RU-SPB-016-chalo-ru-nexorcdn-com
+  - RU-SPB-017-chalo-ru-nexorcdn-com
+  - RU-SPB-018-chalo-ru-nexorcdn-com
+  - RU-SPB-019-chalo-ru-nexorcdn-com
 - name: 🌐 Freloop
   type: select
   proxies:
-  - RU-SPB-017-brolen-ru-nexorcdn-com
-  - RU-SPB-018-brolen-ru-nexorcdn-com
-  - RU-SPB-019-brolen-ru-nexorcdn-com
   - RU-SPB-020-brolen-ru-nexorcdn-com
   - RU-SPB-021-brolen-ru-nexorcdn-com
   - RU-SPB-022-brolen-ru-nexorcdn-com
   - RU-SPB-023-brolen-ru-nexorcdn-com
   - RU-SPB-024-brolen-ru-nexorcdn-com
-  - RU-SPB-025-chalo-ru-nexorcdn-com
-  - RU-SPB-026-chalo-ru-nexorcdn-com
-  - RU-SPB-027-chalo-ru-nexorcdn-com
-  - RU-SPB-028-chalo-ru-nexorcdn-com
+  - RU-SPB-025-brolen-ru-nexorcdn-com
+  - RU-SPB-026-brolen-ru-nexorcdn-com
+  - RU-SPB-027-brolen-ru-nexorcdn-com
+  - RU-SPB-028-brolen-ru-nexorcdn-com
   - RU-SPB-029-chalo-ru-nexorcdn-com
   - RU-SPB-030-chalo-ru-nexorcdn-com
   - RU-SPB-031-chalo-ru-nexorcdn-com
   - RU-SPB-032-chalo-ru-nexorcdn-com
+  - RU-SPB-033-chalo-ru-nexorcdn-com
+  - RU-SPB-034-chalo-ru-nexorcdn-com
+  - RU-SPB-035-chalo-ru-nexorcdn-com
+  - RU-SPB-036-chalo-ru-nexorcdn-com
+  - RU-SPB-037-chalo-ru-nexorcdn-com
 - name: 💎 Hibchr
   type: select
   proxies:
-  - RU-SPB-033-brolen-ru-nexorcdn-com
-  - RU-SPB-034-brolen-ru-nexorcdn-com
-  - RU-SPB-035-brolen-ru-nexorcdn-com
-  - RU-SPB-036-brolen-ru-nexorcdn-com
-  - RU-SPB-037-brolen-ru-nexorcdn-com
   - RU-SPB-038-brolen-ru-nexorcdn-com
   - RU-SPB-039-brolen-ru-nexorcdn-com
   - RU-SPB-040-brolen-ru-nexorcdn-com
   - RU-SPB-041-brolen-ru-nexorcdn-com
   - RU-SPB-042-brolen-ru-nexorcdn-com
-  - RU-SPB-043-chalo-ru-nexorcdn-com
-  - RU-SPB-044-chalo-ru-nexorcdn-com
-  - RU-SPB-045-chalo-ru-nexorcdn-com
-  - RU-SPB-046-chalo-ru-nexorcdn-com
+  - RU-SPB-043-brolen-ru-nexorcdn-com
+  - RU-SPB-044-brolen-ru-nexorcdn-com
+  - RU-SPB-045-brolen-ru-nexorcdn-com
+  - RU-SPB-046-brolen-ru-nexorcdn-com
   - RU-SPB-047-chalo-ru-nexorcdn-com
   - RU-SPB-048-chalo-ru-nexorcdn-com
   - RU-SPB-049-chalo-ru-nexorcdn-com
   - RU-SPB-050-chalo-ru-nexorcdn-com
+  - RU-SPB-051-chalo-ru-nexorcdn-com
+  - RU-SPB-052-chalo-ru-nexorcdn-com
+  - RU-SPB-053-chalo-ru-nexorcdn-com
+  - RU-SPB-054-chalo-ru-nexorcdn-com
 - name: 🛰️ Hisball
   type: select
   proxies:
-  - RU-SPB-051-brolen-ru-nexorcdn-com
-  - RU-SPB-052-brolen-ru-nexorcdn-com
-  - RU-SPB-053-brolen-ru-nexorcdn-com
-  - RU-SPB-054-brolen-ru-nexorcdn-com
   - RU-SPB-055-brolen-ru-nexorcdn-com
   - RU-SPB-056-brolen-ru-nexorcdn-com
   - RU-SPB-057-brolen-ru-nexorcdn-com
   - RU-SPB-058-brolen-ru-nexorcdn-com
   - RU-SPB-059-brolen-ru-nexorcdn-com
-  - RU-SPB-060-chalo-ru-nexorcdn-com
-  - RU-SPB-061-chalo-ru-nexorcdn-com
-  - RU-SPB-062-chalo-ru-nexorcdn-com
+  - RU-SPB-060-brolen-ru-nexorcdn-com
+  - RU-SPB-061-brolen-ru-nexorcdn-com
+  - RU-SPB-062-brolen-ru-nexorcdn-com
   - RU-SPB-063-chalo-ru-nexorcdn-com
   - RU-SPB-064-chalo-ru-nexorcdn-com
   - RU-SPB-065-chalo-ru-nexorcdn-com
   - RU-SPB-066-chalo-ru-nexorcdn-com
   - RU-SPB-067-chalo-ru-nexorcdn-com
   - RU-SPB-068-chalo-ru-nexorcdn-com
+  - RU-SPB-069-chalo-ru-nexorcdn-com
+  - RU-SPB-070-chalo-ru-nexorcdn-com
+  - RU-SPB-071-chalo-ru-nexorcdn-com
 - name: 🚀 Tronlit
   type: select
   proxies:
-  - RU-SPB-069-brolen-ru-nexorcdn-com
-  - RU-SPB-070-brolen-ru-nexorcdn-com
-  - RU-SPB-071-brolen-ru-nexorcdn-com
   - RU-SPB-072-brolen-ru-nexorcdn-com
   - RU-SPB-073-brolen-ru-nexorcdn-com
   - RU-SPB-074-brolen-ru-nexorcdn-com
   - RU-SPB-075-brolen-ru-nexorcdn-com
   - RU-SPB-076-brolen-ru-nexorcdn-com
   - RU-SPB-077-brolen-ru-nexorcdn-com
-  - RU-SPB-078-chalo-ru-nexorcdn-com
+  - RU-SPB-078-brolen-ru-nexorcdn-com
   - RU-SPB-079-chalo-ru-nexorcdn-com
   - RU-SPB-080-chalo-ru-nexorcdn-com
   - RU-SPB-081-chalo-ru-nexorcdn-com
@@ -978,7 +986,7 @@ proxy-groups:
   - RU-SPB-092-brolen-ru-nexorcdn-com
   - RU-SPB-093-brolen-ru-nexorcdn-com
   - RU-SPB-094-brolen-ru-nexorcdn-com
-  - RU-SPB-095-chalo-ru-nexorcdn-com
+  - RU-SPB-095-brolen-ru-nexorcdn-com
   - RU-SPB-096-chalo-ru-nexorcdn-com
   - RU-SPB-097-chalo-ru-nexorcdn-com
   - RU-SPB-098-chalo-ru-nexorcdn-com
@@ -987,6 +995,7 @@ proxy-groups:
   - RU-SPB-101-chalo-ru-nexorcdn-com
   - RU-SPB-102-chalo-ru-nexorcdn-com
   - RU-SPB-103-chalo-ru-nexorcdn-com
+  - RU-SPB-104-chalo-ru-nexorcdn-com
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
