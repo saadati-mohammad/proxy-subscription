@@ -35,7 +35,7 @@ proxies:
 - name: US-OR-001-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 11890
+  port: 13496
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -43,7 +43,7 @@ proxies:
 - name: US-OR-002-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 14000
+  port: 15044
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -51,7 +51,7 @@ proxies:
 - name: US-OR-003-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 15044
+  port: 17010
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -67,7 +67,7 @@ proxies:
 - name: US-OR-005-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 26760
+  port: 32586
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -75,7 +75,7 @@ proxies:
 - name: US-OR-006-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 32586
+  port: 33906
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -83,15 +83,15 @@ proxies:
 - name: US-OR-007-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 33906
+  port: 47624
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-008-trout-west-1-us-nexorcdn-com
+- name: US-OR-008-trout-west-2-us-nexorcdn-com
   type: http
-  server: trout-west-1-us.nexorcdn.com
-  port: 47624
+  server: trout-west-2-us.nexorcdn.com
+  port: 17226
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -99,7 +99,7 @@ proxies:
 - name: US-OR-009-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 17226
+  port: 18984
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -115,7 +115,7 @@ proxies:
 - name: US-OR-011-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 30348
+  port: 28196
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -123,7 +123,7 @@ proxies:
 - name: US-OR-012-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 34918
+  port: 29586
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: US-OR-013-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 36830
+  port: 30348
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -155,7 +155,7 @@ proxies:
 - name: US-OR-016-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 40866
+  port: 11418
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -171,7 +171,7 @@ proxies:
 - name: US-OR-018-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 42518
+  port: 45032
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -179,7 +179,7 @@ proxies:
 - name: US-OR-019-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 45032
+  port: 46822
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -195,28 +195,12 @@ proxies:
 - name: US-OR-021-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 49274
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-022-trout-west-3-us-nexorcdn-com
-  type: http
-  server: trout-west-3-us.nexorcdn.com
   port: 52908
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-023-trout-west-3-us-nexorcdn-com
-  type: http
-  server: trout-west-3-us.nexorcdn.com
-  port: 56910
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-024-trout-west-4-us-nexorcdn-com
+- name: US-OR-022-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 14118
@@ -224,15 +208,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-025-trout-west-4-us-nexorcdn-com
-  type: http
-  server: trout-west-4-us.nexorcdn.com
-  port: 18000
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-026-trout-west-4-us-nexorcdn-com
+- name: US-OR-023-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 25176
@@ -240,7 +216,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-027-trout-west-4-us-nexorcdn-com
+- name: US-OR-024-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
+  port: 32351
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-025-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 32840
@@ -248,10 +232,26 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-028-trout-west-4-us-nexorcdn-com
+- name: US-OR-026-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 47236
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-027-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
+  port: 49094
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-028-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
+  port: 50704
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -275,7 +275,7 @@ proxies:
 - name: US-OR-031-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 19750
+  port: 15574
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -283,7 +283,7 @@ proxies:
 - name: US-OR-032-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 37540
+  port: 26438
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -304,10 +304,10 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-035-trout-west-1-us-nexorcdn-com
+- name: US-OR-035-trout-west-5-us-nexorcdn-com
   type: http
-  server: trout-west-1-us.nexorcdn.com
-  port: 11890
+  server: trout-west-5-us.nexorcdn.com
+  port: 57516
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -315,7 +315,7 @@ proxies:
 - name: US-OR-036-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 13496
+  port: 15044
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -323,7 +323,7 @@ proxies:
 - name: US-OR-037-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 14000
+  port: 26760
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -331,7 +331,7 @@ proxies:
 - name: US-OR-038-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 17010
+  port: 32586
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -339,7 +339,7 @@ proxies:
 - name: US-OR-039-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 26760
+  port: 33906
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -347,7 +347,7 @@ proxies:
 - name: US-OR-040-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 33906
+  port: 47624
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -395,7 +395,7 @@ proxies:
 - name: US-OR-046-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 34918
+  port: 36830
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -403,7 +403,7 @@ proxies:
 - name: US-OR-047-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 36830
+  port: 37328
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -411,15 +411,15 @@ proxies:
 - name: US-OR-048-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 37328
+  port: 44588
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-049-trout-west-2-us-nexorcdn-com
+- name: US-OR-049-trout-west-3-us-nexorcdn-com
   type: http
-  server: trout-west-2-us.nexorcdn.com
-  port: 44588
+  server: trout-west-3-us.nexorcdn.com
+  port: 11418
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -443,7 +443,7 @@ proxies:
 - name: US-OR-052-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 45032
+  port: 42518
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -451,7 +451,7 @@ proxies:
 - name: US-OR-053-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46822
+  port: 45032
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -459,7 +459,7 @@ proxies:
 - name: US-OR-054-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46840
+  port: 46822
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -467,7 +467,7 @@ proxies:
 - name: US-OR-055-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 52908
+  port: 49274
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -475,7 +475,7 @@ proxies:
 - name: US-OR-056-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 56910
+  port: 52908
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -483,7 +483,7 @@ proxies:
 - name: US-OR-057-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 14118
+  port: 18000
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -491,7 +491,7 @@ proxies:
 - name: US-OR-058-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 18000
+  port: 25176
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -499,7 +499,7 @@ proxies:
 - name: US-OR-059-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 25176
+  port: 32351
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -523,7 +523,7 @@ proxies:
 - name: US-OR-062-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 49094
+  port: 50704
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -536,10 +536,10 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-064-trout-west-5-us-nexorcdn-com
+- name: US-OR-064-trout-west-4-us-nexorcdn-com
   type: http
-  server: trout-west-5-us.nexorcdn.com
-  port: 11026
+  server: trout-west-4-us.nexorcdn.com
+  port: 56340
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -547,7 +547,7 @@ proxies:
 - name: US-OR-065-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 15042
+  port: 11026
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -555,7 +555,7 @@ proxies:
 - name: US-OR-066-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 15574
+  port: 15042
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -563,7 +563,7 @@ proxies:
 - name: US-OR-067-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 19750
+  port: 15574
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -571,7 +571,7 @@ proxies:
 - name: US-OR-068-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 21314
+  port: 19750
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -579,7 +579,7 @@ proxies:
 - name: US-OR-069-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 37540
+  port: 26438
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -619,7 +619,7 @@ proxies:
 - name: US-OR-074-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 25950
+  port: 15044
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -627,7 +627,7 @@ proxies:
 - name: US-OR-075-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 26760
+  port: 17010
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -723,7 +723,7 @@ proxies:
 - name: US-OR-087-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 11418
+  port: 40866
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -731,7 +731,7 @@ proxies:
 - name: US-OR-088-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 40866
+  port: 41138
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -739,7 +739,7 @@ proxies:
 - name: US-OR-089-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46840
+  port: 45032
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -747,7 +747,7 @@ proxies:
 - name: US-OR-090-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 52908
+  port: 46822
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -755,15 +755,15 @@ proxies:
 - name: US-OR-091-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 56910
+  port: 46840
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-092-trout-west-4-us-nexorcdn-com
+- name: US-OR-092-trout-west-3-us-nexorcdn-com
   type: http
-  server: trout-west-4-us.nexorcdn.com
-  port: 18000
+  server: trout-west-3-us.nexorcdn.com
+  port: 49274
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -771,7 +771,7 @@ proxies:
 - name: US-OR-093-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 25176
+  port: 14118
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -779,7 +779,7 @@ proxies:
 - name: US-OR-094-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 32840
+  port: 18000
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -787,7 +787,7 @@ proxies:
 - name: US-OR-095-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 49094
+  port: 25176
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -795,7 +795,7 @@ proxies:
 - name: US-OR-096-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 50704
+  port: 32840
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -803,7 +803,7 @@ proxies:
 - name: US-OR-097-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 56340
+  port: 53828
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -819,7 +819,7 @@ proxies:
 - name: US-OR-099-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 19750
+  port: 15574
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -827,7 +827,7 @@ proxies:
 - name: US-OR-100-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 21314
+  port: 19750
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -859,15 +859,15 @@ proxies:
 - name: US-OR-104-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 57516
+  port: 47294
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-105-trout-west-1-us-nexorcdn-com
+- name: US-OR-105-trout-west-5-us-nexorcdn-com
   type: http
-  server: trout-west-1-us.nexorcdn.com
-  port: 11890
+  server: trout-west-5-us.nexorcdn.com
+  port: 57516
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -875,7 +875,7 @@ proxies:
 - name: US-OR-106-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 14000
+  port: 25950
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -883,7 +883,7 @@ proxies:
 - name: US-OR-107-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 15044
+  port: 26760
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -891,7 +891,7 @@ proxies:
 - name: US-OR-108-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 26760
+  port: 32586
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -899,7 +899,7 @@ proxies:
 - name: US-OR-109-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 32586
+  port: 33906
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -907,7 +907,7 @@ proxies:
 - name: US-OR-110-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 33906
+  port: 47624
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -923,7 +923,7 @@ proxies:
 - name: US-OR-112-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 20872
+  port: 28196
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -939,7 +939,7 @@ proxies:
 - name: US-OR-114-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 30348
+  port: 34918
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -947,20 +947,12 @@ proxies:
 - name: US-OR-115-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 36830
+  port: 44588
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-116-trout-west-2-us-nexorcdn-com
-  type: http
-  server: trout-west-2-us.nexorcdn.com
-  port: 37328
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-117-trout-west-3-us-nexorcdn-com
+- name: US-OR-116-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 11418
@@ -968,7 +960,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-118-trout-west-3-us-nexorcdn-com
+- name: US-OR-117-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 40866
@@ -976,7 +968,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-119-trout-west-3-us-nexorcdn-com
+- name: US-OR-118-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 41138
@@ -984,15 +976,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-120-trout-west-3-us-nexorcdn-com
-  type: http
-  server: trout-west-3-us.nexorcdn.com
-  port: 42518
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-121-trout-west-3-us-nexorcdn-com
+- name: US-OR-119-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 45032
@@ -1000,15 +984,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-122-trout-west-3-us-nexorcdn-com
+- name: US-OR-120-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46822
+  port: 46840
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-123-trout-west-3-us-nexorcdn-com
+- name: US-OR-121-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 49274
@@ -1016,15 +1000,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-124-trout-west-3-us-nexorcdn-com
-  type: http
-  server: trout-west-3-us.nexorcdn.com
-  port: 52908
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-125-trout-west-3-us-nexorcdn-com
+- name: US-OR-122-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 56910
@@ -1032,7 +1008,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-126-trout-west-4-us-nexorcdn-com
+- name: US-OR-123-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 14118
@@ -1040,15 +1016,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-127-trout-west-4-us-nexorcdn-com
-  type: http
-  server: trout-west-4-us.nexorcdn.com
-  port: 18000
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-128-trout-west-4-us-nexorcdn-com
+- name: US-OR-124-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 25176
@@ -1056,15 +1024,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-129-trout-west-4-us-nexorcdn-com
-  type: http
-  server: trout-west-4-us.nexorcdn.com
-  port: 32351
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-130-trout-west-4-us-nexorcdn-com
+- name: US-OR-125-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 32840
@@ -1072,7 +1032,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-131-trout-west-4-us-nexorcdn-com
+- name: US-OR-126-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 49094
@@ -1080,7 +1040,23 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-132-trout-west-4-us-nexorcdn-com
+- name: US-OR-127-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
+  port: 50704
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-128-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
+  port: 53828
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-129-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
   port: 56340
@@ -1088,10 +1064,34 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-133-trout-west-5-us-nexorcdn-com
+- name: US-OR-130-trout-west-5-us-nexorcdn-com
+  type: http
+  server: trout-west-5-us.nexorcdn.com
+  port: 11026
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-131-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
   port: 15042
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-132-trout-west-5-us-nexorcdn-com
+  type: http
+  server: trout-west-5-us.nexorcdn.com
+  port: 15574
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-133-trout-west-5-us-nexorcdn-com
+  type: http
+  server: trout-west-5-us.nexorcdn.com
+  port: 19750
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1107,7 +1107,7 @@ proxies:
 - name: US-OR-135-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 26438
+  port: 42556
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1115,15 +1115,15 @@ proxies:
 - name: US-OR-136-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 42556
+  port: 47294
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-137-trout-west-5-us-nexorcdn-com
+- name: US-OR-137-trout-west-1-us-nexorcdn-com
   type: http
-  server: trout-west-5-us.nexorcdn.com
-  port: 57516
+  server: trout-west-1-us.nexorcdn.com
+  port: 13496
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1139,7 +1139,7 @@ proxies:
 - name: US-OR-139-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 17010
+  port: 15044
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1147,7 +1147,7 @@ proxies:
 - name: US-OR-140-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 25950
+  port: 17010
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1155,7 +1155,7 @@ proxies:
 - name: US-OR-141-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 26760
+  port: 25950
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1163,7 +1163,7 @@ proxies:
 - name: US-OR-142-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 32586
+  port: 26760
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1171,7 +1171,7 @@ proxies:
 - name: US-OR-143-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 33906
+  port: 32586
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1195,7 +1195,7 @@ proxies:
 - name: US-OR-146-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 20872
+  port: 28196
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1227,7 +1227,7 @@ proxies:
 - name: US-OR-150-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 36830
+  port: 37328
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1235,7 +1235,7 @@ proxies:
 - name: US-OR-151-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
-  port: 37328
+  port: 44588
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1243,7 +1243,7 @@ proxies:
 - name: US-OR-152-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 11418
+  port: 40866
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1275,7 +1275,7 @@ proxies:
 - name: US-OR-156-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46822
+  port: 46840
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1283,7 +1283,7 @@ proxies:
 - name: US-OR-157-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 46840
+  port: 52908
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1291,7 +1291,7 @@ proxies:
 - name: US-OR-158-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 49274
+  port: 56910
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1347,7 +1347,7 @@ proxies:
 - name: US-OR-165-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 53828
+  port: 56340
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1387,7 +1387,7 @@ proxies:
 - name: US-OR-170-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 37540
+  port: 21314
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1395,28 +1395,12 @@ proxies:
 - name: US-OR-171-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 42556
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-172-trout-west-5-us-nexorcdn-com
-  type: http
-  server: trout-west-5-us.nexorcdn.com
-  port: 47294
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-173-trout-west-5-us-nexorcdn-com
-  type: http
-  server: trout-west-5-us.nexorcdn.com
   port: 57516
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-174-trout-west-1-us-nexorcdn-com
+- name: US-OR-172-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 11890
@@ -1424,7 +1408,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-175-trout-west-1-us-nexorcdn-com
+- name: US-OR-173-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 13496
@@ -1432,7 +1416,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-176-trout-west-1-us-nexorcdn-com
+- name: US-OR-174-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 14000
@@ -1440,15 +1424,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-177-trout-west-1-us-nexorcdn-com
+- name: US-OR-175-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
-  port: 15044
+  port: 17010
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-178-trout-west-1-us-nexorcdn-com
+- name: US-OR-176-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 25950
@@ -1456,7 +1440,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-179-trout-west-1-us-nexorcdn-com
+- name: US-OR-177-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 26760
@@ -1464,7 +1448,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-180-trout-west-1-us-nexorcdn-com
+- name: US-OR-178-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 32586
@@ -1472,7 +1456,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-181-trout-west-1-us-nexorcdn-com
+- name: US-OR-179-trout-west-1-us-nexorcdn-com
   type: http
   server: trout-west-1-us.nexorcdn.com
   port: 33906
@@ -1480,15 +1464,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-182-trout-west-1-us-nexorcdn-com
-  type: http
-  server: trout-west-1-us.nexorcdn.com
-  port: 47624
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-183-trout-west-2-us-nexorcdn-com
+- name: US-OR-180-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
   port: 17226
@@ -1496,7 +1472,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-184-trout-west-2-us-nexorcdn-com
+- name: US-OR-181-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
   port: 18984
@@ -1504,7 +1480,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-185-trout-west-2-us-nexorcdn-com
+- name: US-OR-182-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
   port: 29586
@@ -1512,15 +1488,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-186-trout-west-2-us-nexorcdn-com
-  type: http
-  server: trout-west-2-us.nexorcdn.com
-  port: 30348
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-187-trout-west-2-us-nexorcdn-com
+- name: US-OR-183-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
   port: 34918
@@ -1528,7 +1496,7 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-188-trout-west-2-us-nexorcdn-com
+- name: US-OR-184-trout-west-2-us-nexorcdn-com
   type: http
   server: trout-west-2-us.nexorcdn.com
   port: 36830
@@ -1536,7 +1504,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-189-trout-west-3-us-nexorcdn-com
+- name: US-OR-185-trout-west-2-us-nexorcdn-com
+  type: http
+  server: trout-west-2-us.nexorcdn.com
+  port: 37328
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-186-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 11418
@@ -1544,7 +1520,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-190-trout-west-3-us-nexorcdn-com
+- name: US-OR-187-trout-west-3-us-nexorcdn-com
+  type: http
+  server: trout-west-3-us.nexorcdn.com
+  port: 40866
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-188-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 41138
@@ -1552,15 +1536,15 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-191-trout-west-3-us-nexorcdn-com
+- name: US-OR-189-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
-  port: 42518
+  port: 45032
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-192-trout-west-3-us-nexorcdn-com
+- name: US-OR-190-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 46822
@@ -1568,10 +1552,26 @@ proxies:
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-193-trout-west-3-us-nexorcdn-com
+- name: US-OR-191-trout-west-3-us-nexorcdn-com
   type: http
   server: trout-west-3-us.nexorcdn.com
   port: 46840
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-192-trout-west-3-us-nexorcdn-com
+  type: http
+  server: trout-west-3-us.nexorcdn.com
+  port: 49274
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-193-trout-west-3-us-nexorcdn-com
+  type: http
+  server: trout-west-3-us.nexorcdn.com
+  port: 52908
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1587,7 +1587,7 @@ proxies:
 - name: US-OR-195-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 25176
+  port: 14118
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1595,7 +1595,7 @@ proxies:
 - name: US-OR-196-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 32351
+  port: 25176
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1603,7 +1603,7 @@ proxies:
 - name: US-OR-197-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 32840
+  port: 32351
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1611,7 +1611,7 @@ proxies:
 - name: US-OR-198-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 47236
+  port: 32840
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1619,7 +1619,7 @@ proxies:
 - name: US-OR-199-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 49094
+  port: 47236
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1627,7 +1627,7 @@ proxies:
 - name: US-OR-200-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
-  port: 50704
+  port: 49094
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1635,23 +1635,23 @@ proxies:
 - name: US-OR-201-trout-west-4-us-nexorcdn-com
   type: http
   server: trout-west-4-us.nexorcdn.com
+  port: 50704
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-202-trout-west-4-us-nexorcdn-com
+  type: http
+  server: trout-west-4-us.nexorcdn.com
   port: 53828
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
-- name: US-OR-202-trout-west-5-us-nexorcdn-com
+- name: US-OR-203-trout-west-4-us-nexorcdn-com
   type: http
-  server: trout-west-5-us.nexorcdn.com
-  port: 11026
-  username: fe02f738f59138f34610c45d3b0de766
-  password: ccXvw5mOn1l3chNo
-  tls: true
-  skip-cert-verify: true
-- name: US-OR-203-trout-west-5-us-nexorcdn-com
-  type: http
-  server: trout-west-5-us.nexorcdn.com
-  port: 15042
+  server: trout-west-4-us.nexorcdn.com
+  port: 56340
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1659,7 +1659,7 @@ proxies:
 - name: US-OR-204-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 15574
+  port: 11026
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1667,7 +1667,7 @@ proxies:
 - name: US-OR-205-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 19750
+  port: 15042
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1675,7 +1675,7 @@ proxies:
 - name: US-OR-206-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 26438
+  port: 15574
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1683,7 +1683,7 @@ proxies:
 - name: US-OR-207-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 37540
+  port: 19750
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
@@ -1691,12 +1691,28 @@ proxies:
 - name: US-OR-208-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
-  port: 42556
+  port: 21314
   username: fe02f738f59138f34610c45d3b0de766
   password: ccXvw5mOn1l3chNo
   tls: true
   skip-cert-verify: true
 - name: US-OR-209-trout-west-5-us-nexorcdn-com
+  type: http
+  server: trout-west-5-us.nexorcdn.com
+  port: 42556
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-210-trout-west-5-us-nexorcdn-com
+  type: http
+  server: trout-west-5-us.nexorcdn.com
+  port: 47294
+  username: fe02f738f59138f34610c45d3b0de766
+  password: ccXvw5mOn1l3chNo
+  tls: true
+  skip-cert-verify: true
+- name: US-OR-211-trout-west-5-us-nexorcdn-com
   type: http
   server: trout-west-5-us.nexorcdn.com
   port: 57516
@@ -1724,7 +1740,7 @@ proxy-groups:
   - US-OR-005-trout-west-1-us-nexorcdn-com
   - US-OR-006-trout-west-1-us-nexorcdn-com
   - US-OR-007-trout-west-1-us-nexorcdn-com
-  - US-OR-008-trout-west-1-us-nexorcdn-com
+  - US-OR-008-trout-west-2-us-nexorcdn-com
   - US-OR-009-trout-west-2-us-nexorcdn-com
   - US-OR-010-trout-west-2-us-nexorcdn-com
   - US-OR-011-trout-west-2-us-nexorcdn-com
@@ -1738,8 +1754,8 @@ proxy-groups:
   - US-OR-019-trout-west-3-us-nexorcdn-com
   - US-OR-020-trout-west-3-us-nexorcdn-com
   - US-OR-021-trout-west-3-us-nexorcdn-com
-  - US-OR-022-trout-west-3-us-nexorcdn-com
-  - US-OR-023-trout-west-3-us-nexorcdn-com
+  - US-OR-022-trout-west-4-us-nexorcdn-com
+  - US-OR-023-trout-west-4-us-nexorcdn-com
   - US-OR-024-trout-west-4-us-nexorcdn-com
   - US-OR-025-trout-west-4-us-nexorcdn-com
   - US-OR-026-trout-west-4-us-nexorcdn-com
@@ -1751,10 +1767,10 @@ proxy-groups:
   - US-OR-032-trout-west-5-us-nexorcdn-com
   - US-OR-033-trout-west-5-us-nexorcdn-com
   - US-OR-034-trout-west-5-us-nexorcdn-com
+  - US-OR-035-trout-west-5-us-nexorcdn-com
 - name: 🌐 Freloop
   type: select
   proxies:
-  - US-OR-035-trout-west-1-us-nexorcdn-com
   - US-OR-036-trout-west-1-us-nexorcdn-com
   - US-OR-037-trout-west-1-us-nexorcdn-com
   - US-OR-038-trout-west-1-us-nexorcdn-com
@@ -1768,7 +1784,7 @@ proxy-groups:
   - US-OR-046-trout-west-2-us-nexorcdn-com
   - US-OR-047-trout-west-2-us-nexorcdn-com
   - US-OR-048-trout-west-2-us-nexorcdn-com
-  - US-OR-049-trout-west-2-us-nexorcdn-com
+  - US-OR-049-trout-west-3-us-nexorcdn-com
   - US-OR-050-trout-west-3-us-nexorcdn-com
   - US-OR-051-trout-west-3-us-nexorcdn-com
   - US-OR-052-trout-west-3-us-nexorcdn-com
@@ -1783,7 +1799,7 @@ proxy-groups:
   - US-OR-061-trout-west-4-us-nexorcdn-com
   - US-OR-062-trout-west-4-us-nexorcdn-com
   - US-OR-063-trout-west-4-us-nexorcdn-com
-  - US-OR-064-trout-west-5-us-nexorcdn-com
+  - US-OR-064-trout-west-4-us-nexorcdn-com
   - US-OR-065-trout-west-5-us-nexorcdn-com
   - US-OR-066-trout-west-5-us-nexorcdn-com
   - US-OR-067-trout-west-5-us-nexorcdn-com
@@ -1814,7 +1830,7 @@ proxy-groups:
   - US-OR-089-trout-west-3-us-nexorcdn-com
   - US-OR-090-trout-west-3-us-nexorcdn-com
   - US-OR-091-trout-west-3-us-nexorcdn-com
-  - US-OR-092-trout-west-4-us-nexorcdn-com
+  - US-OR-092-trout-west-3-us-nexorcdn-com
   - US-OR-093-trout-west-4-us-nexorcdn-com
   - US-OR-094-trout-west-4-us-nexorcdn-com
   - US-OR-095-trout-west-4-us-nexorcdn-com
@@ -1827,10 +1843,10 @@ proxy-groups:
   - US-OR-102-trout-west-5-us-nexorcdn-com
   - US-OR-103-trout-west-5-us-nexorcdn-com
   - US-OR-104-trout-west-5-us-nexorcdn-com
+  - US-OR-105-trout-west-5-us-nexorcdn-com
 - name: 🛰️ Hisball
   type: select
   proxies:
-  - US-OR-105-trout-west-1-us-nexorcdn-com
   - US-OR-106-trout-west-1-us-nexorcdn-com
   - US-OR-107-trout-west-1-us-nexorcdn-com
   - US-OR-108-trout-west-1-us-nexorcdn-com
@@ -1841,31 +1857,31 @@ proxy-groups:
   - US-OR-113-trout-west-2-us-nexorcdn-com
   - US-OR-114-trout-west-2-us-nexorcdn-com
   - US-OR-115-trout-west-2-us-nexorcdn-com
-  - US-OR-116-trout-west-2-us-nexorcdn-com
+  - US-OR-116-trout-west-3-us-nexorcdn-com
   - US-OR-117-trout-west-3-us-nexorcdn-com
   - US-OR-118-trout-west-3-us-nexorcdn-com
   - US-OR-119-trout-west-3-us-nexorcdn-com
   - US-OR-120-trout-west-3-us-nexorcdn-com
   - US-OR-121-trout-west-3-us-nexorcdn-com
   - US-OR-122-trout-west-3-us-nexorcdn-com
-  - US-OR-123-trout-west-3-us-nexorcdn-com
-  - US-OR-124-trout-west-3-us-nexorcdn-com
-  - US-OR-125-trout-west-3-us-nexorcdn-com
+  - US-OR-123-trout-west-4-us-nexorcdn-com
+  - US-OR-124-trout-west-4-us-nexorcdn-com
+  - US-OR-125-trout-west-4-us-nexorcdn-com
   - US-OR-126-trout-west-4-us-nexorcdn-com
   - US-OR-127-trout-west-4-us-nexorcdn-com
   - US-OR-128-trout-west-4-us-nexorcdn-com
   - US-OR-129-trout-west-4-us-nexorcdn-com
-  - US-OR-130-trout-west-4-us-nexorcdn-com
-  - US-OR-131-trout-west-4-us-nexorcdn-com
-  - US-OR-132-trout-west-4-us-nexorcdn-com
+  - US-OR-130-trout-west-5-us-nexorcdn-com
+  - US-OR-131-trout-west-5-us-nexorcdn-com
+  - US-OR-132-trout-west-5-us-nexorcdn-com
   - US-OR-133-trout-west-5-us-nexorcdn-com
   - US-OR-134-trout-west-5-us-nexorcdn-com
   - US-OR-135-trout-west-5-us-nexorcdn-com
   - US-OR-136-trout-west-5-us-nexorcdn-com
-  - US-OR-137-trout-west-5-us-nexorcdn-com
 - name: 🚀 Tronlit
   type: select
   proxies:
+  - US-OR-137-trout-west-1-us-nexorcdn-com
   - US-OR-138-trout-west-1-us-nexorcdn-com
   - US-OR-139-trout-west-1-us-nexorcdn-com
   - US-OR-140-trout-west-1-us-nexorcdn-com
@@ -1900,26 +1916,26 @@ proxy-groups:
   - US-OR-169-trout-west-5-us-nexorcdn-com
   - US-OR-170-trout-west-5-us-nexorcdn-com
   - US-OR-171-trout-west-5-us-nexorcdn-com
-  - US-OR-172-trout-west-5-us-nexorcdn-com
-  - US-OR-173-trout-west-5-us-nexorcdn-com
 - name: 🔥 Tronyza
   type: select
   proxies:
+  - US-OR-172-trout-west-1-us-nexorcdn-com
+  - US-OR-173-trout-west-1-us-nexorcdn-com
   - US-OR-174-trout-west-1-us-nexorcdn-com
   - US-OR-175-trout-west-1-us-nexorcdn-com
   - US-OR-176-trout-west-1-us-nexorcdn-com
   - US-OR-177-trout-west-1-us-nexorcdn-com
   - US-OR-178-trout-west-1-us-nexorcdn-com
   - US-OR-179-trout-west-1-us-nexorcdn-com
-  - US-OR-180-trout-west-1-us-nexorcdn-com
-  - US-OR-181-trout-west-1-us-nexorcdn-com
-  - US-OR-182-trout-west-1-us-nexorcdn-com
+  - US-OR-180-trout-west-2-us-nexorcdn-com
+  - US-OR-181-trout-west-2-us-nexorcdn-com
+  - US-OR-182-trout-west-2-us-nexorcdn-com
   - US-OR-183-trout-west-2-us-nexorcdn-com
   - US-OR-184-trout-west-2-us-nexorcdn-com
   - US-OR-185-trout-west-2-us-nexorcdn-com
-  - US-OR-186-trout-west-2-us-nexorcdn-com
-  - US-OR-187-trout-west-2-us-nexorcdn-com
-  - US-OR-188-trout-west-2-us-nexorcdn-com
+  - US-OR-186-trout-west-3-us-nexorcdn-com
+  - US-OR-187-trout-west-3-us-nexorcdn-com
+  - US-OR-188-trout-west-3-us-nexorcdn-com
   - US-OR-189-trout-west-3-us-nexorcdn-com
   - US-OR-190-trout-west-3-us-nexorcdn-com
   - US-OR-191-trout-west-3-us-nexorcdn-com
@@ -1933,14 +1949,16 @@ proxy-groups:
   - US-OR-199-trout-west-4-us-nexorcdn-com
   - US-OR-200-trout-west-4-us-nexorcdn-com
   - US-OR-201-trout-west-4-us-nexorcdn-com
-  - US-OR-202-trout-west-5-us-nexorcdn-com
-  - US-OR-203-trout-west-5-us-nexorcdn-com
+  - US-OR-202-trout-west-4-us-nexorcdn-com
+  - US-OR-203-trout-west-4-us-nexorcdn-com
   - US-OR-204-trout-west-5-us-nexorcdn-com
   - US-OR-205-trout-west-5-us-nexorcdn-com
   - US-OR-206-trout-west-5-us-nexorcdn-com
   - US-OR-207-trout-west-5-us-nexorcdn-com
   - US-OR-208-trout-west-5-us-nexorcdn-com
   - US-OR-209-trout-west-5-us-nexorcdn-com
+  - US-OR-210-trout-west-5-us-nexorcdn-com
+  - US-OR-211-trout-west-5-us-nexorcdn-com
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
