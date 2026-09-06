@@ -112,6 +112,7 @@ PROVIDER_NAME_OVERRIDES = {
     "freloop.com": "Freloop",
     "hisball.com": "Hisball",
     "hibchr.com": "Hibchr",
+    "antpeak.com": "AntPeak",
 }
 
 
@@ -123,6 +124,7 @@ PROVIDER_EMOJIS = {
     "freloop.com": "🌐",
     "hisball.com": "🛰️",
     "hibchr.com": "💎",
+    "antpeak.com": "👑",
 }
 
 
@@ -139,6 +141,53 @@ DEFAULT_PROVIDER_EMOJIS = [
     "☁️",
     "🦊",
 ]
+
+
+# =============================================================================
+# MANUAL PROVIDERS
+# =============================================================================
+#
+# Providers that are NOT (yet) part of payload.json's "free" list.
+#
+# These are fetched manually, in a separate pass, AFTER all the regular
+# (payload.json-driven) providers have already been collected for a region,
+# and are then merged into the same node pool.
+#
+# antpeak.com itself exposes the same
+#     POST {domain}/api/server/list/
+# endpoint as every other provider, authenticated with the same Bearer
+# accessToken issued by the launch API, so it reuses all of the existing
+# fetch/normalize/dedupe machinery below - it's just added to the list
+# after the fact instead of through payload.json.
+#
+# =============================================================================
+
+ANTPEAK_PROVIDER_DOMAIN = "https://antpeak.com"
+
+
+def get_manual_providers() -> list[str]:
+    """
+    Providers fetched manually (not sourced from payload.json).
+    """
+
+    return [
+        ANTPEAK_PROVIDER_DOMAIN,
+    ]
+
+
+def is_priority_provider(
+    provider_domain: str,
+) -> bool:
+    """
+    Providers that should always be shown FIRST in the Clash proxy-group
+    lists (i.e. the first tab you see when opening the "proxies" screen
+    for a region in FlClash).
+    """
+
+    return (
+        get_provider_hostname(provider_domain)
+        == get_provider_hostname(ANTPEAK_PROVIDER_DOMAIN)
+    )
 
 
 # =============================================================================
@@ -808,6 +857,87 @@ def collect_provider_region(
 
 
 # =============================================================================
+# SORT (shared by the automatic pass and the manual-provider merge)
+# =============================================================================
+
+def sort_nodes(
+    nodes: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+
+    result = list(nodes)
+
+    result.sort(
+        key=lambda node: (
+            get_provider_hostname(
+                node.get(
+                    "_provider",
+                    "",
+                )
+            ),
+
+            node["server"],
+
+            node["port"],
+
+            node["username"],
+        )
+    )
+
+    return result
+
+
+def print_provider_counts(
+    region: str,
+    nodes: list[dict[str, Any]],
+) -> None:
+
+    provider_counts: dict[
+        str,
+        int,
+    ] = {}
+
+    for node in nodes:
+
+        provider = node.get(
+            "_provider",
+            "unknown",
+        )
+
+        provider_counts[
+            provider
+        ] = (
+            provider_counts.get(
+                provider,
+                0,
+            )
+            + 1
+        )
+
+    print("")
+
+    print(
+        f"[RESULT] "
+        f"{region}: "
+        f"{len(nodes)} unique nodes"
+    )
+
+    for provider, count in sorted(
+        provider_counts.items(),
+        key=lambda item: (
+            get_provider_hostname(
+                item[0]
+            )
+        ),
+    ):
+
+        print(
+            f"    "
+            f"{get_provider_name(provider):<20} "
+            f"{count:>4} nodes"
+        )
+
+
+# =============================================================================
 # COLLECT ONE REGION
 # =============================================================================
 
@@ -907,24 +1037,9 @@ def collect_region(
     # DETERMINISTIC SORT
     # =========================================================================
 
-    result = list(
-        all_unique.values()
-    )
-
-    result.sort(
-        key=lambda node: (
-            get_provider_hostname(
-                node.get(
-                    "_provider",
-                    "",
-                )
-            ),
-
-            node["server"],
-
-            node["port"],
-
-            node["username"],
+    result = sort_nodes(
+        list(
+            all_unique.values()
         )
     )
 
@@ -932,50 +1047,104 @@ def collect_region(
     # SUMMARY
     # =========================================================================
 
-    provider_counts: dict[
-        str,
-        int,
-    ] = {}
-
-    for node in result:
-
-        provider = node.get(
-            "_provider",
-            "unknown",
-        )
-
-        provider_counts[
-            provider
-        ] = (
-            provider_counts.get(
-                provider,
-                0,
-            )
-            + 1
-        )
-
-    print("")
-
-    print(
-        f"[RESULT] "
-        f"{region}: "
-        f"{len(result)} unique nodes"
+    print_provider_counts(
+        region,
+        result,
     )
 
-    for provider, count in sorted(
-        provider_counts.items(),
-        key=lambda item: (
-            get_provider_hostname(
-                item[0]
-            )
-        ),
-    ):
+    return result
 
-        print(
-            f"    "
-            f"{get_provider_name(provider):<20} "
-            f"{count:>4} nodes"
+
+# =============================================================================
+# COLLECT MANUAL PROVIDERS FOR ONE REGION
+# =============================================================================
+
+def collect_manual_providers_for_region(
+    region: str,
+    token_manager: TokenManager,
+) -> list[dict[str, Any]]:
+    """
+    Fetches providers that are not (yet) part of payload.json.
+
+    Called separately, AFTER the regular providers have already been
+    collected for the region.
+    """
+
+    manual_providers = get_manual_providers()
+
+    if not manual_providers:
+        return []
+
+    print("")
+    print(
+        f"    [MANUAL] "
+        f"Collecting manual providers for {region}..."
+    )
+
+    all_nodes: list[dict[str, Any]] = []
+
+    for provider in manual_providers:
+
+        nodes = collect_provider_region(
+            provider_domain=provider,
+            region=region,
+            token_manager=token_manager,
         )
+
+        all_nodes.extend(nodes)
+
+    return all_nodes
+
+
+def merge_manual_nodes(
+    region: str,
+    nodes: list[dict[str, Any]],
+    manual_nodes: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """
+    Merges manually-collected nodes into the already-collected node list,
+    de-duplicating on the global node key, then re-sorts and re-prints
+    the summary.
+    """
+
+    if not manual_nodes:
+        return nodes
+
+    combined: dict[
+        tuple[Any, ...],
+        dict[str, Any],
+    ] = {
+        node_key(node): node
+        for node in nodes
+    }
+
+    added = 0
+
+    for node in manual_nodes:
+
+        key = node_key(node)
+
+        if key not in combined:
+
+            combined[key] = node
+
+            added += 1
+
+    result = sort_nodes(
+        list(
+            combined.values()
+        )
+    )
+
+    print(
+        f"    [MANUAL] "
+        f"{added} new node(s) merged in for {region}."
+    )
+
+    print_provider_counts(
+        region,
+        result,
+    )
 
     return result
 
@@ -1390,6 +1559,27 @@ def build_yaml(
         )
 
     # =========================================================================
+    # PRIORITY ORDERING
+    # =========================================================================
+    #
+    # Manual/priority providers (currently: antpeak.com) are always moved
+    # to the front, so they show up as the FIRST tab whenever the region's
+    # proxy list is opened in FlClash.
+    #
+    # list.sort() is stable, so the relative order of every other provider
+    # is preserved - only the priority provider(s) get pulled to the front.
+    #
+    # =========================================================================
+
+    provider_domains.sort(
+        key=lambda domain: (
+            0
+            if is_priority_provider(domain)
+            else 1
+        )
+    )
+
+    # =========================================================================
     # PROVIDER GROUP NAMES
     # =========================================================================
 
@@ -1470,6 +1660,7 @@ def build_yaml(
     # Example:
     #
     # 🇳🇱 Amsterdam
+    #   -> 👑 AntPeak      (priority provider, always first)
     #   -> ⚡ Bitphox
     #   -> 🔥 Tronyza
     #   -> 🚀 Tronlit
@@ -1729,7 +1920,7 @@ def main() -> int:
         return 1
 
     print("")
-    print("Free providers:")
+    print("Free providers (from payload.json):")
 
     for provider in providers:
 
@@ -1738,6 +1929,21 @@ def main() -> int:
             f"{get_provider_name(provider)} "
             f"({provider})"
         )
+
+    manual_providers = get_manual_providers()
+
+    if manual_providers:
+
+        print("")
+        print("Manual providers (not in payload.json yet):")
+
+        for provider in manual_providers:
+
+            print(
+                f"  - "
+                f"{get_provider_name(provider)} "
+                f"({provider})"
+            )
 
     # =========================================================================
     # TOKEN
@@ -1811,6 +2017,39 @@ def main() -> int:
             )
 
             continue
+
+        # -----------------------------------------------------------------------
+        # MANUAL PROVIDERS
+        # -----------------------------------------------------------------------
+        #
+        # Fetched separately, AFTER the regular providers, then merged in.
+        # A failure here never wipes out the nodes already collected above.
+        #
+        # -----------------------------------------------------------------------
+
+        try:
+
+            manual_nodes = (
+                collect_manual_providers_for_region(
+                    region=region,
+                    token_manager=token_manager,
+                )
+            )
+
+            nodes = merge_manual_nodes(
+                region=region,
+                nodes=nodes,
+                manual_nodes=manual_nodes,
+            )
+
+        except Exception as exc:
+
+            print(
+                f"[WARNING] "
+                f"Manual providers failed for "
+                f"{region}: {exc}. "
+                f"Continuing with regular providers only."
+            )
 
         # Never overwrite good old data with an empty result.
         if not nodes:
