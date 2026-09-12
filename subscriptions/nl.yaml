@@ -35,7 +35,7 @@ proxies:
 - name: NL-001-hollander-3-nl-nexorcdn-com
   type: http
   server: hollander-3-nl.nexorcdn.com
-  port: 37212
+  port: 25188
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -43,7 +43,7 @@ proxies:
 - name: NL-002-hollander-3-nl-nexorcdn-com
   type: http
   server: hollander-3-nl.nexorcdn.com
-  port: 44944
+  port: 32096
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -51,20 +51,36 @@ proxies:
 - name: NL-003-hollander-3-nl-nexorcdn-com
   type: http
   server: hollander-3-nl.nexorcdn.com
+  port: 37212
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-004-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 44944
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-005-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
   port: 47755
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-004-hollander-5-nl-nexorcdn-com
+- name: NL-006-hollander-3-nl-nexorcdn-com
   type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 22149
+  server: hollander-3-nl.nexorcdn.com
+  port: 58852
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-005-hollander-5-nl-nexorcdn-com
+- name: NL-007-hollander-5-nl-nexorcdn-com
   type: http
   server: hollander-5-nl.nexorcdn.com
   port: 23918
@@ -72,34 +88,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-006-hollander-5-nl-nexorcdn-com
+- name: NL-008-hollander-5-nl-nexorcdn-com
   type: http
   server: hollander-5-nl.nexorcdn.com
-  port: 32202
+  port: 38424
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-007-hollander-6-nl-nexorcdn-com
+- name: NL-009-hollander-5-nl-nexorcdn-com
   type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 15403
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-008-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 27024
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-009-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 29887
+  server: hollander-5-nl.nexorcdn.com
+  port: 58814
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -107,15 +107,15 @@ proxies:
 - name: NL-010-hollander-6-nl-nexorcdn-com
   type: http
   server: hollander-6-nl.nexorcdn.com
-  port: 39054
+  port: 23178
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-011-hollander-8-nl-nexorcdn-com
+- name: NL-011-hollander-6-nl-nexorcdn-com
   type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 18952
+  server: hollander-6-nl.nexorcdn.com
+  port: 29887
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -123,7 +123,7 @@ proxies:
 - name: NL-012-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
-  port: 19322
+  port: 12566
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: NL-013-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
-  port: 34391
+  port: 19322
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -139,23 +139,23 @@ proxies:
 - name: NL-014-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
-  port: 36344
+  port: 32198
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-015-maasdam-1-nl-nexorcdn-com
+- name: NL-015-hollander-8-nl-nexorcdn-com
   type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 16902
+  server: hollander-8-nl.nexorcdn.com
+  port: 32776
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-016-maasdam-1-nl-nexorcdn-com
+- name: NL-016-hollander-8-nl-nexorcdn-com
   type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 16998
+  server: hollander-8-nl.nexorcdn.com
+  port: 34106
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -163,7 +163,7 @@ proxies:
 - name: NL-017-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
-  port: 21204
+  port: 11618
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -171,23 +171,23 @@ proxies:
 - name: NL-018-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
-  port: 56718
+  port: 16998
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-019-maasdam-2-nl-nexorcdn-com
+- name: NL-019-maasdam-1-nl-nexorcdn-com
   type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 21898
+  server: maasdam-1-nl.nexorcdn.com
+  port: 38965
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-020-maasdam-2-nl-nexorcdn-com
+- name: NL-020-maasdam-1-nl-nexorcdn-com
   type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 28028
+  server: maasdam-1-nl.nexorcdn.com
+  port: 56572
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -195,15 +195,15 @@ proxies:
 - name: NL-021-maasdam-2-nl-nexorcdn-com
   type: http
   server: maasdam-2-nl.nexorcdn.com
-  port: 31184
+  port: 39047
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-022-maasdam-2-nl-nexorcdn-com
+- name: NL-022-maasdam-3-nl-nexorcdn-com
   type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 50612
+  server: maasdam-3-nl.nexorcdn.com
+  port: 11638
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -219,7 +219,7 @@ proxies:
 - name: NL-024-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
-  port: 34322
+  port: 29144
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -227,7 +227,7 @@ proxies:
 - name: NL-025-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
-  port: 40762
+  port: 34322
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -235,7 +235,7 @@ proxies:
 - name: NL-026-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
-  port: 57220
+  port: 39852
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -243,7 +243,7 @@ proxies:
 - name: NL-027-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 39419
+  port: 12712
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -251,7 +251,7 @@ proxies:
 - name: NL-028-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 42194
+  port: 34904
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -259,15 +259,15 @@ proxies:
 - name: NL-029-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 50048
+  port: 50654
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-030-maasdam-4-nl-nexorcdn-com
+- name: NL-030-maasdam-5-nl-nexorcdn-com
   type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50238
+  server: maasdam-5-nl.nexorcdn.com
+  port: 11860
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -275,7 +275,7 @@ proxies:
 - name: NL-031-maasdam-5-nl-nexorcdn-com
   type: http
   server: maasdam-5-nl.nexorcdn.com
-  port: 23738
+  port: 15546
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -283,23 +283,23 @@ proxies:
 - name: NL-032-maasdam-5-nl-nexorcdn-com
   type: http
   server: maasdam-5-nl.nexorcdn.com
-  port: 53706
+  port: 37946
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-033-maasdam-6-nl-nexorcdn-com
+- name: NL-033-maasdam-5-nl-nexorcdn-com
   type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 41304
+  server: maasdam-5-nl.nexorcdn.com
+  port: 42160
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-034-maasdam-6-nl-nexorcdn-com
+- name: NL-034-maasdam-5-nl-nexorcdn-com
   type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 45786
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46094
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -307,7 +307,7 @@ proxies:
 - name: NL-035-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
-  port: 49926
+  port: 26204
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -315,7 +315,7 @@ proxies:
 - name: NL-036-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
-  port: 52802
+  port: 49926
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -323,7 +323,7 @@ proxies:
 - name: NL-037-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
-  port: 58412
+  port: 52802
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -355,7 +355,7 @@ proxies:
 - name: NL-041-maasdam-7-nl-nexorcdn-com
   type: http
   server: maasdam-7-nl.nexorcdn.com
-  port: 46580
+  port: 35320
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -363,7 +363,7 @@ proxies:
 - name: NL-042-maasdam-7-nl-nexorcdn-com
   type: http
   server: maasdam-7-nl.nexorcdn.com
-  port: 53338
+  port: 39018
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -371,7 +371,7 @@ proxies:
 - name: NL-043-maasdam-8-nl-nexorcdn-com
   type: http
   server: maasdam-8-nl.nexorcdn.com
-  port: 18686
+  port: 10040
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -379,15 +379,15 @@ proxies:
 - name: NL-044-maasdam-8-nl-nexorcdn-com
   type: http
   server: maasdam-8-nl.nexorcdn.com
-  port: 46558
+  port: 13039
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-045-maasdam-9-nl-nexorcdn-com
+- name: NL-045-maasdam-8-nl-nexorcdn-com
   type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 21006
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20790
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -395,7 +395,7 @@ proxies:
 - name: NL-046-maasdam-9-nl-nexorcdn-com
   type: http
   server: maasdam-9-nl.nexorcdn.com
-  port: 42266
+  port: 27818
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -403,31 +403,31 @@ proxies:
 - name: NL-047-maasdam-9-nl-nexorcdn-com
   type: http
   server: maasdam-9-nl.nexorcdn.com
+  port: 35700
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-048-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 42266
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-049-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 46923
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-050-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
   port: 56654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-048-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 33771
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-049-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 40261
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-050-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 44944
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -435,23 +435,23 @@ proxies:
 - name: NL-051-hollander-3-nl-nexorcdn-com
   type: http
   server: hollander-3-nl.nexorcdn.com
-  port: 58852
+  port: 31154
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-052-hollander-5-nl-nexorcdn-com
+- name: NL-052-hollander-3-nl-nexorcdn-com
   type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 22149
+  server: hollander-3-nl.nexorcdn.com
+  port: 33771
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-053-hollander-5-nl-nexorcdn-com
+- name: NL-053-hollander-3-nl-nexorcdn-com
   type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 23918
+  server: hollander-3-nl.nexorcdn.com
+  port: 37212
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -459,7 +459,7 @@ proxies:
 - name: NL-054-hollander-5-nl-nexorcdn-com
   type: http
   server: hollander-5-nl.nexorcdn.com
-  port: 27467
+  port: 14498
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -483,7 +483,7 @@ proxies:
 - name: NL-057-hollander-6-nl-nexorcdn-com
   type: http
   server: hollander-6-nl.nexorcdn.com
-  port: 15302
+  port: 15403
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -507,7 +507,7 @@ proxies:
 - name: NL-060-hollander-6-nl-nexorcdn-com
   type: http
   server: hollander-6-nl.nexorcdn.com
-  port: 39054
+  port: 29887
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -515,7 +515,7 @@ proxies:
 - name: NL-061-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
-  port: 14826
+  port: 12566
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -536,759 +536,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-064-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 16998
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-065-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 41302
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-066-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 56718
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-067-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 39047
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-068-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 39558
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-069-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 11638
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-070-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 46750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-071-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 13346
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-072-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 37273
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-073-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 39419
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-074-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50238
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-075-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 15546
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-076-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 23738
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-077-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 34811
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-078-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 37946
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-079-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 42160
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-080-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46070
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-081-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46094
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-082-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 26204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-083-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 45786
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-084-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 52802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-085-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 39018
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-086-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 44169
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-087-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 13039
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-088-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20790
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-089-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 26208
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-090-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 29316
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-091-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 26440
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-092-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 27818
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-093-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 46923
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-094-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 47360
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-095-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 25188
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-096-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 40261
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-097-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 54906
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-098-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 58852
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-099-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 14498
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-100-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 23918
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-101-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 58814
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-102-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 23178
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-103-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 37654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-104-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 39054
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-105-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32198
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-106-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 21204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-107-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 41644
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-108-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 56572
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-109-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 28028
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-110-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 29400
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-111-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 31184
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-112-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 34398
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-113-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 39047
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-114-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 43530
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-115-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 11638
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-116-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 29144
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-117-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 36566
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-118-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 37273
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-119-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 39801
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-120-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-121-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 11860
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-122-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 37946
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-123-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46070
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-124-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46094
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-125-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 49552
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-126-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 53706
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-127-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 12354
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-128-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 14227
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-129-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 26204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-130-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 49926
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-131-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 52802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-132-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 26190
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-133-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 35320
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-134-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 39126
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-135-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 13039
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-136-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20308
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-137-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20790
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-138-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20969
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-139-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 27818
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-140-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 38812
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-141-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 42266
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-142-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 46923
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-143-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 31154
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-144-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 33771
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-145-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 47755
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-146-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 54906
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-147-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 14498
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-148-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 32202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-149-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38292
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-150-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38424
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-151-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 15302
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-152-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 23178
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-153-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 24468
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-154-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 37654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-155-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 14826
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-156-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 18952
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-157-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32198
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-158-hollander-8-nl-nexorcdn-com
+- name: NL-064-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
   port: 32776
@@ -1296,815 +544,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-159-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 11618
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-160-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 16902
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-161-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 21204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-162-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 41302
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-163-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 41644
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-164-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 56718
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-165-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 59746
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-166-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 21898
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-167-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 31184
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-168-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 39047
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-169-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 28290
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-170-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 39852
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-171-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 40762
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-172-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 12712
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-173-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 37273
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-174-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 39419
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-175-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50238
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-176-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-177-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 42160
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-178-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46070
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-179-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46094
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-180-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 53706
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-181-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 12354
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-182-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 26204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-183-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 41304
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-184-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 35320
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-185-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 44169
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-186-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 46580
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-187-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20308
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-188-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20790
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-189-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 46558
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-190-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 21006
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-191-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 26440
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-192-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 35700
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-193-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 46923
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-194-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 25188
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-195-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 32096
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-196-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 33771
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-197-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 47755
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-198-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 22149
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-199-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 32202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-200-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38292
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-201-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38424
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-202-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 15302
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-203-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 18336
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-204-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 20172
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-205-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 24468
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-206-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 37654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-207-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 19322
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-208-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32776
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-209-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 16998
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-210-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 38965
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-211-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 41644
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-212-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 59746
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-213-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 28028
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-214-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 29400
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-215-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 31184
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-216-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 34398
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-217-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 50612
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-218-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 11638
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-219-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 28290
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-220-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 34322
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-221-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 40762
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-222-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 46750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-223-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 57220
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-224-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 34904
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-225-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50238
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-226-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-227-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 11860
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-228-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46070
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-229-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 12354
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-230-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 49260
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-231-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 26190
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-232-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 28610
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-233-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 34662
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-234-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 35320
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-235-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 39126
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-236-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 10040
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-237-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 13039
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-238-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 18686
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-239-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20790
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-240-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20969
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-241-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 26208
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-242-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 29316
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-243-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 27818
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-244-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 56654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-245-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 31154
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-246-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 33771
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-247-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 47755
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-248-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 54906
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-249-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 58852
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-250-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 14498
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-251-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 22149
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-252-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 23918
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-253-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 31762
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-254-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 32202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-255-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38424
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-256-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 18336
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-257-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 14826
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-258-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 19322
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-259-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32198
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-260-hollander-8-nl-nexorcdn-com
+- name: NL-065-hollander-8-nl-nexorcdn-com
   type: http
   server: hollander-8-nl.nexorcdn.com
   port: 34106
@@ -2112,367 +552,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-261-maasdam-1-nl-nexorcdn-com
+- name: NL-066-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
-  port: 59746
+  port: 16998
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-262-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 21898
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-263-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 31184
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-264-maasdam-2-nl-nexorcdn-com
-  type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 34556
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-265-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 11638
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-266-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 28290
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-267-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 34322
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-268-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 46750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-269-maasdam-3-nl-nexorcdn-com
-  type: http
-  server: maasdam-3-nl.nexorcdn.com
-  port: 57220
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-270-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 12712
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-271-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 13346
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-272-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 37273
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-273-maasdam-4-nl-nexorcdn-com
-  type: http
-  server: maasdam-4-nl.nexorcdn.com
-  port: 50238
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-274-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 23738
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-275-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46094
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-276-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 26204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-277-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 45786
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-278-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 58412
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-279-maasdam-6-nl-nexorcdn-com
-  type: http
-  server: maasdam-6-nl.nexorcdn.com
-  port: 59144
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-280-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 26190
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-281-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 53338
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-282-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 10040
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-283-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20308
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-284-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20790
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-285-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 20969
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-286-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 29316
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-287-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 26440
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-288-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 27818
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-289-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 35700
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-290-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 38812
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-291-maasdam-9-nl-nexorcdn-com
-  type: http
-  server: maasdam-9-nl.nexorcdn.com
-  port: 56654
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-292-hollander-3-nl-nexorcdn-com
-  type: http
-  server: hollander-3-nl.nexorcdn.com
-  port: 47755
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-293-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 22149
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-294-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 31762
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-295-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 32202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-296-hollander-5-nl-nexorcdn-com
-  type: http
-  server: hollander-5-nl.nexorcdn.com
-  port: 38424
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-297-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 20172
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-298-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 23178
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-299-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 24468
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-300-hollander-6-nl-nexorcdn-com
-  type: http
-  server: hollander-6-nl.nexorcdn.com
-  port: 39054
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-301-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32198
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-302-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 32776
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-303-hollander-8-nl-nexorcdn-com
-  type: http
-  server: hollander-8-nl.nexorcdn.com
-  port: 36344
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-304-maasdam-1-nl-nexorcdn-com
+- name: NL-067-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
-  port: 11618
+  port: 38965
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-305-maasdam-1-nl-nexorcdn-com
-  type: http
-  server: maasdam-1-nl.nexorcdn.com
-  port: 21204
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-306-maasdam-1-nl-nexorcdn-com
+- name: NL-068-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
   port: 41644
@@ -2480,23 +576,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-307-maasdam-1-nl-nexorcdn-com
+- name: NL-069-maasdam-1-nl-nexorcdn-com
   type: http
   server: maasdam-1-nl.nexorcdn.com
-  port: 56718
+  port: 56572
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-308-maasdam-2-nl-nexorcdn-com
+- name: NL-070-maasdam-1-nl-nexorcdn-com
   type: http
-  server: maasdam-2-nl.nexorcdn.com
-  port: 28028
+  server: maasdam-1-nl.nexorcdn.com
+  port: 59746
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-309-maasdam-2-nl-nexorcdn-com
+- name: NL-071-maasdam-2-nl-nexorcdn-com
   type: http
   server: maasdam-2-nl.nexorcdn.com
   port: 29400
@@ -2504,15 +600,31 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-310-maasdam-2-nl-nexorcdn-com
+- name: NL-072-maasdam-2-nl-nexorcdn-com
   type: http
   server: maasdam-2-nl.nexorcdn.com
-  port: 34556
+  port: 31184
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-311-maasdam-2-nl-nexorcdn-com
+- name: NL-073-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34398
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-074-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 43530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-075-maasdam-2-nl-nexorcdn-com
   type: http
   server: maasdam-2-nl.nexorcdn.com
   port: 50612
@@ -2520,23 +632,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-312-maasdam-3-nl-nexorcdn-com
+- name: NL-076-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
-  port: 11638
+  port: 28290
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-313-maasdam-3-nl-nexorcdn-com
+- name: NL-077-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
-  port: 40762
+  port: 36566
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-314-maasdam-3-nl-nexorcdn-com
+- name: NL-078-maasdam-3-nl-nexorcdn-com
   type: http
   server: maasdam-3-nl.nexorcdn.com
   port: 46750
@@ -2544,31 +656,31 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-315-maasdam-4-nl-nexorcdn-com
+- name: NL-079-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 12712
+  port: 13346
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-316-maasdam-4-nl-nexorcdn-com
+- name: NL-080-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 37273
+  port: 34904
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-317-maasdam-4-nl-nexorcdn-com
+- name: NL-081-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
-  port: 42194
+  port: 39419
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-318-maasdam-4-nl-nexorcdn-com
+- name: NL-082-maasdam-4-nl-nexorcdn-com
   type: http
   server: maasdam-4-nl.nexorcdn.com
   port: 50238
@@ -2576,39 +688,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-319-maasdam-5-nl-nexorcdn-com
+- name: NL-083-maasdam-4-nl-nexorcdn-com
   type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 15546
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50654
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-320-maasdam-5-nl-nexorcdn-com
+- name: NL-084-maasdam-5-nl-nexorcdn-com
   type: http
   server: maasdam-5-nl.nexorcdn.com
-  port: 42160
+  port: 49552
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-321-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46070
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-322-maasdam-5-nl-nexorcdn-com
-  type: http
-  server: maasdam-5-nl.nexorcdn.com
-  port: 46094
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-323-maasdam-5-nl-nexorcdn-com
+- name: NL-085-maasdam-5-nl-nexorcdn-com
   type: http
   server: maasdam-5-nl.nexorcdn.com
   port: 53706
@@ -2616,7 +712,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-324-maasdam-6-nl-nexorcdn-com
+- name: NL-086-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 14227
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-087-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
   port: 26204
@@ -2624,15 +728,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-325-maasdam-6-nl-nexorcdn-com
+- name: NL-088-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
-  port: 49260
+  port: 41304
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-326-maasdam-6-nl-nexorcdn-com
+- name: NL-089-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49926
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-090-maasdam-6-nl-nexorcdn-com
   type: http
   server: maasdam-6-nl.nexorcdn.com
   port: 59144
@@ -2640,15 +752,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-327-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 10824
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-328-maasdam-7-nl-nexorcdn-com
+- name: NL-091-maasdam-7-nl-nexorcdn-com
   type: http
   server: maasdam-7-nl.nexorcdn.com
   port: 28610
@@ -2656,7 +760,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-329-maasdam-7-nl-nexorcdn-com
+- name: NL-092-maasdam-7-nl-nexorcdn-com
   type: http
   server: maasdam-7-nl.nexorcdn.com
   port: 34662
@@ -2664,39 +768,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-330-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 39018
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-331-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 46580
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-332-maasdam-7-nl-nexorcdn-com
-  type: http
-  server: maasdam-7-nl.nexorcdn.com
-  port: 53338
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-333-maasdam-8-nl-nexorcdn-com
-  type: http
-  server: maasdam-8-nl.nexorcdn.com
-  port: 10040
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: NL-334-maasdam-8-nl-nexorcdn-com
+- name: NL-093-maasdam-8-nl-nexorcdn-com
   type: http
   server: maasdam-8-nl.nexorcdn.com
   port: 13039
@@ -2704,15 +776,39 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-335-maasdam-8-nl-nexorcdn-com
+- name: NL-094-maasdam-8-nl-nexorcdn-com
   type: http
   server: maasdam-8-nl.nexorcdn.com
-  port: 20969
+  port: 18686
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-336-maasdam-8-nl-nexorcdn-com
+- name: NL-095-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20308
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-096-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20790
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-097-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 29316
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-098-maasdam-8-nl-nexorcdn-com
   type: http
   server: maasdam-8-nl.nexorcdn.com
   port: 33446
@@ -2720,7 +816,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-337-maasdam-9-nl-nexorcdn-com
+- name: NL-099-maasdam-9-nl-nexorcdn-com
   type: http
   server: maasdam-9-nl.nexorcdn.com
   port: 26440
@@ -2728,7 +824,1567 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: NL-338-maasdam-9-nl-nexorcdn-com
+- name: NL-100-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 35700
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-101-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 47360
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-102-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 32096
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-103-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 37212
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-104-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 58852
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-105-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 23918
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-106-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 27467
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-107-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 32202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-108-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 15302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-109-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 18336
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-110-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 23178
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-111-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 24468
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-112-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 12566
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-113-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 36344
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-114-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 16998
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-115-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 21204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-116-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 41302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-117-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 56718
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-118-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 59746
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-119-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34398
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-120-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34556
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-121-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 39047
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-122-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 39558
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-123-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 15084
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-124-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 28290
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-125-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 29144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-126-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 46750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-127-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 42194
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-128-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50238
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-129-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-130-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 11860
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-131-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 34811
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-132-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46094
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-133-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 53706
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-134-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 26204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-135-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 41304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-136-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 52802
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-137-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 59144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-138-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 35320
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-139-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 39126
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-140-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 46580
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-141-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 10040
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-142-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20308
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-143-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 26208
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-144-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 46558
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-145-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 28066
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-146-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 38812
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-147-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 42266
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-148-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 46923
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-149-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 56654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-150-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 25188
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-151-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 37212
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-152-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 40261
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-153-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 22149
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-154-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 23918
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-155-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 38292
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-156-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 38424
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-157-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 42948
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-158-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 15302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-159-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 18336
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-160-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 24468
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-161-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 29887
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-162-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 37654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-163-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 12566
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-164-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 14826
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-165-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 32776
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-166-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 16998
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-167-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 41302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-168-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 29400
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-169-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 31184
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-170-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34398
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-171-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34556
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-172-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 39047
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-173-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 39558
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-174-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 11638
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-175-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 40762
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-176-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 46750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-177-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 57220
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-178-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 42194
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-179-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50238
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-180-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 15546
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-181-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 23738
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-182-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 34811
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-183-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46070
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-184-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 49552
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-185-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 26204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-186-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 41304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-187-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49260
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-188-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49926
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-189-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 52802
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-190-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 28610
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-191-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 44169
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-192-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 53338
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-193-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20308
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-194-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20790
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-195-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20969
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-196-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 26208
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-197-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 29316
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-198-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 46558
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-199-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 26440
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-200-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 47360
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-201-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 25188
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-202-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 32096
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-203-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 33771
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-204-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 37212
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-205-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 40261
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-206-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 14498
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-207-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 27467
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-208-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 32202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-209-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 42948
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-210-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 58814
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-211-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 18336
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-212-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 23178
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-213-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 24468
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-214-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 39054
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-215-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 15590
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-216-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 16902
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-217-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 21204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-218-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 41302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-219-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 21898
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-220-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 29400
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-221-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 31184
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-222-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 43530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-223-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 11638
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-224-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 46750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-225-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50048
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-226-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50238
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-227-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 23738
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-228-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 37946
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-229-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46094
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-230-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 49552
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-231-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 12354
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-232-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 41304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-233-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 45786
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-234-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 52802
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-235-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 58412
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-236-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 10824
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-237-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 34662
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-238-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 39018
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-239-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 44169
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-240-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 46580
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-241-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20790
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-242-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20969
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-243-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 29316
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-244-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 33446
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-245-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 28066
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-246-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 35700
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-247-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 38812
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-248-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 46923
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-249-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 47360
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-250-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 31154
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-251-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 32096
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-252-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 40261
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-253-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 44944
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-254-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 47755
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-255-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 27467
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-256-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 32202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-257-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 38292
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-258-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 20172
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-259-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 37654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-260-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 12566
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-261-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 32198
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-262-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 34106
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-263-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 34391
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-264-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 36344
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-265-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 11618
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-266-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 41302
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-267-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 56572
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-268-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 56718
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-269-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 28028
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-270-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34398
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-271-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 39558
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-272-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 50612
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-273-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 29144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-274-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 34322
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-275-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 40762
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-276-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 57220
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-277-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 34904
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-278-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 39419
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-279-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 39801
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-280-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 42194
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-281-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50048
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-282-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50238
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-283-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-284-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 37946
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-285-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46094
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-286-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 26204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-287-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 41304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-288-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49260
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-289-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 35320
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-290-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 46580
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-291-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 10040
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-292-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 18686
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-293-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20308
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-294-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 21006
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-295-maasdam-9-nl-nexorcdn-com
   type: http
   server: maasdam-9-nl.nexorcdn.com
   port: 27818
@@ -2736,7 +2392,383 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: NL-296-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 28066
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-297-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 38812
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-298-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 25188
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-299-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 40261
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-300-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 44944
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-301-hollander-3-nl-nexorcdn-com
+  type: http
+  server: hollander-3-nl.nexorcdn.com
+  port: 54906
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-302-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 14498
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-303-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 31762
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-304-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 38424
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-305-hollander-5-nl-nexorcdn-com
+  type: http
+  server: hollander-5-nl.nexorcdn.com
+  port: 58814
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-306-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 18336
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-307-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 27024
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-308-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 29887
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-309-hollander-6-nl-nexorcdn-com
+  type: http
+  server: hollander-6-nl.nexorcdn.com
+  port: 37654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-310-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 12566
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-311-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 15590
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-312-hollander-8-nl-nexorcdn-com
+  type: http
+  server: hollander-8-nl.nexorcdn.com
+  port: 32776
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-313-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 11618
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-314-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 16998
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-315-maasdam-1-nl-nexorcdn-com
+  type: http
+  server: maasdam-1-nl.nexorcdn.com
+  port: 38965
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-316-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34398
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-317-maasdam-2-nl-nexorcdn-com
+  type: http
+  server: maasdam-2-nl.nexorcdn.com
+  port: 34556
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-318-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 34322
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-319-maasdam-3-nl-nexorcdn-com
+  type: http
+  server: maasdam-3-nl.nexorcdn.com
+  port: 39852
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-320-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 12712
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-321-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 13346
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-322-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 39801
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-323-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 42194
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-324-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50048
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-325-maasdam-4-nl-nexorcdn-com
+  type: http
+  server: maasdam-4-nl.nexorcdn.com
+  port: 50654
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-326-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 37946
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-327-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 42160
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-328-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 46070
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-329-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 49552
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-330-maasdam-5-nl-nexorcdn-com
+  type: http
+  server: maasdam-5-nl.nexorcdn.com
+  port: 53706
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-331-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 26204
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-332-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49260
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-333-maasdam-6-nl-nexorcdn-com
+  type: http
+  server: maasdam-6-nl.nexorcdn.com
+  port: 49926
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-334-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 10824
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-335-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 39018
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-336-maasdam-7-nl-nexorcdn-com
+  type: http
+  server: maasdam-7-nl.nexorcdn.com
+  port: 44169
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-337-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 18686
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-338-maasdam-8-nl-nexorcdn-com
+  type: http
+  server: maasdam-8-nl.nexorcdn.com
+  port: 20308
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: NL-339-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 21006
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-340-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 27818
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-341-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 35700
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-342-maasdam-9-nl-nexorcdn-com
+  type: http
+  server: maasdam-9-nl.nexorcdn.com
+  port: 42266
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: NL-343-maasdam-9-nl-nexorcdn-com
   type: http
   server: maasdam-9-nl.nexorcdn.com
   port: 56654
@@ -2761,25 +2793,25 @@ proxy-groups:
   - NL-001-hollander-3-nl-nexorcdn-com
   - NL-002-hollander-3-nl-nexorcdn-com
   - NL-003-hollander-3-nl-nexorcdn-com
-  - NL-004-hollander-5-nl-nexorcdn-com
-  - NL-005-hollander-5-nl-nexorcdn-com
-  - NL-006-hollander-5-nl-nexorcdn-com
-  - NL-007-hollander-6-nl-nexorcdn-com
-  - NL-008-hollander-6-nl-nexorcdn-com
-  - NL-009-hollander-6-nl-nexorcdn-com
+  - NL-004-hollander-3-nl-nexorcdn-com
+  - NL-005-hollander-3-nl-nexorcdn-com
+  - NL-006-hollander-3-nl-nexorcdn-com
+  - NL-007-hollander-5-nl-nexorcdn-com
+  - NL-008-hollander-5-nl-nexorcdn-com
+  - NL-009-hollander-5-nl-nexorcdn-com
   - NL-010-hollander-6-nl-nexorcdn-com
-  - NL-011-hollander-8-nl-nexorcdn-com
+  - NL-011-hollander-6-nl-nexorcdn-com
   - NL-012-hollander-8-nl-nexorcdn-com
   - NL-013-hollander-8-nl-nexorcdn-com
   - NL-014-hollander-8-nl-nexorcdn-com
-  - NL-015-maasdam-1-nl-nexorcdn-com
-  - NL-016-maasdam-1-nl-nexorcdn-com
+  - NL-015-hollander-8-nl-nexorcdn-com
+  - NL-016-hollander-8-nl-nexorcdn-com
   - NL-017-maasdam-1-nl-nexorcdn-com
   - NL-018-maasdam-1-nl-nexorcdn-com
-  - NL-019-maasdam-2-nl-nexorcdn-com
-  - NL-020-maasdam-2-nl-nexorcdn-com
+  - NL-019-maasdam-1-nl-nexorcdn-com
+  - NL-020-maasdam-1-nl-nexorcdn-com
   - NL-021-maasdam-2-nl-nexorcdn-com
-  - NL-022-maasdam-2-nl-nexorcdn-com
+  - NL-022-maasdam-3-nl-nexorcdn-com
   - NL-023-maasdam-3-nl-nexorcdn-com
   - NL-024-maasdam-3-nl-nexorcdn-com
   - NL-025-maasdam-3-nl-nexorcdn-com
@@ -2787,11 +2819,11 @@ proxy-groups:
   - NL-027-maasdam-4-nl-nexorcdn-com
   - NL-028-maasdam-4-nl-nexorcdn-com
   - NL-029-maasdam-4-nl-nexorcdn-com
-  - NL-030-maasdam-4-nl-nexorcdn-com
+  - NL-030-maasdam-5-nl-nexorcdn-com
   - NL-031-maasdam-5-nl-nexorcdn-com
   - NL-032-maasdam-5-nl-nexorcdn-com
-  - NL-033-maasdam-6-nl-nexorcdn-com
-  - NL-034-maasdam-6-nl-nexorcdn-com
+  - NL-033-maasdam-5-nl-nexorcdn-com
+  - NL-034-maasdam-5-nl-nexorcdn-com
   - NL-035-maasdam-6-nl-nexorcdn-com
   - NL-036-maasdam-6-nl-nexorcdn-com
   - NL-037-maasdam-6-nl-nexorcdn-com
@@ -2802,18 +2834,18 @@ proxy-groups:
   - NL-042-maasdam-7-nl-nexorcdn-com
   - NL-043-maasdam-8-nl-nexorcdn-com
   - NL-044-maasdam-8-nl-nexorcdn-com
-  - NL-045-maasdam-9-nl-nexorcdn-com
+  - NL-045-maasdam-8-nl-nexorcdn-com
   - NL-046-maasdam-9-nl-nexorcdn-com
   - NL-047-maasdam-9-nl-nexorcdn-com
+  - NL-048-maasdam-9-nl-nexorcdn-com
+  - NL-049-maasdam-9-nl-nexorcdn-com
+  - NL-050-maasdam-9-nl-nexorcdn-com
 - name: ⚡ Bitphox
   type: select
   proxies:
-  - NL-048-hollander-3-nl-nexorcdn-com
-  - NL-049-hollander-3-nl-nexorcdn-com
-  - NL-050-hollander-3-nl-nexorcdn-com
   - NL-051-hollander-3-nl-nexorcdn-com
-  - NL-052-hollander-5-nl-nexorcdn-com
-  - NL-053-hollander-5-nl-nexorcdn-com
+  - NL-052-hollander-3-nl-nexorcdn-com
+  - NL-053-hollander-3-nl-nexorcdn-com
   - NL-054-hollander-5-nl-nexorcdn-com
   - NL-055-hollander-5-nl-nexorcdn-com
   - NL-056-hollander-5-nl-nexorcdn-com
@@ -2824,297 +2856,301 @@ proxy-groups:
   - NL-061-hollander-8-nl-nexorcdn-com
   - NL-062-hollander-8-nl-nexorcdn-com
   - NL-063-hollander-8-nl-nexorcdn-com
-  - NL-064-maasdam-1-nl-nexorcdn-com
-  - NL-065-maasdam-1-nl-nexorcdn-com
+  - NL-064-hollander-8-nl-nexorcdn-com
+  - NL-065-hollander-8-nl-nexorcdn-com
   - NL-066-maasdam-1-nl-nexorcdn-com
-  - NL-067-maasdam-2-nl-nexorcdn-com
-  - NL-068-maasdam-2-nl-nexorcdn-com
-  - NL-069-maasdam-3-nl-nexorcdn-com
-  - NL-070-maasdam-3-nl-nexorcdn-com
-  - NL-071-maasdam-4-nl-nexorcdn-com
-  - NL-072-maasdam-4-nl-nexorcdn-com
-  - NL-073-maasdam-4-nl-nexorcdn-com
-  - NL-074-maasdam-4-nl-nexorcdn-com
-  - NL-075-maasdam-5-nl-nexorcdn-com
-  - NL-076-maasdam-5-nl-nexorcdn-com
-  - NL-077-maasdam-5-nl-nexorcdn-com
-  - NL-078-maasdam-5-nl-nexorcdn-com
-  - NL-079-maasdam-5-nl-nexorcdn-com
-  - NL-080-maasdam-5-nl-nexorcdn-com
-  - NL-081-maasdam-5-nl-nexorcdn-com
-  - NL-082-maasdam-6-nl-nexorcdn-com
-  - NL-083-maasdam-6-nl-nexorcdn-com
-  - NL-084-maasdam-6-nl-nexorcdn-com
-  - NL-085-maasdam-7-nl-nexorcdn-com
-  - NL-086-maasdam-7-nl-nexorcdn-com
-  - NL-087-maasdam-8-nl-nexorcdn-com
-  - NL-088-maasdam-8-nl-nexorcdn-com
-  - NL-089-maasdam-8-nl-nexorcdn-com
-  - NL-090-maasdam-8-nl-nexorcdn-com
-  - NL-091-maasdam-9-nl-nexorcdn-com
-  - NL-092-maasdam-9-nl-nexorcdn-com
-  - NL-093-maasdam-9-nl-nexorcdn-com
-  - NL-094-maasdam-9-nl-nexorcdn-com
+  - NL-067-maasdam-1-nl-nexorcdn-com
+  - NL-068-maasdam-1-nl-nexorcdn-com
+  - NL-069-maasdam-1-nl-nexorcdn-com
+  - NL-070-maasdam-1-nl-nexorcdn-com
+  - NL-071-maasdam-2-nl-nexorcdn-com
+  - NL-072-maasdam-2-nl-nexorcdn-com
+  - NL-073-maasdam-2-nl-nexorcdn-com
+  - NL-074-maasdam-2-nl-nexorcdn-com
+  - NL-075-maasdam-2-nl-nexorcdn-com
+  - NL-076-maasdam-3-nl-nexorcdn-com
+  - NL-077-maasdam-3-nl-nexorcdn-com
+  - NL-078-maasdam-3-nl-nexorcdn-com
+  - NL-079-maasdam-4-nl-nexorcdn-com
+  - NL-080-maasdam-4-nl-nexorcdn-com
+  - NL-081-maasdam-4-nl-nexorcdn-com
+  - NL-082-maasdam-4-nl-nexorcdn-com
+  - NL-083-maasdam-4-nl-nexorcdn-com
+  - NL-084-maasdam-5-nl-nexorcdn-com
+  - NL-085-maasdam-5-nl-nexorcdn-com
+  - NL-086-maasdam-6-nl-nexorcdn-com
+  - NL-087-maasdam-6-nl-nexorcdn-com
+  - NL-088-maasdam-6-nl-nexorcdn-com
+  - NL-089-maasdam-6-nl-nexorcdn-com
+  - NL-090-maasdam-6-nl-nexorcdn-com
+  - NL-091-maasdam-7-nl-nexorcdn-com
+  - NL-092-maasdam-7-nl-nexorcdn-com
+  - NL-093-maasdam-8-nl-nexorcdn-com
+  - NL-094-maasdam-8-nl-nexorcdn-com
+  - NL-095-maasdam-8-nl-nexorcdn-com
+  - NL-096-maasdam-8-nl-nexorcdn-com
+  - NL-097-maasdam-8-nl-nexorcdn-com
+  - NL-098-maasdam-8-nl-nexorcdn-com
+  - NL-099-maasdam-9-nl-nexorcdn-com
+  - NL-100-maasdam-9-nl-nexorcdn-com
+  - NL-101-maasdam-9-nl-nexorcdn-com
 - name: 🌐 Freloop
   type: select
   proxies:
-  - NL-095-hollander-3-nl-nexorcdn-com
-  - NL-096-hollander-3-nl-nexorcdn-com
-  - NL-097-hollander-3-nl-nexorcdn-com
-  - NL-098-hollander-3-nl-nexorcdn-com
-  - NL-099-hollander-5-nl-nexorcdn-com
-  - NL-100-hollander-5-nl-nexorcdn-com
-  - NL-101-hollander-5-nl-nexorcdn-com
-  - NL-102-hollander-6-nl-nexorcdn-com
-  - NL-103-hollander-6-nl-nexorcdn-com
-  - NL-104-hollander-6-nl-nexorcdn-com
-  - NL-105-hollander-8-nl-nexorcdn-com
-  - NL-106-maasdam-1-nl-nexorcdn-com
-  - NL-107-maasdam-1-nl-nexorcdn-com
-  - NL-108-maasdam-1-nl-nexorcdn-com
-  - NL-109-maasdam-2-nl-nexorcdn-com
-  - NL-110-maasdam-2-nl-nexorcdn-com
-  - NL-111-maasdam-2-nl-nexorcdn-com
-  - NL-112-maasdam-2-nl-nexorcdn-com
-  - NL-113-maasdam-2-nl-nexorcdn-com
-  - NL-114-maasdam-2-nl-nexorcdn-com
-  - NL-115-maasdam-3-nl-nexorcdn-com
-  - NL-116-maasdam-3-nl-nexorcdn-com
-  - NL-117-maasdam-3-nl-nexorcdn-com
-  - NL-118-maasdam-4-nl-nexorcdn-com
-  - NL-119-maasdam-4-nl-nexorcdn-com
-  - NL-120-maasdam-4-nl-nexorcdn-com
-  - NL-121-maasdam-5-nl-nexorcdn-com
-  - NL-122-maasdam-5-nl-nexorcdn-com
-  - NL-123-maasdam-5-nl-nexorcdn-com
-  - NL-124-maasdam-5-nl-nexorcdn-com
-  - NL-125-maasdam-5-nl-nexorcdn-com
-  - NL-126-maasdam-5-nl-nexorcdn-com
-  - NL-127-maasdam-6-nl-nexorcdn-com
-  - NL-128-maasdam-6-nl-nexorcdn-com
-  - NL-129-maasdam-6-nl-nexorcdn-com
-  - NL-130-maasdam-6-nl-nexorcdn-com
-  - NL-131-maasdam-6-nl-nexorcdn-com
-  - NL-132-maasdam-7-nl-nexorcdn-com
-  - NL-133-maasdam-7-nl-nexorcdn-com
-  - NL-134-maasdam-7-nl-nexorcdn-com
-  - NL-135-maasdam-8-nl-nexorcdn-com
-  - NL-136-maasdam-8-nl-nexorcdn-com
-  - NL-137-maasdam-8-nl-nexorcdn-com
-  - NL-138-maasdam-8-nl-nexorcdn-com
-  - NL-139-maasdam-9-nl-nexorcdn-com
-  - NL-140-maasdam-9-nl-nexorcdn-com
-  - NL-141-maasdam-9-nl-nexorcdn-com
-  - NL-142-maasdam-9-nl-nexorcdn-com
+  - NL-102-hollander-3-nl-nexorcdn-com
+  - NL-103-hollander-3-nl-nexorcdn-com
+  - NL-104-hollander-3-nl-nexorcdn-com
+  - NL-105-hollander-5-nl-nexorcdn-com
+  - NL-106-hollander-5-nl-nexorcdn-com
+  - NL-107-hollander-5-nl-nexorcdn-com
+  - NL-108-hollander-6-nl-nexorcdn-com
+  - NL-109-hollander-6-nl-nexorcdn-com
+  - NL-110-hollander-6-nl-nexorcdn-com
+  - NL-111-hollander-6-nl-nexorcdn-com
+  - NL-112-hollander-8-nl-nexorcdn-com
+  - NL-113-hollander-8-nl-nexorcdn-com
+  - NL-114-maasdam-1-nl-nexorcdn-com
+  - NL-115-maasdam-1-nl-nexorcdn-com
+  - NL-116-maasdam-1-nl-nexorcdn-com
+  - NL-117-maasdam-1-nl-nexorcdn-com
+  - NL-118-maasdam-1-nl-nexorcdn-com
+  - NL-119-maasdam-2-nl-nexorcdn-com
+  - NL-120-maasdam-2-nl-nexorcdn-com
+  - NL-121-maasdam-2-nl-nexorcdn-com
+  - NL-122-maasdam-2-nl-nexorcdn-com
+  - NL-123-maasdam-3-nl-nexorcdn-com
+  - NL-124-maasdam-3-nl-nexorcdn-com
+  - NL-125-maasdam-3-nl-nexorcdn-com
+  - NL-126-maasdam-3-nl-nexorcdn-com
+  - NL-127-maasdam-4-nl-nexorcdn-com
+  - NL-128-maasdam-4-nl-nexorcdn-com
+  - NL-129-maasdam-4-nl-nexorcdn-com
+  - NL-130-maasdam-5-nl-nexorcdn-com
+  - NL-131-maasdam-5-nl-nexorcdn-com
+  - NL-132-maasdam-5-nl-nexorcdn-com
+  - NL-133-maasdam-5-nl-nexorcdn-com
+  - NL-134-maasdam-6-nl-nexorcdn-com
+  - NL-135-maasdam-6-nl-nexorcdn-com
+  - NL-136-maasdam-6-nl-nexorcdn-com
+  - NL-137-maasdam-6-nl-nexorcdn-com
+  - NL-138-maasdam-7-nl-nexorcdn-com
+  - NL-139-maasdam-7-nl-nexorcdn-com
+  - NL-140-maasdam-7-nl-nexorcdn-com
+  - NL-141-maasdam-8-nl-nexorcdn-com
+  - NL-142-maasdam-8-nl-nexorcdn-com
+  - NL-143-maasdam-8-nl-nexorcdn-com
+  - NL-144-maasdam-8-nl-nexorcdn-com
+  - NL-145-maasdam-9-nl-nexorcdn-com
+  - NL-146-maasdam-9-nl-nexorcdn-com
+  - NL-147-maasdam-9-nl-nexorcdn-com
+  - NL-148-maasdam-9-nl-nexorcdn-com
+  - NL-149-maasdam-9-nl-nexorcdn-com
 - name: 💎 Hibchr
   type: select
   proxies:
-  - NL-143-hollander-3-nl-nexorcdn-com
-  - NL-144-hollander-3-nl-nexorcdn-com
-  - NL-145-hollander-3-nl-nexorcdn-com
-  - NL-146-hollander-3-nl-nexorcdn-com
-  - NL-147-hollander-5-nl-nexorcdn-com
-  - NL-148-hollander-5-nl-nexorcdn-com
-  - NL-149-hollander-5-nl-nexorcdn-com
-  - NL-150-hollander-5-nl-nexorcdn-com
-  - NL-151-hollander-6-nl-nexorcdn-com
-  - NL-152-hollander-6-nl-nexorcdn-com
-  - NL-153-hollander-6-nl-nexorcdn-com
-  - NL-154-hollander-6-nl-nexorcdn-com
-  - NL-155-hollander-8-nl-nexorcdn-com
-  - NL-156-hollander-8-nl-nexorcdn-com
-  - NL-157-hollander-8-nl-nexorcdn-com
-  - NL-158-hollander-8-nl-nexorcdn-com
-  - NL-159-maasdam-1-nl-nexorcdn-com
-  - NL-160-maasdam-1-nl-nexorcdn-com
-  - NL-161-maasdam-1-nl-nexorcdn-com
-  - NL-162-maasdam-1-nl-nexorcdn-com
-  - NL-163-maasdam-1-nl-nexorcdn-com
-  - NL-164-maasdam-1-nl-nexorcdn-com
-  - NL-165-maasdam-1-nl-nexorcdn-com
-  - NL-166-maasdam-2-nl-nexorcdn-com
-  - NL-167-maasdam-2-nl-nexorcdn-com
+  - NL-150-hollander-3-nl-nexorcdn-com
+  - NL-151-hollander-3-nl-nexorcdn-com
+  - NL-152-hollander-3-nl-nexorcdn-com
+  - NL-153-hollander-5-nl-nexorcdn-com
+  - NL-154-hollander-5-nl-nexorcdn-com
+  - NL-155-hollander-5-nl-nexorcdn-com
+  - NL-156-hollander-5-nl-nexorcdn-com
+  - NL-157-hollander-5-nl-nexorcdn-com
+  - NL-158-hollander-6-nl-nexorcdn-com
+  - NL-159-hollander-6-nl-nexorcdn-com
+  - NL-160-hollander-6-nl-nexorcdn-com
+  - NL-161-hollander-6-nl-nexorcdn-com
+  - NL-162-hollander-6-nl-nexorcdn-com
+  - NL-163-hollander-8-nl-nexorcdn-com
+  - NL-164-hollander-8-nl-nexorcdn-com
+  - NL-165-hollander-8-nl-nexorcdn-com
+  - NL-166-maasdam-1-nl-nexorcdn-com
+  - NL-167-maasdam-1-nl-nexorcdn-com
   - NL-168-maasdam-2-nl-nexorcdn-com
-  - NL-169-maasdam-3-nl-nexorcdn-com
-  - NL-170-maasdam-3-nl-nexorcdn-com
-  - NL-171-maasdam-3-nl-nexorcdn-com
-  - NL-172-maasdam-4-nl-nexorcdn-com
-  - NL-173-maasdam-4-nl-nexorcdn-com
-  - NL-174-maasdam-4-nl-nexorcdn-com
-  - NL-175-maasdam-4-nl-nexorcdn-com
-  - NL-176-maasdam-4-nl-nexorcdn-com
-  - NL-177-maasdam-5-nl-nexorcdn-com
-  - NL-178-maasdam-5-nl-nexorcdn-com
-  - NL-179-maasdam-5-nl-nexorcdn-com
+  - NL-169-maasdam-2-nl-nexorcdn-com
+  - NL-170-maasdam-2-nl-nexorcdn-com
+  - NL-171-maasdam-2-nl-nexorcdn-com
+  - NL-172-maasdam-2-nl-nexorcdn-com
+  - NL-173-maasdam-2-nl-nexorcdn-com
+  - NL-174-maasdam-3-nl-nexorcdn-com
+  - NL-175-maasdam-3-nl-nexorcdn-com
+  - NL-176-maasdam-3-nl-nexorcdn-com
+  - NL-177-maasdam-3-nl-nexorcdn-com
+  - NL-178-maasdam-4-nl-nexorcdn-com
+  - NL-179-maasdam-4-nl-nexorcdn-com
   - NL-180-maasdam-5-nl-nexorcdn-com
-  - NL-181-maasdam-6-nl-nexorcdn-com
-  - NL-182-maasdam-6-nl-nexorcdn-com
-  - NL-183-maasdam-6-nl-nexorcdn-com
-  - NL-184-maasdam-7-nl-nexorcdn-com
-  - NL-185-maasdam-7-nl-nexorcdn-com
-  - NL-186-maasdam-7-nl-nexorcdn-com
-  - NL-187-maasdam-8-nl-nexorcdn-com
-  - NL-188-maasdam-8-nl-nexorcdn-com
-  - NL-189-maasdam-8-nl-nexorcdn-com
-  - NL-190-maasdam-9-nl-nexorcdn-com
-  - NL-191-maasdam-9-nl-nexorcdn-com
-  - NL-192-maasdam-9-nl-nexorcdn-com
-  - NL-193-maasdam-9-nl-nexorcdn-com
+  - NL-181-maasdam-5-nl-nexorcdn-com
+  - NL-182-maasdam-5-nl-nexorcdn-com
+  - NL-183-maasdam-5-nl-nexorcdn-com
+  - NL-184-maasdam-5-nl-nexorcdn-com
+  - NL-185-maasdam-6-nl-nexorcdn-com
+  - NL-186-maasdam-6-nl-nexorcdn-com
+  - NL-187-maasdam-6-nl-nexorcdn-com
+  - NL-188-maasdam-6-nl-nexorcdn-com
+  - NL-189-maasdam-6-nl-nexorcdn-com
+  - NL-190-maasdam-7-nl-nexorcdn-com
+  - NL-191-maasdam-7-nl-nexorcdn-com
+  - NL-192-maasdam-7-nl-nexorcdn-com
+  - NL-193-maasdam-8-nl-nexorcdn-com
+  - NL-194-maasdam-8-nl-nexorcdn-com
+  - NL-195-maasdam-8-nl-nexorcdn-com
+  - NL-196-maasdam-8-nl-nexorcdn-com
+  - NL-197-maasdam-8-nl-nexorcdn-com
+  - NL-198-maasdam-8-nl-nexorcdn-com
+  - NL-199-maasdam-9-nl-nexorcdn-com
+  - NL-200-maasdam-9-nl-nexorcdn-com
 - name: 🛰️ Hisball
   type: select
   proxies:
-  - NL-194-hollander-3-nl-nexorcdn-com
-  - NL-195-hollander-3-nl-nexorcdn-com
-  - NL-196-hollander-3-nl-nexorcdn-com
-  - NL-197-hollander-3-nl-nexorcdn-com
-  - NL-198-hollander-5-nl-nexorcdn-com
-  - NL-199-hollander-5-nl-nexorcdn-com
-  - NL-200-hollander-5-nl-nexorcdn-com
-  - NL-201-hollander-5-nl-nexorcdn-com
-  - NL-202-hollander-6-nl-nexorcdn-com
-  - NL-203-hollander-6-nl-nexorcdn-com
-  - NL-204-hollander-6-nl-nexorcdn-com
-  - NL-205-hollander-6-nl-nexorcdn-com
-  - NL-206-hollander-6-nl-nexorcdn-com
-  - NL-207-hollander-8-nl-nexorcdn-com
-  - NL-208-hollander-8-nl-nexorcdn-com
-  - NL-209-maasdam-1-nl-nexorcdn-com
-  - NL-210-maasdam-1-nl-nexorcdn-com
-  - NL-211-maasdam-1-nl-nexorcdn-com
-  - NL-212-maasdam-1-nl-nexorcdn-com
-  - NL-213-maasdam-2-nl-nexorcdn-com
-  - NL-214-maasdam-2-nl-nexorcdn-com
-  - NL-215-maasdam-2-nl-nexorcdn-com
-  - NL-216-maasdam-2-nl-nexorcdn-com
-  - NL-217-maasdam-2-nl-nexorcdn-com
-  - NL-218-maasdam-3-nl-nexorcdn-com
-  - NL-219-maasdam-3-nl-nexorcdn-com
-  - NL-220-maasdam-3-nl-nexorcdn-com
-  - NL-221-maasdam-3-nl-nexorcdn-com
-  - NL-222-maasdam-3-nl-nexorcdn-com
+  - NL-201-hollander-3-nl-nexorcdn-com
+  - NL-202-hollander-3-nl-nexorcdn-com
+  - NL-203-hollander-3-nl-nexorcdn-com
+  - NL-204-hollander-3-nl-nexorcdn-com
+  - NL-205-hollander-3-nl-nexorcdn-com
+  - NL-206-hollander-5-nl-nexorcdn-com
+  - NL-207-hollander-5-nl-nexorcdn-com
+  - NL-208-hollander-5-nl-nexorcdn-com
+  - NL-209-hollander-5-nl-nexorcdn-com
+  - NL-210-hollander-5-nl-nexorcdn-com
+  - NL-211-hollander-6-nl-nexorcdn-com
+  - NL-212-hollander-6-nl-nexorcdn-com
+  - NL-213-hollander-6-nl-nexorcdn-com
+  - NL-214-hollander-6-nl-nexorcdn-com
+  - NL-215-hollander-8-nl-nexorcdn-com
+  - NL-216-maasdam-1-nl-nexorcdn-com
+  - NL-217-maasdam-1-nl-nexorcdn-com
+  - NL-218-maasdam-1-nl-nexorcdn-com
+  - NL-219-maasdam-2-nl-nexorcdn-com
+  - NL-220-maasdam-2-nl-nexorcdn-com
+  - NL-221-maasdam-2-nl-nexorcdn-com
+  - NL-222-maasdam-2-nl-nexorcdn-com
   - NL-223-maasdam-3-nl-nexorcdn-com
-  - NL-224-maasdam-4-nl-nexorcdn-com
+  - NL-224-maasdam-3-nl-nexorcdn-com
   - NL-225-maasdam-4-nl-nexorcdn-com
   - NL-226-maasdam-4-nl-nexorcdn-com
   - NL-227-maasdam-5-nl-nexorcdn-com
   - NL-228-maasdam-5-nl-nexorcdn-com
-  - NL-229-maasdam-6-nl-nexorcdn-com
-  - NL-230-maasdam-6-nl-nexorcdn-com
-  - NL-231-maasdam-7-nl-nexorcdn-com
-  - NL-232-maasdam-7-nl-nexorcdn-com
-  - NL-233-maasdam-7-nl-nexorcdn-com
-  - NL-234-maasdam-7-nl-nexorcdn-com
-  - NL-235-maasdam-7-nl-nexorcdn-com
-  - NL-236-maasdam-8-nl-nexorcdn-com
-  - NL-237-maasdam-8-nl-nexorcdn-com
-  - NL-238-maasdam-8-nl-nexorcdn-com
-  - NL-239-maasdam-8-nl-nexorcdn-com
-  - NL-240-maasdam-8-nl-nexorcdn-com
+  - NL-229-maasdam-5-nl-nexorcdn-com
+  - NL-230-maasdam-5-nl-nexorcdn-com
+  - NL-231-maasdam-6-nl-nexorcdn-com
+  - NL-232-maasdam-6-nl-nexorcdn-com
+  - NL-233-maasdam-6-nl-nexorcdn-com
+  - NL-234-maasdam-6-nl-nexorcdn-com
+  - NL-235-maasdam-6-nl-nexorcdn-com
+  - NL-236-maasdam-7-nl-nexorcdn-com
+  - NL-237-maasdam-7-nl-nexorcdn-com
+  - NL-238-maasdam-7-nl-nexorcdn-com
+  - NL-239-maasdam-7-nl-nexorcdn-com
+  - NL-240-maasdam-7-nl-nexorcdn-com
   - NL-241-maasdam-8-nl-nexorcdn-com
   - NL-242-maasdam-8-nl-nexorcdn-com
-  - NL-243-maasdam-9-nl-nexorcdn-com
-  - NL-244-maasdam-9-nl-nexorcdn-com
+  - NL-243-maasdam-8-nl-nexorcdn-com
+  - NL-244-maasdam-8-nl-nexorcdn-com
+  - NL-245-maasdam-9-nl-nexorcdn-com
+  - NL-246-maasdam-9-nl-nexorcdn-com
+  - NL-247-maasdam-9-nl-nexorcdn-com
+  - NL-248-maasdam-9-nl-nexorcdn-com
+  - NL-249-maasdam-9-nl-nexorcdn-com
 - name: 🚀 Tronlit
   type: select
   proxies:
-  - NL-245-hollander-3-nl-nexorcdn-com
-  - NL-246-hollander-3-nl-nexorcdn-com
-  - NL-247-hollander-3-nl-nexorcdn-com
-  - NL-248-hollander-3-nl-nexorcdn-com
-  - NL-249-hollander-3-nl-nexorcdn-com
-  - NL-250-hollander-5-nl-nexorcdn-com
-  - NL-251-hollander-5-nl-nexorcdn-com
-  - NL-252-hollander-5-nl-nexorcdn-com
-  - NL-253-hollander-5-nl-nexorcdn-com
-  - NL-254-hollander-5-nl-nexorcdn-com
+  - NL-250-hollander-3-nl-nexorcdn-com
+  - NL-251-hollander-3-nl-nexorcdn-com
+  - NL-252-hollander-3-nl-nexorcdn-com
+  - NL-253-hollander-3-nl-nexorcdn-com
+  - NL-254-hollander-3-nl-nexorcdn-com
   - NL-255-hollander-5-nl-nexorcdn-com
-  - NL-256-hollander-6-nl-nexorcdn-com
-  - NL-257-hollander-8-nl-nexorcdn-com
-  - NL-258-hollander-8-nl-nexorcdn-com
-  - NL-259-hollander-8-nl-nexorcdn-com
+  - NL-256-hollander-5-nl-nexorcdn-com
+  - NL-257-hollander-5-nl-nexorcdn-com
+  - NL-258-hollander-6-nl-nexorcdn-com
+  - NL-259-hollander-6-nl-nexorcdn-com
   - NL-260-hollander-8-nl-nexorcdn-com
-  - NL-261-maasdam-1-nl-nexorcdn-com
-  - NL-262-maasdam-2-nl-nexorcdn-com
-  - NL-263-maasdam-2-nl-nexorcdn-com
-  - NL-264-maasdam-2-nl-nexorcdn-com
-  - NL-265-maasdam-3-nl-nexorcdn-com
-  - NL-266-maasdam-3-nl-nexorcdn-com
-  - NL-267-maasdam-3-nl-nexorcdn-com
-  - NL-268-maasdam-3-nl-nexorcdn-com
-  - NL-269-maasdam-3-nl-nexorcdn-com
-  - NL-270-maasdam-4-nl-nexorcdn-com
-  - NL-271-maasdam-4-nl-nexorcdn-com
-  - NL-272-maasdam-4-nl-nexorcdn-com
-  - NL-273-maasdam-4-nl-nexorcdn-com
-  - NL-274-maasdam-5-nl-nexorcdn-com
-  - NL-275-maasdam-5-nl-nexorcdn-com
-  - NL-276-maasdam-6-nl-nexorcdn-com
-  - NL-277-maasdam-6-nl-nexorcdn-com
-  - NL-278-maasdam-6-nl-nexorcdn-com
-  - NL-279-maasdam-6-nl-nexorcdn-com
-  - NL-280-maasdam-7-nl-nexorcdn-com
-  - NL-281-maasdam-7-nl-nexorcdn-com
-  - NL-282-maasdam-8-nl-nexorcdn-com
-  - NL-283-maasdam-8-nl-nexorcdn-com
-  - NL-284-maasdam-8-nl-nexorcdn-com
-  - NL-285-maasdam-8-nl-nexorcdn-com
-  - NL-286-maasdam-8-nl-nexorcdn-com
-  - NL-287-maasdam-9-nl-nexorcdn-com
-  - NL-288-maasdam-9-nl-nexorcdn-com
-  - NL-289-maasdam-9-nl-nexorcdn-com
-  - NL-290-maasdam-9-nl-nexorcdn-com
-  - NL-291-maasdam-9-nl-nexorcdn-com
+  - NL-261-hollander-8-nl-nexorcdn-com
+  - NL-262-hollander-8-nl-nexorcdn-com
+  - NL-263-hollander-8-nl-nexorcdn-com
+  - NL-264-hollander-8-nl-nexorcdn-com
+  - NL-265-maasdam-1-nl-nexorcdn-com
+  - NL-266-maasdam-1-nl-nexorcdn-com
+  - NL-267-maasdam-1-nl-nexorcdn-com
+  - NL-268-maasdam-1-nl-nexorcdn-com
+  - NL-269-maasdam-2-nl-nexorcdn-com
+  - NL-270-maasdam-2-nl-nexorcdn-com
+  - NL-271-maasdam-2-nl-nexorcdn-com
+  - NL-272-maasdam-2-nl-nexorcdn-com
+  - NL-273-maasdam-3-nl-nexorcdn-com
+  - NL-274-maasdam-3-nl-nexorcdn-com
+  - NL-275-maasdam-3-nl-nexorcdn-com
+  - NL-276-maasdam-3-nl-nexorcdn-com
+  - NL-277-maasdam-4-nl-nexorcdn-com
+  - NL-278-maasdam-4-nl-nexorcdn-com
+  - NL-279-maasdam-4-nl-nexorcdn-com
+  - NL-280-maasdam-4-nl-nexorcdn-com
+  - NL-281-maasdam-4-nl-nexorcdn-com
+  - NL-282-maasdam-4-nl-nexorcdn-com
+  - NL-283-maasdam-4-nl-nexorcdn-com
+  - NL-284-maasdam-5-nl-nexorcdn-com
+  - NL-285-maasdam-5-nl-nexorcdn-com
+  - NL-286-maasdam-6-nl-nexorcdn-com
+  - NL-287-maasdam-6-nl-nexorcdn-com
+  - NL-288-maasdam-6-nl-nexorcdn-com
+  - NL-289-maasdam-7-nl-nexorcdn-com
+  - NL-290-maasdam-7-nl-nexorcdn-com
+  - NL-291-maasdam-8-nl-nexorcdn-com
+  - NL-292-maasdam-8-nl-nexorcdn-com
+  - NL-293-maasdam-8-nl-nexorcdn-com
+  - NL-294-maasdam-9-nl-nexorcdn-com
+  - NL-295-maasdam-9-nl-nexorcdn-com
+  - NL-296-maasdam-9-nl-nexorcdn-com
+  - NL-297-maasdam-9-nl-nexorcdn-com
 - name: 🔥 Tronyza
   type: select
   proxies:
-  - NL-292-hollander-3-nl-nexorcdn-com
-  - NL-293-hollander-5-nl-nexorcdn-com
-  - NL-294-hollander-5-nl-nexorcdn-com
-  - NL-295-hollander-5-nl-nexorcdn-com
-  - NL-296-hollander-5-nl-nexorcdn-com
-  - NL-297-hollander-6-nl-nexorcdn-com
-  - NL-298-hollander-6-nl-nexorcdn-com
-  - NL-299-hollander-6-nl-nexorcdn-com
-  - NL-300-hollander-6-nl-nexorcdn-com
-  - NL-301-hollander-8-nl-nexorcdn-com
-  - NL-302-hollander-8-nl-nexorcdn-com
-  - NL-303-hollander-8-nl-nexorcdn-com
-  - NL-304-maasdam-1-nl-nexorcdn-com
-  - NL-305-maasdam-1-nl-nexorcdn-com
-  - NL-306-maasdam-1-nl-nexorcdn-com
-  - NL-307-maasdam-1-nl-nexorcdn-com
-  - NL-308-maasdam-2-nl-nexorcdn-com
-  - NL-309-maasdam-2-nl-nexorcdn-com
-  - NL-310-maasdam-2-nl-nexorcdn-com
-  - NL-311-maasdam-2-nl-nexorcdn-com
-  - NL-312-maasdam-3-nl-nexorcdn-com
-  - NL-313-maasdam-3-nl-nexorcdn-com
-  - NL-314-maasdam-3-nl-nexorcdn-com
-  - NL-315-maasdam-4-nl-nexorcdn-com
-  - NL-316-maasdam-4-nl-nexorcdn-com
-  - NL-317-maasdam-4-nl-nexorcdn-com
-  - NL-318-maasdam-4-nl-nexorcdn-com
-  - NL-319-maasdam-5-nl-nexorcdn-com
-  - NL-320-maasdam-5-nl-nexorcdn-com
-  - NL-321-maasdam-5-nl-nexorcdn-com
-  - NL-322-maasdam-5-nl-nexorcdn-com
-  - NL-323-maasdam-5-nl-nexorcdn-com
-  - NL-324-maasdam-6-nl-nexorcdn-com
-  - NL-325-maasdam-6-nl-nexorcdn-com
-  - NL-326-maasdam-6-nl-nexorcdn-com
-  - NL-327-maasdam-7-nl-nexorcdn-com
-  - NL-328-maasdam-7-nl-nexorcdn-com
-  - NL-329-maasdam-7-nl-nexorcdn-com
-  - NL-330-maasdam-7-nl-nexorcdn-com
-  - NL-331-maasdam-7-nl-nexorcdn-com
-  - NL-332-maasdam-7-nl-nexorcdn-com
-  - NL-333-maasdam-8-nl-nexorcdn-com
-  - NL-334-maasdam-8-nl-nexorcdn-com
-  - NL-335-maasdam-8-nl-nexorcdn-com
-  - NL-336-maasdam-8-nl-nexorcdn-com
-  - NL-337-maasdam-9-nl-nexorcdn-com
-  - NL-338-maasdam-9-nl-nexorcdn-com
+  - NL-298-hollander-3-nl-nexorcdn-com
+  - NL-299-hollander-3-nl-nexorcdn-com
+  - NL-300-hollander-3-nl-nexorcdn-com
+  - NL-301-hollander-3-nl-nexorcdn-com
+  - NL-302-hollander-5-nl-nexorcdn-com
+  - NL-303-hollander-5-nl-nexorcdn-com
+  - NL-304-hollander-5-nl-nexorcdn-com
+  - NL-305-hollander-5-nl-nexorcdn-com
+  - NL-306-hollander-6-nl-nexorcdn-com
+  - NL-307-hollander-6-nl-nexorcdn-com
+  - NL-308-hollander-6-nl-nexorcdn-com
+  - NL-309-hollander-6-nl-nexorcdn-com
+  - NL-310-hollander-8-nl-nexorcdn-com
+  - NL-311-hollander-8-nl-nexorcdn-com
+  - NL-312-hollander-8-nl-nexorcdn-com
+  - NL-313-maasdam-1-nl-nexorcdn-com
+  - NL-314-maasdam-1-nl-nexorcdn-com
+  - NL-315-maasdam-1-nl-nexorcdn-com
+  - NL-316-maasdam-2-nl-nexorcdn-com
+  - NL-317-maasdam-2-nl-nexorcdn-com
+  - NL-318-maasdam-3-nl-nexorcdn-com
+  - NL-319-maasdam-3-nl-nexorcdn-com
+  - NL-320-maasdam-4-nl-nexorcdn-com
+  - NL-321-maasdam-4-nl-nexorcdn-com
+  - NL-322-maasdam-4-nl-nexorcdn-com
+  - NL-323-maasdam-4-nl-nexorcdn-com
+  - NL-324-maasdam-4-nl-nexorcdn-com
+  - NL-325-maasdam-4-nl-nexorcdn-com
+  - NL-326-maasdam-5-nl-nexorcdn-com
+  - NL-327-maasdam-5-nl-nexorcdn-com
+  - NL-328-maasdam-5-nl-nexorcdn-com
+  - NL-329-maasdam-5-nl-nexorcdn-com
+  - NL-330-maasdam-5-nl-nexorcdn-com
+  - NL-331-maasdam-6-nl-nexorcdn-com
+  - NL-332-maasdam-6-nl-nexorcdn-com
+  - NL-333-maasdam-6-nl-nexorcdn-com
+  - NL-334-maasdam-7-nl-nexorcdn-com
+  - NL-335-maasdam-7-nl-nexorcdn-com
+  - NL-336-maasdam-7-nl-nexorcdn-com
+  - NL-337-maasdam-8-nl-nexorcdn-com
+  - NL-338-maasdam-8-nl-nexorcdn-com
   - NL-339-maasdam-9-nl-nexorcdn-com
+  - NL-340-maasdam-9-nl-nexorcdn-com
+  - NL-341-maasdam-9-nl-nexorcdn-com
+  - NL-342-maasdam-9-nl-nexorcdn-com
+  - NL-343-maasdam-9-nl-nexorcdn-com
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
