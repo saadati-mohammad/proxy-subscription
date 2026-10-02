@@ -501,7 +501,7 @@ def fetch_provider_region(
 
     api_url = (
         f"{provider_domain}"
-        "/api/server/list/"
+        "/api/v3/server/list/"
     )
 
     payload = {
