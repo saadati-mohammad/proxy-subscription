@@ -43,7 +43,7 @@ proxies:
 - name: US-VA-002-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 30627
+  port: 25640
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -83,7 +83,7 @@ proxies:
 - name: US-VA-007-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 18773
+  port: 22738
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -99,7 +99,7 @@ proxies:
 - name: US-VA-009-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 46530
+  port: 40489
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -107,52 +107,28 @@ proxies:
 - name: US-VA-010-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 49639
+  port: 46092
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-011-prime-us-nexorcdn-com
+- name: US-VA-011-mackerel-7-us-nexorcdn-com
   type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
+  server: mackerel-7-us.nexorcdn.com
+  port: 46530
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-012-prime-us-nexorcdn-com
+- name: US-VA-012-mackerel-7-us-nexorcdn-com
   type: http
-  server: prime-us.nexorcdn.com
-  port: 27802
+  server: mackerel-7-us.nexorcdn.com
+  port: 47344
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-013-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 43470
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-014-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 46264
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-015-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 47562
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-016-trout-east-3-us-nexorcdn-com
+- name: US-VA-013-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 18922
@@ -160,7 +136,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-017-trout-east-3-us-nexorcdn-com
+- name: US-VA-014-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 27814
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-015-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 32080
@@ -168,15 +152,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-018-trout-east-3-us-nexorcdn-com
+- name: US-VA-016-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 39040
+  port: 41006
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-019-trout-east-3-us-nexorcdn-com
+- name: US-VA-017-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 52141
@@ -184,15 +168,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-020-trout-east-4-us-nexorcdn-com
+- name: US-VA-018-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 13128
+  port: 15664
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-021-trout-east-4-us-nexorcdn-com
+- name: US-VA-019-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 21804
@@ -200,7 +184,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-022-trout-east-4-us-nexorcdn-com
+- name: US-VA-020-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 22665
@@ -208,7 +192,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-023-trout-east-4-us-nexorcdn-com
+- name: US-VA-021-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 23096
@@ -216,7 +200,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-024-trout-east-4-us-nexorcdn-com
+- name: US-VA-022-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 24202
@@ -224,7 +208,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-025-trout-east-4-us-nexorcdn-com
+- name: US-VA-023-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 25514
@@ -232,7 +216,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-026-trout-east-4-us-nexorcdn-com
+- name: US-VA-024-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 50776
@@ -240,10 +224,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-025-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 20664
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-026-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 23765
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-027-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 28171
+  port: 30138
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -259,36 +259,12 @@ proxies:
 - name: US-VA-029-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 33930
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-030-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
   port: 44912
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-031-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 56008
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-032-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 14681
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-033-trout-east-6-us-nexorcdn-com
+- name: US-VA-030-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 16286
@@ -296,10 +272,34 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-034-trout-east-6-us-nexorcdn-com
+- name: US-VA-031-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 23203
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-032-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 38366
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-033-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 42442
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-034-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 42446
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -339,7 +339,7 @@ proxies:
 - name: US-VA-039-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 27019
+  port: 24661
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -368,10 +368,10 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-043-mackerel-6-us-nexorcdn-com
+- name: US-VA-043-trout-east-7-us-nexorcdn-com
   type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 25640
+  server: trout-east-7-us.nexorcdn.com
+  port: 56526
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -379,12 +379,68 @@ proxies:
 - name: US-VA-044-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
+  port: 25640
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-045-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 30627
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-046-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
   port: 46242
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-045-mackerel-7-us-nexorcdn-com
+- name: US-VA-047-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 51726
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-048-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 52126
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-049-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 54098
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-050-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 58841
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-051-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 14851
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-052-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
   port: 18773
@@ -392,15 +448,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-046-mackerel-7-us-nexorcdn-com
+- name: US-VA-053-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 22738
+  port: 28348
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-047-mackerel-7-us-nexorcdn-com
+- name: US-VA-054-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
   port: 40489
@@ -408,7 +464,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-048-mackerel-7-us-nexorcdn-com
+- name: US-VA-055-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
   port: 46092
@@ -416,66 +472,10 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-049-mackerel-7-us-nexorcdn-com
+- name: US-VA-056-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 47344
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-050-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 17244
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-051-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-052-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-053-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 43470
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-054-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 46264
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-055-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 47562
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-056-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 57796
+  port: 46530
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -491,7 +491,7 @@ proxies:
 - name: US-VA-058-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 27814
+  port: 18922
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -499,7 +499,7 @@ proxies:
 - name: US-VA-059-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 39040
+  port: 27814
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -507,7 +507,7 @@ proxies:
 - name: US-VA-060-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 41006
+  port: 32080
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -515,308 +515,12 @@ proxies:
 - name: US-VA-061-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 56789
+  port: 39040
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-062-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 15664
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-063-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 21804
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-064-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 24202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-065-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 50776
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-066-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 16026
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-067-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 20664
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-068-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 23765
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-069-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 30138
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-070-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 32898
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-071-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 56008
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-072-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 14681
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-073-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 23203
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-074-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 27962
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-075-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 42446
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-076-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 51750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-077-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 58940
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-078-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 10830
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-079-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 19304
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-080-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 24661
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-081-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 31668
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-082-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 56464
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-083-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 25640
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-084-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 26721
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-085-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 30627
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-086-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 51726
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-087-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 54098
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-088-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 28348
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-089-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 36929
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-090-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 40489
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-091-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 46092
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-092-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 46530
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-093-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 47344
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-094-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-095-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 43470
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-096-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 57796
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-097-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 10672
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-098-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 18922
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-099-trout-east-3-us-nexorcdn-com
+- name: US-VA-062-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 41006
@@ -824,15 +528,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-100-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 48641
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-101-trout-east-3-us-nexorcdn-com
+- name: US-VA-063-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 52141
@@ -840,23 +536,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-102-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 55499
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-103-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 56789
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-104-trout-east-4-us-nexorcdn-com
+- name: US-VA-064-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 13128
@@ -864,10 +544,330 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-105-trout-east-4-us-nexorcdn-com
+- name: US-VA-065-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 15664
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-066-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 21804
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-067-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 24202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-068-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 25066
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-069-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 46014
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-070-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 16026
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-071-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 28171
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-072-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 30138
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-073-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 32898
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-074-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 33930
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-075-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 44912
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-076-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 14681
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-077-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 16286
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-078-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 23203
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-079-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 51750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-080-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 10830
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-081-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 19304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-082-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 24661
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-083-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 27019
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-084-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 31668
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-085-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 33702
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-086-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 35428
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-087-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 56464
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-088-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 56526
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-089-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 26721
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-090-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 30627
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-091-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 46242
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-092-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 52126
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-093-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 54098
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-094-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 18773
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-095-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 22738
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-096-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 36929
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-097-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 46092
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-098-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 46530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-099-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 47344
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-100-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 18922
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-101-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 27814
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-102-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 41006
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-103-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 48641
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-104-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 52141
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-105-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 55499
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -891,7 +891,7 @@ proxies:
 - name: US-VA-108-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 25514
+  port: 46014
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -899,20 +899,12 @@ proxies:
 - name: US-VA-109-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 46014
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-110-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
   port: 50776
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-111-trout-east-5-us-nexorcdn-com
+- name: US-VA-110-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 16026
@@ -920,10 +912,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-111-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 20664
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-112-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 23765
+  port: 28171
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -931,7 +931,7 @@ proxies:
 - name: US-VA-113-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 32898
+  port: 30138
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -939,7 +939,7 @@ proxies:
 - name: US-VA-114-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 33930
+  port: 32898
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -947,7 +947,7 @@ proxies:
 - name: US-VA-115-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 36636
+  port: 33930
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -955,7 +955,7 @@ proxies:
 - name: US-VA-116-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 44912
+  port: 36636
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -979,7 +979,7 @@ proxies:
 - name: US-VA-119-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 27962
+  port: 23203
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -987,7 +987,7 @@ proxies:
 - name: US-VA-120-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 42442
+  port: 27962
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -995,7 +995,7 @@ proxies:
 - name: US-VA-121-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 42446
+  port: 42442
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1003,7 +1003,7 @@ proxies:
 - name: US-VA-122-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 51750
+  port: 42446
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1011,7 +1011,7 @@ proxies:
 - name: US-VA-123-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 58940
+  port: 43694
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1027,7 +1027,7 @@ proxies:
 - name: US-VA-125-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 19304
+  port: 11568
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1043,7 +1043,7 @@ proxies:
 - name: US-VA-127-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 27019
+  port: 31668
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1051,7 +1051,7 @@ proxies:
 - name: US-VA-128-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 35428
+  port: 33702
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1059,20 +1059,12 @@ proxies:
 - name: US-VA-129-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 56464
+  port: 35428
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-130-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 56526
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-131-mackerel-6-us-nexorcdn-com
+- name: US-VA-130-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
   port: 23143
@@ -1080,10 +1072,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-131-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 26721
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-132-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 46242
+  port: 30627
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1096,18 +1096,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-134-mackerel-7-us-nexorcdn-com
+- name: US-VA-134-mackerel-6-us-nexorcdn-com
   type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 14851
+  server: mackerel-6-us.nexorcdn.com
+  port: 54098
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-135-mackerel-7-us-nexorcdn-com
+- name: US-VA-135-mackerel-6-us-nexorcdn-com
   type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 18773
+  server: mackerel-6-us.nexorcdn.com
+  port: 58841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1115,7 +1115,7 @@ proxies:
 - name: US-VA-136-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 36929
+  port: 22738
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1123,7 +1123,7 @@ proxies:
 - name: US-VA-137-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 46530
+  port: 40489
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1136,55 +1136,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-139-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 49639
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-140-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-141-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 30987
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-142-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 39002
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-143-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 47562
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-144-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 57796
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-145-trout-east-3-us-nexorcdn-com
+- name: US-VA-139-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 10672
@@ -1192,7 +1144,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-146-trout-east-3-us-nexorcdn-com
+- name: US-VA-140-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 18922
@@ -1200,7 +1152,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-147-trout-east-3-us-nexorcdn-com
+- name: US-VA-141-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 27814
@@ -1208,23 +1160,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-148-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 32080
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-149-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 41006
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-150-trout-east-3-us-nexorcdn-com
+- name: US-VA-142-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 48641
@@ -1232,7 +1168,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-151-trout-east-3-us-nexorcdn-com
+- name: US-VA-143-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 52141
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-144-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 56789
@@ -1240,15 +1184,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-152-trout-east-4-us-nexorcdn-com
+- name: US-VA-145-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 15664
+  port: 13128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-153-trout-east-4-us-nexorcdn-com
+- name: US-VA-146-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 21804
@@ -1256,7 +1200,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-154-trout-east-4-us-nexorcdn-com
+- name: US-VA-147-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 22665
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-148-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 24202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-149-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 25066
@@ -1264,7 +1224,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-155-trout-east-4-us-nexorcdn-com
+- name: US-VA-150-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 46014
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-151-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
   port: 50776
@@ -1272,10 +1240,42 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-152-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 16026
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-153-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 23765
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-154-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 28171
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-155-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 30138
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-156-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 20664
+  port: 32898
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1283,7 +1283,7 @@ proxies:
 - name: US-VA-157-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 28171
+  port: 33930
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1304,23 +1304,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-160-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 56008
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-161-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 16286
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-162-trout-east-6-us-nexorcdn-com
+- name: US-VA-160-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 23203
@@ -1328,7 +1312,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-163-trout-east-6-us-nexorcdn-com
+- name: US-VA-161-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 27962
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-162-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 38366
@@ -1336,10 +1328,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-163-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 42442
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-164-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 43694
+  port: 51750
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1355,7 +1355,7 @@ proxies:
 - name: US-VA-166-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 19304
+  port: 11568
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1363,7 +1363,7 @@ proxies:
 - name: US-VA-167-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 27019
+  port: 19304
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1371,7 +1371,7 @@ proxies:
 - name: US-VA-168-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 31668
+  port: 24661
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1379,7 +1379,7 @@ proxies:
 - name: US-VA-169-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 33702
+  port: 31668
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1387,7 +1387,7 @@ proxies:
 - name: US-VA-170-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 35428
+  port: 33702
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1411,7 +1411,7 @@ proxies:
 - name: US-VA-173-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 25640
+  port: 26721
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1435,7 +1435,7 @@ proxies:
 - name: US-VA-176-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 46242
+  port: 51726
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1443,15 +1443,15 @@ proxies:
 - name: US-VA-177-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 58841
+  port: 52126
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-178-mackerel-7-us-nexorcdn-com
+- name: US-VA-178-mackerel-6-us-nexorcdn-com
   type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 22738
+  server: mackerel-6-us.nexorcdn.com
+  port: 58841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1459,7 +1459,7 @@ proxies:
 - name: US-VA-179-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 36929
+  port: 28348
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1467,7 +1467,7 @@ proxies:
 - name: US-VA-180-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 46530
+  port: 36929
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1475,52 +1475,36 @@ proxies:
 - name: US-VA-181-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
+  port: 46092
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-182-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 46530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-183-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
   port: 47344
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-182-prime-us-nexorcdn-com
+- name: US-VA-184-mackerel-7-us-nexorcdn-com
   type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
+  server: mackerel-7-us.nexorcdn.com
+  port: 49639
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-183-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 43470
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-184-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 47562
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-185-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 57796
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-186-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 10672
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-187-trout-east-3-us-nexorcdn-com
+- name: US-VA-185-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 18922
@@ -1528,7 +1512,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-188-trout-east-3-us-nexorcdn-com
+- name: US-VA-186-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
   port: 32080
@@ -1536,10 +1520,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: US-VA-187-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 52141
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-188-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 55499
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: US-VA-189-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 48641
+  port: 56789
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1555,7 +1555,7 @@ proxies:
 - name: US-VA-191-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 23096
+  port: 21804
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1563,7 +1563,7 @@ proxies:
 - name: US-VA-192-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 24202
+  port: 23096
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1579,15 +1579,15 @@ proxies:
 - name: US-VA-194-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 25514
+  port: 46014
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-195-trout-east-4-us-nexorcdn-com
+- name: US-VA-195-trout-east-5-us-nexorcdn-com
   type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 50776
+  server: trout-east-5-us.nexorcdn.com
+  port: 16026
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1595,7 +1595,7 @@ proxies:
 - name: US-VA-196-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 16026
+  port: 20664
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1619,7 +1619,7 @@ proxies:
 - name: US-VA-199-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 32898
+  port: 30138
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1627,28 +1627,20 @@ proxies:
 - name: US-VA-200-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 33930
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-201-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
   port: 44912
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-202-trout-east-5-us-nexorcdn-com
+- name: US-VA-201-trout-east-6-us-nexorcdn-com
   type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 56008
+  server: trout-east-6-us.nexorcdn.com
+  port: 14681
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-203-trout-east-6-us-nexorcdn-com
+- name: US-VA-202-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 16286
@@ -1656,7 +1648,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-204-trout-east-6-us-nexorcdn-com
+- name: US-VA-203-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 23203
@@ -1664,7 +1656,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-205-trout-east-6-us-nexorcdn-com
+- name: US-VA-204-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 27962
@@ -1672,15 +1664,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-206-trout-east-6-us-nexorcdn-com
+- name: US-VA-205-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 42442
+  port: 42446
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-207-trout-east-6-us-nexorcdn-com
+- name: US-VA-206-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 43694
@@ -1688,7 +1680,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-208-trout-east-6-us-nexorcdn-com
+- name: US-VA-207-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 51750
@@ -1696,23 +1688,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-209-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 58940
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-210-trout-east-7-us-nexorcdn-com
+- name: US-VA-208-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 24661
+  port: 11568
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-211-trout-east-7-us-nexorcdn-com
+- name: US-VA-209-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
   port: 27019
@@ -1720,10 +1704,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-212-trout-east-7-us-nexorcdn-com
+- name: US-VA-210-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 33702
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-211-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
   port: 35428
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-212-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 56464
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1739,7 +1739,7 @@ proxies:
 - name: US-VA-214-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 26721
+  port: 23143
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1747,7 +1747,7 @@ proxies:
 - name: US-VA-215-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 46242
+  port: 43564
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1755,7 +1755,7 @@ proxies:
 - name: US-VA-216-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
-  port: 51726
+  port: 46242
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1763,23 +1763,23 @@ proxies:
 - name: US-VA-217-mackerel-6-us-nexorcdn-com
   type: http
   server: mackerel-6-us.nexorcdn.com
+  port: 52126
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-218-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
   port: 54098
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-218-mackerel-7-us-nexorcdn-com
+- name: US-VA-219-mackerel-6-us-nexorcdn-com
   type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 14851
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-219-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 18773
+  server: mackerel-6-us.nexorcdn.com
+  port: 58841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1787,7 +1787,7 @@ proxies:
 - name: US-VA-220-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 28348
+  port: 18773
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1795,7 +1795,7 @@ proxies:
 - name: US-VA-221-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
-  port: 40489
+  port: 22738
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1803,47 +1803,47 @@ proxies:
 - name: US-VA-222-mackerel-7-us-nexorcdn-com
   type: http
   server: mackerel-7-us.nexorcdn.com
+  port: 28348
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-223-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 36929
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-224-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 40489
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-225-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 46530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-226-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
   port: 47344
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-223-prime-us-nexorcdn-com
+- name: US-VA-227-mackerel-7-us-nexorcdn-com
   type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-224-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-225-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 36988
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-226-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 46264
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-227-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 10672
+  server: mackerel-7-us.nexorcdn.com
+  port: 49639
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1851,7 +1851,7 @@ proxies:
 - name: US-VA-228-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 18922
+  port: 27814
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1859,7 +1859,7 @@ proxies:
 - name: US-VA-229-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 27814
+  port: 32080
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1867,7 +1867,7 @@ proxies:
 - name: US-VA-230-trout-east-3-us-nexorcdn-com
   type: http
   server: trout-east-3-us.nexorcdn.com
-  port: 32080
+  port: 39040
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1891,7 +1891,7 @@ proxies:
 - name: US-VA-233-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 15664
+  port: 13128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1907,7 +1907,7 @@ proxies:
 - name: US-VA-235-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 22665
+  port: 25514
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1915,44 +1915,12 @@ proxies:
 - name: US-VA-236-trout-east-4-us-nexorcdn-com
   type: http
   server: trout-east-4-us.nexorcdn.com
-  port: 23096
+  port: 50776
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-237-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 24202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-238-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 25066
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-239-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 25514
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-240-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 46014
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-241-trout-east-5-us-nexorcdn-com
+- name: US-VA-237-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 16026
@@ -1960,23 +1928,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-242-trout-east-5-us-nexorcdn-com
+- name: US-VA-238-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
-  port: 23765
+  port: 20664
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-243-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 28171
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-244-trout-east-5-us-nexorcdn-com
+- name: US-VA-239-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 30138
@@ -1984,7 +1944,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-245-trout-east-5-us-nexorcdn-com
+- name: US-VA-240-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 33930
@@ -1992,7 +1952,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-246-trout-east-5-us-nexorcdn-com
+- name: US-VA-241-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 44912
@@ -2000,383 +1960,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-247-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 14681
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-248-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 23203
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-249-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 38366
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-250-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 42442
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-251-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 42446
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-252-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 58940
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-253-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 10830
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-254-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 11568
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-255-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 19304
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-256-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 27019
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-257-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 31668
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-258-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 35428
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-259-trout-east-7-us-nexorcdn-com
-  type: http
-  server: trout-east-7-us.nexorcdn.com
-  port: 56464
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-260-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 23143
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-261-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 30627
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-262-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 43564
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-263-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 51726
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-264-mackerel-6-us-nexorcdn-com
-  type: http
-  server: mackerel-6-us.nexorcdn.com
-  port: 54098
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-265-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 14851
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-266-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 22738
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-267-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 28348
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-268-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 40489
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-269-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 46530
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-270-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 47344
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-271-mackerel-7-us-nexorcdn-com
-  type: http
-  server: mackerel-7-us.nexorcdn.com
-  port: 49639
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-272-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 17244
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-273-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27286
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-274-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 27802
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-275-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 30987
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-276-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 39002
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-277-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 43470
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-278-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 46264
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-279-prime-us-nexorcdn-com
-  type: http
-  server: prime-us.nexorcdn.com
-  port: 47562
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-280-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 27814
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-281-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 41006
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-282-trout-east-3-us-nexorcdn-com
-  type: http
-  server: trout-east-3-us.nexorcdn.com
-  port: 48641
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-283-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 13128
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-284-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 15664
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-285-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 21804
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-286-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 22665
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-287-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 25066
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-288-trout-east-4-us-nexorcdn-com
-  type: http
-  server: trout-east-4-us.nexorcdn.com
-  port: 50776
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-289-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 16026
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-290-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 23765
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-291-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 28171
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-292-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 32898
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-293-trout-east-5-us-nexorcdn-com
-  type: http
-  server: trout-east-5-us.nexorcdn.com
-  port: 44912
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-294-trout-east-5-us-nexorcdn-com
+- name: US-VA-242-trout-east-5-us-nexorcdn-com
   type: http
   server: trout-east-5-us.nexorcdn.com
   port: 56008
@@ -2384,7 +1968,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-295-trout-east-6-us-nexorcdn-com
+- name: US-VA-243-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 14681
@@ -2392,23 +1976,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-296-trout-east-6-us-nexorcdn-com
+- name: US-VA-244-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
-  port: 16286
+  port: 38366
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-297-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 23203
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-298-trout-east-6-us-nexorcdn-com
+- name: US-VA-245-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 42442
@@ -2416,15 +1992,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-299-trout-east-6-us-nexorcdn-com
-  type: http
-  server: trout-east-6-us.nexorcdn.com
-  port: 42446
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: US-VA-300-trout-east-6-us-nexorcdn-com
+- name: US-VA-246-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 43694
@@ -2432,7 +2000,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-301-trout-east-6-us-nexorcdn-com
+- name: US-VA-247-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 51750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-248-trout-east-6-us-nexorcdn-com
   type: http
   server: trout-east-6-us.nexorcdn.com
   port: 58940
@@ -2440,23 +2016,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-302-trout-east-7-us-nexorcdn-com
+- name: US-VA-249-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 10830
+  port: 11568
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-303-trout-east-7-us-nexorcdn-com
+- name: US-VA-250-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
-  port: 24661
+  port: 33702
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-304-trout-east-7-us-nexorcdn-com
+- name: US-VA-251-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
   port: 35428
@@ -2464,7 +2040,343 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: US-VA-305-trout-east-7-us-nexorcdn-com
+- name: US-VA-252-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 56464
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-253-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 56526
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-254-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 23143
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-255-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 46242
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-256-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 54098
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-257-mackerel-6-us-nexorcdn-com
+  type: http
+  server: mackerel-6-us.nexorcdn.com
+  port: 58841
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-258-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 18773
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-259-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 22738
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-260-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 28348
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-261-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 36929
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-262-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 40489
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-263-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 46530
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-264-mackerel-7-us-nexorcdn-com
+  type: http
+  server: mackerel-7-us.nexorcdn.com
+  port: 47344
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-265-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 10672
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-266-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 32080
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-267-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 39040
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-268-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 41006
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-269-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 48641
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-270-trout-east-3-us-nexorcdn-com
+  type: http
+  server: trout-east-3-us.nexorcdn.com
+  port: 56789
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-271-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 13128
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-272-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 22665
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-273-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 24202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-274-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 46014
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-275-trout-east-4-us-nexorcdn-com
+  type: http
+  server: trout-east-4-us.nexorcdn.com
+  port: 50776
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-276-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 20664
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-277-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 28171
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-278-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 30138
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-279-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 32898
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-280-trout-east-5-us-nexorcdn-com
+  type: http
+  server: trout-east-5-us.nexorcdn.com
+  port: 36636
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-281-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 16286
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-282-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 23203
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-283-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 27962
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-284-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 38366
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-285-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 42442
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-286-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 42446
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-287-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 43694
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-288-trout-east-6-us-nexorcdn-com
+  type: http
+  server: trout-east-6-us.nexorcdn.com
+  port: 51750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-289-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 10830
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-290-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 19304
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-291-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 24661
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-292-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 31668
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-293-trout-east-7-us-nexorcdn-com
+  type: http
+  server: trout-east-7-us.nexorcdn.com
+  port: 33702
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: US-VA-294-trout-east-7-us-nexorcdn-com
   type: http
   server: trout-east-7-us.nexorcdn.com
   port: 56526
@@ -2496,27 +2408,27 @@ proxy-groups:
   - US-VA-008-mackerel-7-us-nexorcdn-com
   - US-VA-009-mackerel-7-us-nexorcdn-com
   - US-VA-010-mackerel-7-us-nexorcdn-com
-  - US-VA-011-prime-us-nexorcdn-com
-  - US-VA-012-prime-us-nexorcdn-com
-  - US-VA-013-prime-us-nexorcdn-com
-  - US-VA-014-prime-us-nexorcdn-com
-  - US-VA-015-prime-us-nexorcdn-com
+  - US-VA-011-mackerel-7-us-nexorcdn-com
+  - US-VA-012-mackerel-7-us-nexorcdn-com
+  - US-VA-013-trout-east-3-us-nexorcdn-com
+  - US-VA-014-trout-east-3-us-nexorcdn-com
+  - US-VA-015-trout-east-3-us-nexorcdn-com
   - US-VA-016-trout-east-3-us-nexorcdn-com
   - US-VA-017-trout-east-3-us-nexorcdn-com
-  - US-VA-018-trout-east-3-us-nexorcdn-com
-  - US-VA-019-trout-east-3-us-nexorcdn-com
+  - US-VA-018-trout-east-4-us-nexorcdn-com
+  - US-VA-019-trout-east-4-us-nexorcdn-com
   - US-VA-020-trout-east-4-us-nexorcdn-com
   - US-VA-021-trout-east-4-us-nexorcdn-com
   - US-VA-022-trout-east-4-us-nexorcdn-com
   - US-VA-023-trout-east-4-us-nexorcdn-com
   - US-VA-024-trout-east-4-us-nexorcdn-com
-  - US-VA-025-trout-east-4-us-nexorcdn-com
-  - US-VA-026-trout-east-4-us-nexorcdn-com
+  - US-VA-025-trout-east-5-us-nexorcdn-com
+  - US-VA-026-trout-east-5-us-nexorcdn-com
   - US-VA-027-trout-east-5-us-nexorcdn-com
   - US-VA-028-trout-east-5-us-nexorcdn-com
   - US-VA-029-trout-east-5-us-nexorcdn-com
-  - US-VA-030-trout-east-5-us-nexorcdn-com
-  - US-VA-031-trout-east-5-us-nexorcdn-com
+  - US-VA-030-trout-east-6-us-nexorcdn-com
+  - US-VA-031-trout-east-6-us-nexorcdn-com
   - US-VA-032-trout-east-6-us-nexorcdn-com
   - US-VA-033-trout-east-6-us-nexorcdn-com
   - US-VA-034-trout-east-6-us-nexorcdn-com
@@ -2528,80 +2440,80 @@ proxy-groups:
   - US-VA-040-trout-east-7-us-nexorcdn-com
   - US-VA-041-trout-east-7-us-nexorcdn-com
   - US-VA-042-trout-east-7-us-nexorcdn-com
+  - US-VA-043-trout-east-7-us-nexorcdn-com
 - name: ⚡ Bitphox
   type: select
   proxies:
-  - US-VA-043-mackerel-6-us-nexorcdn-com
   - US-VA-044-mackerel-6-us-nexorcdn-com
-  - US-VA-045-mackerel-7-us-nexorcdn-com
-  - US-VA-046-mackerel-7-us-nexorcdn-com
-  - US-VA-047-mackerel-7-us-nexorcdn-com
-  - US-VA-048-mackerel-7-us-nexorcdn-com
-  - US-VA-049-mackerel-7-us-nexorcdn-com
-  - US-VA-050-prime-us-nexorcdn-com
-  - US-VA-051-prime-us-nexorcdn-com
-  - US-VA-052-prime-us-nexorcdn-com
-  - US-VA-053-prime-us-nexorcdn-com
-  - US-VA-054-prime-us-nexorcdn-com
-  - US-VA-055-prime-us-nexorcdn-com
-  - US-VA-056-prime-us-nexorcdn-com
+  - US-VA-045-mackerel-6-us-nexorcdn-com
+  - US-VA-046-mackerel-6-us-nexorcdn-com
+  - US-VA-047-mackerel-6-us-nexorcdn-com
+  - US-VA-048-mackerel-6-us-nexorcdn-com
+  - US-VA-049-mackerel-6-us-nexorcdn-com
+  - US-VA-050-mackerel-6-us-nexorcdn-com
+  - US-VA-051-mackerel-7-us-nexorcdn-com
+  - US-VA-052-mackerel-7-us-nexorcdn-com
+  - US-VA-053-mackerel-7-us-nexorcdn-com
+  - US-VA-054-mackerel-7-us-nexorcdn-com
+  - US-VA-055-mackerel-7-us-nexorcdn-com
+  - US-VA-056-mackerel-7-us-nexorcdn-com
   - US-VA-057-trout-east-3-us-nexorcdn-com
   - US-VA-058-trout-east-3-us-nexorcdn-com
   - US-VA-059-trout-east-3-us-nexorcdn-com
   - US-VA-060-trout-east-3-us-nexorcdn-com
   - US-VA-061-trout-east-3-us-nexorcdn-com
-  - US-VA-062-trout-east-4-us-nexorcdn-com
-  - US-VA-063-trout-east-4-us-nexorcdn-com
+  - US-VA-062-trout-east-3-us-nexorcdn-com
+  - US-VA-063-trout-east-3-us-nexorcdn-com
   - US-VA-064-trout-east-4-us-nexorcdn-com
   - US-VA-065-trout-east-4-us-nexorcdn-com
-  - US-VA-066-trout-east-5-us-nexorcdn-com
-  - US-VA-067-trout-east-5-us-nexorcdn-com
-  - US-VA-068-trout-east-5-us-nexorcdn-com
-  - US-VA-069-trout-east-5-us-nexorcdn-com
+  - US-VA-066-trout-east-4-us-nexorcdn-com
+  - US-VA-067-trout-east-4-us-nexorcdn-com
+  - US-VA-068-trout-east-4-us-nexorcdn-com
+  - US-VA-069-trout-east-4-us-nexorcdn-com
   - US-VA-070-trout-east-5-us-nexorcdn-com
   - US-VA-071-trout-east-5-us-nexorcdn-com
-  - US-VA-072-trout-east-6-us-nexorcdn-com
-  - US-VA-073-trout-east-6-us-nexorcdn-com
-  - US-VA-074-trout-east-6-us-nexorcdn-com
-  - US-VA-075-trout-east-6-us-nexorcdn-com
+  - US-VA-072-trout-east-5-us-nexorcdn-com
+  - US-VA-073-trout-east-5-us-nexorcdn-com
+  - US-VA-074-trout-east-5-us-nexorcdn-com
+  - US-VA-075-trout-east-5-us-nexorcdn-com
   - US-VA-076-trout-east-6-us-nexorcdn-com
   - US-VA-077-trout-east-6-us-nexorcdn-com
-  - US-VA-078-trout-east-7-us-nexorcdn-com
-  - US-VA-079-trout-east-7-us-nexorcdn-com
+  - US-VA-078-trout-east-6-us-nexorcdn-com
+  - US-VA-079-trout-east-6-us-nexorcdn-com
   - US-VA-080-trout-east-7-us-nexorcdn-com
   - US-VA-081-trout-east-7-us-nexorcdn-com
   - US-VA-082-trout-east-7-us-nexorcdn-com
+  - US-VA-083-trout-east-7-us-nexorcdn-com
+  - US-VA-084-trout-east-7-us-nexorcdn-com
+  - US-VA-085-trout-east-7-us-nexorcdn-com
+  - US-VA-086-trout-east-7-us-nexorcdn-com
+  - US-VA-087-trout-east-7-us-nexorcdn-com
+  - US-VA-088-trout-east-7-us-nexorcdn-com
 - name: 🌐 Freloop
   type: select
   proxies:
-  - US-VA-083-mackerel-6-us-nexorcdn-com
-  - US-VA-084-mackerel-6-us-nexorcdn-com
-  - US-VA-085-mackerel-6-us-nexorcdn-com
-  - US-VA-086-mackerel-6-us-nexorcdn-com
-  - US-VA-087-mackerel-6-us-nexorcdn-com
-  - US-VA-088-mackerel-7-us-nexorcdn-com
-  - US-VA-089-mackerel-7-us-nexorcdn-com
-  - US-VA-090-mackerel-7-us-nexorcdn-com
-  - US-VA-091-mackerel-7-us-nexorcdn-com
-  - US-VA-092-mackerel-7-us-nexorcdn-com
-  - US-VA-093-mackerel-7-us-nexorcdn-com
-  - US-VA-094-prime-us-nexorcdn-com
-  - US-VA-095-prime-us-nexorcdn-com
-  - US-VA-096-prime-us-nexorcdn-com
-  - US-VA-097-trout-east-3-us-nexorcdn-com
-  - US-VA-098-trout-east-3-us-nexorcdn-com
-  - US-VA-099-trout-east-3-us-nexorcdn-com
+  - US-VA-089-mackerel-6-us-nexorcdn-com
+  - US-VA-090-mackerel-6-us-nexorcdn-com
+  - US-VA-091-mackerel-6-us-nexorcdn-com
+  - US-VA-092-mackerel-6-us-nexorcdn-com
+  - US-VA-093-mackerel-6-us-nexorcdn-com
+  - US-VA-094-mackerel-7-us-nexorcdn-com
+  - US-VA-095-mackerel-7-us-nexorcdn-com
+  - US-VA-096-mackerel-7-us-nexorcdn-com
+  - US-VA-097-mackerel-7-us-nexorcdn-com
+  - US-VA-098-mackerel-7-us-nexorcdn-com
+  - US-VA-099-mackerel-7-us-nexorcdn-com
   - US-VA-100-trout-east-3-us-nexorcdn-com
   - US-VA-101-trout-east-3-us-nexorcdn-com
   - US-VA-102-trout-east-3-us-nexorcdn-com
   - US-VA-103-trout-east-3-us-nexorcdn-com
-  - US-VA-104-trout-east-4-us-nexorcdn-com
-  - US-VA-105-trout-east-4-us-nexorcdn-com
+  - US-VA-104-trout-east-3-us-nexorcdn-com
+  - US-VA-105-trout-east-3-us-nexorcdn-com
   - US-VA-106-trout-east-4-us-nexorcdn-com
   - US-VA-107-trout-east-4-us-nexorcdn-com
   - US-VA-108-trout-east-4-us-nexorcdn-com
   - US-VA-109-trout-east-4-us-nexorcdn-com
-  - US-VA-110-trout-east-4-us-nexorcdn-com
+  - US-VA-110-trout-east-5-us-nexorcdn-com
   - US-VA-111-trout-east-5-us-nexorcdn-com
   - US-VA-112-trout-east-5-us-nexorcdn-com
   - US-VA-113-trout-east-5-us-nexorcdn-com
@@ -2621,40 +2533,40 @@ proxy-groups:
   - US-VA-127-trout-east-7-us-nexorcdn-com
   - US-VA-128-trout-east-7-us-nexorcdn-com
   - US-VA-129-trout-east-7-us-nexorcdn-com
-  - US-VA-130-trout-east-7-us-nexorcdn-com
 - name: 💎 Hibchr
   type: select
   proxies:
+  - US-VA-130-mackerel-6-us-nexorcdn-com
   - US-VA-131-mackerel-6-us-nexorcdn-com
   - US-VA-132-mackerel-6-us-nexorcdn-com
   - US-VA-133-mackerel-6-us-nexorcdn-com
-  - US-VA-134-mackerel-7-us-nexorcdn-com
-  - US-VA-135-mackerel-7-us-nexorcdn-com
+  - US-VA-134-mackerel-6-us-nexorcdn-com
+  - US-VA-135-mackerel-6-us-nexorcdn-com
   - US-VA-136-mackerel-7-us-nexorcdn-com
   - US-VA-137-mackerel-7-us-nexorcdn-com
   - US-VA-138-mackerel-7-us-nexorcdn-com
-  - US-VA-139-mackerel-7-us-nexorcdn-com
-  - US-VA-140-prime-us-nexorcdn-com
-  - US-VA-141-prime-us-nexorcdn-com
-  - US-VA-142-prime-us-nexorcdn-com
-  - US-VA-143-prime-us-nexorcdn-com
-  - US-VA-144-prime-us-nexorcdn-com
-  - US-VA-145-trout-east-3-us-nexorcdn-com
-  - US-VA-146-trout-east-3-us-nexorcdn-com
-  - US-VA-147-trout-east-3-us-nexorcdn-com
-  - US-VA-148-trout-east-3-us-nexorcdn-com
-  - US-VA-149-trout-east-3-us-nexorcdn-com
-  - US-VA-150-trout-east-3-us-nexorcdn-com
-  - US-VA-151-trout-east-3-us-nexorcdn-com
-  - US-VA-152-trout-east-4-us-nexorcdn-com
-  - US-VA-153-trout-east-4-us-nexorcdn-com
-  - US-VA-154-trout-east-4-us-nexorcdn-com
-  - US-VA-155-trout-east-4-us-nexorcdn-com
+  - US-VA-139-trout-east-3-us-nexorcdn-com
+  - US-VA-140-trout-east-3-us-nexorcdn-com
+  - US-VA-141-trout-east-3-us-nexorcdn-com
+  - US-VA-142-trout-east-3-us-nexorcdn-com
+  - US-VA-143-trout-east-3-us-nexorcdn-com
+  - US-VA-144-trout-east-3-us-nexorcdn-com
+  - US-VA-145-trout-east-4-us-nexorcdn-com
+  - US-VA-146-trout-east-4-us-nexorcdn-com
+  - US-VA-147-trout-east-4-us-nexorcdn-com
+  - US-VA-148-trout-east-4-us-nexorcdn-com
+  - US-VA-149-trout-east-4-us-nexorcdn-com
+  - US-VA-150-trout-east-4-us-nexorcdn-com
+  - US-VA-151-trout-east-4-us-nexorcdn-com
+  - US-VA-152-trout-east-5-us-nexorcdn-com
+  - US-VA-153-trout-east-5-us-nexorcdn-com
+  - US-VA-154-trout-east-5-us-nexorcdn-com
+  - US-VA-155-trout-east-5-us-nexorcdn-com
   - US-VA-156-trout-east-5-us-nexorcdn-com
   - US-VA-157-trout-east-5-us-nexorcdn-com
   - US-VA-158-trout-east-5-us-nexorcdn-com
   - US-VA-159-trout-east-5-us-nexorcdn-com
-  - US-VA-160-trout-east-5-us-nexorcdn-com
+  - US-VA-160-trout-east-6-us-nexorcdn-com
   - US-VA-161-trout-east-6-us-nexorcdn-com
   - US-VA-162-trout-east-6-us-nexorcdn-com
   - US-VA-163-trout-east-6-us-nexorcdn-com
@@ -2675,14 +2587,14 @@ proxy-groups:
   - US-VA-175-mackerel-6-us-nexorcdn-com
   - US-VA-176-mackerel-6-us-nexorcdn-com
   - US-VA-177-mackerel-6-us-nexorcdn-com
-  - US-VA-178-mackerel-7-us-nexorcdn-com
+  - US-VA-178-mackerel-6-us-nexorcdn-com
   - US-VA-179-mackerel-7-us-nexorcdn-com
   - US-VA-180-mackerel-7-us-nexorcdn-com
   - US-VA-181-mackerel-7-us-nexorcdn-com
-  - US-VA-182-prime-us-nexorcdn-com
-  - US-VA-183-prime-us-nexorcdn-com
-  - US-VA-184-prime-us-nexorcdn-com
-  - US-VA-185-prime-us-nexorcdn-com
+  - US-VA-182-mackerel-7-us-nexorcdn-com
+  - US-VA-183-mackerel-7-us-nexorcdn-com
+  - US-VA-184-mackerel-7-us-nexorcdn-com
+  - US-VA-185-trout-east-3-us-nexorcdn-com
   - US-VA-186-trout-east-3-us-nexorcdn-com
   - US-VA-187-trout-east-3-us-nexorcdn-com
   - US-VA-188-trout-east-3-us-nexorcdn-com
@@ -2692,21 +2604,21 @@ proxy-groups:
   - US-VA-192-trout-east-4-us-nexorcdn-com
   - US-VA-193-trout-east-4-us-nexorcdn-com
   - US-VA-194-trout-east-4-us-nexorcdn-com
-  - US-VA-195-trout-east-4-us-nexorcdn-com
+  - US-VA-195-trout-east-5-us-nexorcdn-com
   - US-VA-196-trout-east-5-us-nexorcdn-com
   - US-VA-197-trout-east-5-us-nexorcdn-com
   - US-VA-198-trout-east-5-us-nexorcdn-com
   - US-VA-199-trout-east-5-us-nexorcdn-com
   - US-VA-200-trout-east-5-us-nexorcdn-com
-  - US-VA-201-trout-east-5-us-nexorcdn-com
-  - US-VA-202-trout-east-5-us-nexorcdn-com
+  - US-VA-201-trout-east-6-us-nexorcdn-com
+  - US-VA-202-trout-east-6-us-nexorcdn-com
   - US-VA-203-trout-east-6-us-nexorcdn-com
   - US-VA-204-trout-east-6-us-nexorcdn-com
   - US-VA-205-trout-east-6-us-nexorcdn-com
   - US-VA-206-trout-east-6-us-nexorcdn-com
   - US-VA-207-trout-east-6-us-nexorcdn-com
-  - US-VA-208-trout-east-6-us-nexorcdn-com
-  - US-VA-209-trout-east-6-us-nexorcdn-com
+  - US-VA-208-trout-east-7-us-nexorcdn-com
+  - US-VA-209-trout-east-7-us-nexorcdn-com
   - US-VA-210-trout-east-7-us-nexorcdn-com
   - US-VA-211-trout-east-7-us-nexorcdn-com
   - US-VA-212-trout-east-7-us-nexorcdn-com
@@ -2718,16 +2630,16 @@ proxy-groups:
   - US-VA-215-mackerel-6-us-nexorcdn-com
   - US-VA-216-mackerel-6-us-nexorcdn-com
   - US-VA-217-mackerel-6-us-nexorcdn-com
-  - US-VA-218-mackerel-7-us-nexorcdn-com
-  - US-VA-219-mackerel-7-us-nexorcdn-com
+  - US-VA-218-mackerel-6-us-nexorcdn-com
+  - US-VA-219-mackerel-6-us-nexorcdn-com
   - US-VA-220-mackerel-7-us-nexorcdn-com
   - US-VA-221-mackerel-7-us-nexorcdn-com
   - US-VA-222-mackerel-7-us-nexorcdn-com
-  - US-VA-223-prime-us-nexorcdn-com
-  - US-VA-224-prime-us-nexorcdn-com
-  - US-VA-225-prime-us-nexorcdn-com
-  - US-VA-226-prime-us-nexorcdn-com
-  - US-VA-227-trout-east-3-us-nexorcdn-com
+  - US-VA-223-mackerel-7-us-nexorcdn-com
+  - US-VA-224-mackerel-7-us-nexorcdn-com
+  - US-VA-225-mackerel-7-us-nexorcdn-com
+  - US-VA-226-mackerel-7-us-nexorcdn-com
+  - US-VA-227-mackerel-7-us-nexorcdn-com
   - US-VA-228-trout-east-3-us-nexorcdn-com
   - US-VA-229-trout-east-3-us-nexorcdn-com
   - US-VA-230-trout-east-3-us-nexorcdn-com
@@ -2737,78 +2649,67 @@ proxy-groups:
   - US-VA-234-trout-east-4-us-nexorcdn-com
   - US-VA-235-trout-east-4-us-nexorcdn-com
   - US-VA-236-trout-east-4-us-nexorcdn-com
-  - US-VA-237-trout-east-4-us-nexorcdn-com
-  - US-VA-238-trout-east-4-us-nexorcdn-com
-  - US-VA-239-trout-east-4-us-nexorcdn-com
-  - US-VA-240-trout-east-4-us-nexorcdn-com
+  - US-VA-237-trout-east-5-us-nexorcdn-com
+  - US-VA-238-trout-east-5-us-nexorcdn-com
+  - US-VA-239-trout-east-5-us-nexorcdn-com
+  - US-VA-240-trout-east-5-us-nexorcdn-com
   - US-VA-241-trout-east-5-us-nexorcdn-com
   - US-VA-242-trout-east-5-us-nexorcdn-com
-  - US-VA-243-trout-east-5-us-nexorcdn-com
-  - US-VA-244-trout-east-5-us-nexorcdn-com
-  - US-VA-245-trout-east-5-us-nexorcdn-com
-  - US-VA-246-trout-east-5-us-nexorcdn-com
+  - US-VA-243-trout-east-6-us-nexorcdn-com
+  - US-VA-244-trout-east-6-us-nexorcdn-com
+  - US-VA-245-trout-east-6-us-nexorcdn-com
+  - US-VA-246-trout-east-6-us-nexorcdn-com
   - US-VA-247-trout-east-6-us-nexorcdn-com
   - US-VA-248-trout-east-6-us-nexorcdn-com
-  - US-VA-249-trout-east-6-us-nexorcdn-com
-  - US-VA-250-trout-east-6-us-nexorcdn-com
-  - US-VA-251-trout-east-6-us-nexorcdn-com
-  - US-VA-252-trout-east-6-us-nexorcdn-com
+  - US-VA-249-trout-east-7-us-nexorcdn-com
+  - US-VA-250-trout-east-7-us-nexorcdn-com
+  - US-VA-251-trout-east-7-us-nexorcdn-com
+  - US-VA-252-trout-east-7-us-nexorcdn-com
   - US-VA-253-trout-east-7-us-nexorcdn-com
-  - US-VA-254-trout-east-7-us-nexorcdn-com
-  - US-VA-255-trout-east-7-us-nexorcdn-com
-  - US-VA-256-trout-east-7-us-nexorcdn-com
-  - US-VA-257-trout-east-7-us-nexorcdn-com
-  - US-VA-258-trout-east-7-us-nexorcdn-com
-  - US-VA-259-trout-east-7-us-nexorcdn-com
 - name: 🔥 Tronyza
   type: select
   proxies:
-  - US-VA-260-mackerel-6-us-nexorcdn-com
-  - US-VA-261-mackerel-6-us-nexorcdn-com
-  - US-VA-262-mackerel-6-us-nexorcdn-com
-  - US-VA-263-mackerel-6-us-nexorcdn-com
-  - US-VA-264-mackerel-6-us-nexorcdn-com
-  - US-VA-265-mackerel-7-us-nexorcdn-com
-  - US-VA-266-mackerel-7-us-nexorcdn-com
-  - US-VA-267-mackerel-7-us-nexorcdn-com
-  - US-VA-268-mackerel-7-us-nexorcdn-com
-  - US-VA-269-mackerel-7-us-nexorcdn-com
-  - US-VA-270-mackerel-7-us-nexorcdn-com
-  - US-VA-271-mackerel-7-us-nexorcdn-com
-  - US-VA-272-prime-us-nexorcdn-com
-  - US-VA-273-prime-us-nexorcdn-com
-  - US-VA-274-prime-us-nexorcdn-com
-  - US-VA-275-prime-us-nexorcdn-com
-  - US-VA-276-prime-us-nexorcdn-com
-  - US-VA-277-prime-us-nexorcdn-com
-  - US-VA-278-prime-us-nexorcdn-com
-  - US-VA-279-prime-us-nexorcdn-com
-  - US-VA-280-trout-east-3-us-nexorcdn-com
-  - US-VA-281-trout-east-3-us-nexorcdn-com
-  - US-VA-282-trout-east-3-us-nexorcdn-com
-  - US-VA-283-trout-east-4-us-nexorcdn-com
-  - US-VA-284-trout-east-4-us-nexorcdn-com
-  - US-VA-285-trout-east-4-us-nexorcdn-com
-  - US-VA-286-trout-east-4-us-nexorcdn-com
-  - US-VA-287-trout-east-4-us-nexorcdn-com
-  - US-VA-288-trout-east-4-us-nexorcdn-com
-  - US-VA-289-trout-east-5-us-nexorcdn-com
-  - US-VA-290-trout-east-5-us-nexorcdn-com
-  - US-VA-291-trout-east-5-us-nexorcdn-com
-  - US-VA-292-trout-east-5-us-nexorcdn-com
-  - US-VA-293-trout-east-5-us-nexorcdn-com
-  - US-VA-294-trout-east-5-us-nexorcdn-com
-  - US-VA-295-trout-east-6-us-nexorcdn-com
-  - US-VA-296-trout-east-6-us-nexorcdn-com
-  - US-VA-297-trout-east-6-us-nexorcdn-com
-  - US-VA-298-trout-east-6-us-nexorcdn-com
-  - US-VA-299-trout-east-6-us-nexorcdn-com
-  - US-VA-300-trout-east-6-us-nexorcdn-com
-  - US-VA-301-trout-east-6-us-nexorcdn-com
-  - US-VA-302-trout-east-7-us-nexorcdn-com
-  - US-VA-303-trout-east-7-us-nexorcdn-com
-  - US-VA-304-trout-east-7-us-nexorcdn-com
-  - US-VA-305-trout-east-7-us-nexorcdn-com
+  - US-VA-254-mackerel-6-us-nexorcdn-com
+  - US-VA-255-mackerel-6-us-nexorcdn-com
+  - US-VA-256-mackerel-6-us-nexorcdn-com
+  - US-VA-257-mackerel-6-us-nexorcdn-com
+  - US-VA-258-mackerel-7-us-nexorcdn-com
+  - US-VA-259-mackerel-7-us-nexorcdn-com
+  - US-VA-260-mackerel-7-us-nexorcdn-com
+  - US-VA-261-mackerel-7-us-nexorcdn-com
+  - US-VA-262-mackerel-7-us-nexorcdn-com
+  - US-VA-263-mackerel-7-us-nexorcdn-com
+  - US-VA-264-mackerel-7-us-nexorcdn-com
+  - US-VA-265-trout-east-3-us-nexorcdn-com
+  - US-VA-266-trout-east-3-us-nexorcdn-com
+  - US-VA-267-trout-east-3-us-nexorcdn-com
+  - US-VA-268-trout-east-3-us-nexorcdn-com
+  - US-VA-269-trout-east-3-us-nexorcdn-com
+  - US-VA-270-trout-east-3-us-nexorcdn-com
+  - US-VA-271-trout-east-4-us-nexorcdn-com
+  - US-VA-272-trout-east-4-us-nexorcdn-com
+  - US-VA-273-trout-east-4-us-nexorcdn-com
+  - US-VA-274-trout-east-4-us-nexorcdn-com
+  - US-VA-275-trout-east-4-us-nexorcdn-com
+  - US-VA-276-trout-east-5-us-nexorcdn-com
+  - US-VA-277-trout-east-5-us-nexorcdn-com
+  - US-VA-278-trout-east-5-us-nexorcdn-com
+  - US-VA-279-trout-east-5-us-nexorcdn-com
+  - US-VA-280-trout-east-5-us-nexorcdn-com
+  - US-VA-281-trout-east-6-us-nexorcdn-com
+  - US-VA-282-trout-east-6-us-nexorcdn-com
+  - US-VA-283-trout-east-6-us-nexorcdn-com
+  - US-VA-284-trout-east-6-us-nexorcdn-com
+  - US-VA-285-trout-east-6-us-nexorcdn-com
+  - US-VA-286-trout-east-6-us-nexorcdn-com
+  - US-VA-287-trout-east-6-us-nexorcdn-com
+  - US-VA-288-trout-east-6-us-nexorcdn-com
+  - US-VA-289-trout-east-7-us-nexorcdn-com
+  - US-VA-290-trout-east-7-us-nexorcdn-com
+  - US-VA-291-trout-east-7-us-nexorcdn-com
+  - US-VA-292-trout-east-7-us-nexorcdn-com
+  - US-VA-293-trout-east-7-us-nexorcdn-com
+  - US-VA-294-trout-east-7-us-nexorcdn-com
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
