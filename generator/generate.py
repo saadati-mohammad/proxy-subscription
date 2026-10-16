@@ -628,10 +628,11 @@ def fetch_provider_region(
     provider_domain: str,
     region: str,
     token_manager: TokenManager,
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], str]:
     """
     Tries every endpoint in SERVER_LIST_ENDPOINTS in order (v3 first, then
-    legacy) and returns the first non-empty answer.
+    legacy) and returns (entries, endpoint_kind) of the first non-empty
+    answer. endpoint_kind is "v3" or "legacy" ("" if nothing was returned).
     """
 
     for kind, path in SERVER_LIST_ENDPOINTS:
@@ -652,11 +653,11 @@ def fetch_provider_region(
             continue
 
         if entries:
-            return entries
+            return entries, kind
 
         # Failed or empty -> fall through to the next endpoint.
 
-    return []
+    return [], ""
 
 
 # =============================================================================
@@ -688,6 +689,7 @@ def normalize_entry(
     entry: dict[str, Any],
     region: str,
     provider_domain: str,
+    api: str = "legacy",
 ) -> dict[str, Any] | None:
     """
     Converts provider response into our internal node structure.
@@ -740,6 +742,9 @@ def normalize_entry(
         "_provider": provider_domain,
         "_provider_name": provider_name,
 
+        # Which endpoint produced this node: "v3" or "legacy".
+        "_api": api,
+
         "_health": {
             "status": "unknown",
             "latency_ms": None,
@@ -783,6 +788,23 @@ def node_key(node: dict[str, Any]) -> tuple[Any, ...]:
     )
 
 
+def prefer_node(
+    existing: dict[str, Any] | None,
+    new: dict[str, Any],
+) -> dict[str, Any]:
+    """
+    If the same node was seen via both endpoints, keep the v3 version.
+    """
+
+    if existing is None:
+        return new
+
+    if existing.get("_api") != "v3" and new.get("_api") == "v3":
+        return new
+
+    return existing
+
+
 # =============================================================================
 # COLLECT ONE PROVIDER / ONE REGION
 # =============================================================================
@@ -803,7 +825,7 @@ def collect_provider_region(
 
     for call_number in range(1, MAX_REQUESTS_PER_PROVIDER_REGION + 1):
 
-        entries = fetch_provider_region(
+        entries, api = fetch_provider_region(
             provider_domain=provider_domain,
             region=region,
             token_manager=token_manager,
@@ -820,6 +842,7 @@ def collect_provider_region(
                 entry=entry,
                 region=region,
                 provider_domain=provider_domain,
+                api=api,
             )
 
             if node is None:
@@ -830,6 +853,8 @@ def collect_provider_region(
             if key not in unique:
                 unique[key] = node
                 new_count += 1
+            else:
+                unique[key] = prefer_node(unique[key], node)
 
         print(
             f"        call={call_number:02d} "
@@ -863,6 +888,7 @@ def sort_nodes(nodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
     result.sort(
         key=lambda node: (
             get_provider_hostname(node.get("_provider", "")),
+            0 if node.get("_api") == "v3" else 1,
             node["server"],
             node["port"],
             node["username"],
@@ -878,12 +904,16 @@ def print_provider_counts(
 ) -> None:
 
     provider_counts: dict[str, int] = {}
+    provider_v3: dict[str, int] = {}
 
     for node in nodes:
 
         provider = node.get("_provider", "unknown")
 
         provider_counts[provider] = provider_counts.get(provider, 0) + 1
+
+        if node.get("_api") == "v3":
+            provider_v3[provider] = provider_v3.get(provider, 0) + 1
 
     print("")
     print(f"[RESULT] {region}: {len(nodes)} unique nodes")
@@ -895,7 +925,9 @@ def print_provider_counts(
 
         print(
             f"    {get_provider_name(provider):<20} "
-            f"{count:>4} nodes"
+            f"{count:>4} nodes "
+            f"(v3={provider_v3.get(provider, 0)}, "
+            f"old={count - provider_v3.get(provider, 0)})"
         )
 
 
@@ -952,8 +984,7 @@ def collect_region(
 
                 key = node_key(node)
 
-                if key not in all_unique:
-                    all_unique[key] = node
+                all_unique[key] = prefer_node(all_unique.get(key), node)
 
     result = sort_nodes(list(all_unique.values()))
 
@@ -1018,6 +1049,8 @@ def merge_manual_nodes(
         if key not in combined:
             combined[key] = node
             added += 1
+        else:
+            combined[key] = prefer_node(combined[key], node)
 
     result = sort_nodes(list(combined.values()))
 
@@ -1032,10 +1065,17 @@ def merge_manual_nodes(
 # PROXY NAME
 # =============================================================================
 
+API_TAGS = {
+    "v3": "[v3]",
+    "legacy": "[old]",
+}
+
+
 def make_proxy_name(
     region: str,
     index: int,
     server: str,
+    api: str = "legacy",
 ) -> str:
 
     clean_server = (
@@ -1047,7 +1087,9 @@ def make_proxy_name(
         .replace(" ", "-")
     )
 
-    return f"{region.upper()}-{index:03d}-{clean_server}"
+    tag = API_TAGS.get(api, "[old]")
+
+    return f"{tag} {region.upper()}-{index:03d}-{clean_server}"
 
 
 # =============================================================================
@@ -1245,6 +1287,7 @@ def build_yaml(
             region=region,
             index=index,
             server=node["server"],
+            api=node.get("_api", "legacy"),
         )
 
         proxies.append(
