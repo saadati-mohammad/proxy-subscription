@@ -51,7 +51,7 @@ proxies:
 - name: '[v3] FR-PRS-003-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 38010
+  port: 35344
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -59,7 +59,7 @@ proxies:
 - name: '[v3] FR-PRS-004-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 38144
+  port: 38010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -67,15 +67,15 @@ proxies:
 - name: '[v3] FR-PRS-005-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 42160
+  port: 57441
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-006-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-006-camembert-7-fr-nexorcdn-com'
   type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 57441
+  server: camembert-7-fr.nexorcdn.com
+  port: 14730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -83,7 +83,7 @@ proxies:
 - name: '[v3] FR-PRS-007-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 14730
+  port: 26559
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -107,15 +107,15 @@ proxies:
 - name: '[v3] FR-PRS-010-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 47290
+  port: 56633
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-011-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-011-merlot-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 56633
+  server: merlot-fr.nexorcdn.com
+  port: 17720
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -123,7 +123,7 @@ proxies:
 - name: '[v3] FR-PRS-012-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 17211
+  port: 29122
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: '[v3] FR-PRS-013-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 29122
+  port: 36503
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -139,7 +139,7 @@ proxies:
 - name: '[v3] FR-PRS-014-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 49879
+  port: 55355
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -147,20 +147,12 @@ proxies:
 - name: '[v3] FR-PRS-015-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 55355
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-016-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
   port: 59010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-017-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-016-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 13376
@@ -168,7 +160,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-018-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-017-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 15104
@@ -176,7 +168,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-019-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-018-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 15270
@@ -184,10 +176,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] FR-PRS-019-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 20886
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] FR-PRS-020-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 26720
+  port: 25202
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -195,7 +195,7 @@ proxies:
 - name: '[v3] FR-PRS-021-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 11249
+  port: 20485
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -203,7 +203,7 @@ proxies:
 - name: '[v3] FR-PRS-022-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 12160
+  port: 23750
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -211,7 +211,7 @@ proxies:
 - name: '[v3] FR-PRS-023-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 20485
+  port: 31658
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -219,7 +219,7 @@ proxies:
 - name: '[v3] FR-PRS-024-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 23750
+  port: 43785
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -227,52 +227,12 @@ proxies:
 - name: '[v3] FR-PRS-025-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 38460
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-026-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
   port: 44730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-027-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 49817
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-028-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 14357
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-029-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 16037
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-030-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 19158
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-031-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-026-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 24084
@@ -280,7 +240,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-032-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-027-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 26042
@@ -288,7 +248,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-033-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-028-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 34270
@@ -296,15 +256,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-034-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 44075
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-035-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-029-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 50118
@@ -312,7 +264,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-036-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-030-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 12804
@@ -320,7 +272,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-037-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-031-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 14826
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-032-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 15046
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-033-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 17785
@@ -328,7 +296,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-038-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-034-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 17868
@@ -336,7 +304,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-039-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-035-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 42256
@@ -344,7 +312,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-040-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-036-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 49878
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-037-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 53406
@@ -352,15 +328,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-041-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-038-camembert-6-fr-nexorcdn-com'
   type: http
-  server: pinot-fr.nexorcdn.com
-  port: 59147
+  server: camembert-6-fr.nexorcdn.com
+  port: 20338
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-042-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-039-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 24546
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-040-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 28292
@@ -368,10 +352,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] FR-PRS-041-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 35344
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-042-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 38010
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] FR-PRS-043-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 47090
+  port: 42160
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -379,7 +379,7 @@ proxies:
 - name: '[v3] FR-PRS-044-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 50600
+  port: 57441
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -387,7 +387,7 @@ proxies:
 - name: '[v3] FR-PRS-045-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 24250
+  port: 14730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -403,7 +403,7 @@ proxies:
 - name: '[v3] FR-PRS-047-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 35841
+  port: 39624
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -411,7 +411,7 @@ proxies:
 - name: '[v3] FR-PRS-048-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 39624
+  port: 47290
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -419,15 +419,15 @@ proxies:
 - name: '[v3] FR-PRS-049-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 41756
+  port: 56633
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-050-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-050-merlot-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 42852
+  server: merlot-fr.nexorcdn.com
+  port: 29122
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -435,7 +435,7 @@ proxies:
 - name: '[v3] FR-PRS-051-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 17720
+  port: 45061
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -443,7 +443,7 @@ proxies:
 - name: '[v3] FR-PRS-052-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 42508
+  port: 48307
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -451,20 +451,12 @@ proxies:
 - name: '[v3] FR-PRS-053-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 45061
+  port: 55355
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-054-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 59010
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-055-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-054-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 13376
@@ -472,399 +464,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] FR-PRS-055-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 15270
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] FR-PRS-056-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 15104
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-057-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 15270
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-058-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 20886
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-059-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 25202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-060-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 26720
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-061-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 34846
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-062-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 58518
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-063-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 11249
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-064-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 12160
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-065-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 23750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-066-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 31658
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-067-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 49817
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-068-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 59988
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-069-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 14357
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-070-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 16037
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-071-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 19258
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-072-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 24084
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-073-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 36296
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-074-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 50118
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-075-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 12804
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-076-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 14826
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-077-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 15046
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-078-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 17785
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-079-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 17868
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-080-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 44976
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-081-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 49878
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-082-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 53406
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-083-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 20338
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-084-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 24546
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-085-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 28292
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-086-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 38010
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-087-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 38144
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-088-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 47090
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-089-camembert-6-fr-nexorcdn-com'
-  type: http
-  server: camembert-6-fr.nexorcdn.com
-  port: 50600
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-090-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 14730
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-091-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 24250
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-092-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 26559
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-093-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 35841
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-094-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 39624
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-095-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 41756
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-096-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 42852
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-097-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 47290
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-098-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 56633
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-099-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 29122
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-100-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 36503
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-101-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 48307
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-102-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 49879
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-103-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 15270
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-104-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 20886
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-105-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 32778
@@ -872,15 +480,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-106-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 11249
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-107-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-057-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 20485
@@ -888,7 +488,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-108-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-058-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 23750
@@ -896,7 +496,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-109-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-059-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 31658
@@ -904,7 +504,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-110-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-060-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 38460
@@ -912,7 +512,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-111-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-061-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 43785
@@ -920,7 +520,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-112-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-062-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 44730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-063-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 59988
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-064-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 14357
@@ -928,7 +544,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-113-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-065-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 16037
@@ -936,7 +552,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-114-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-066-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 19158
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-067-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 19258
@@ -944,23 +568,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-115-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-068-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 34270
+  port: 24084
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-116-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-069-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 36296
+  port: 26042
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-117-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-070-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 50118
@@ -968,23 +592,31 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-118-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-071-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 12804
+  port: 14826
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-119-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-072-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 15046
+  port: 17785
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-120-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-073-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 17868
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-074-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 42256
@@ -992,23 +624,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-121-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 44976
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-122-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 49878
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-123-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-075-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 53406
@@ -1016,7 +632,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-124-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-076-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 59147
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-077-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 20338
@@ -1024,7 +648,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-125-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-078-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 24546
@@ -1032,7 +656,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-126-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-079-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 28292
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-080-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 38010
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-081-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 38144
@@ -1040,7 +680,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-127-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-082-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 42160
@@ -1048,15 +688,39 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-128-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-083-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 47090
+  port: 50600
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-129-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-084-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 57441
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-085-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 14730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-086-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 24250
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-087-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 26559
@@ -1064,7 +728,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-130-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-088-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 35841
@@ -1072,15 +736,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-131-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-089-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 37611
+  port: 39624
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-132-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-090-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 41756
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-091-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 42852
@@ -1088,23 +760,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-133-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 47290
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-134-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 17211
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-135-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-092-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
   port: 17720
@@ -1112,7 +768,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-136-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-093-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
   port: 29122
@@ -1120,7 +776,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-137-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-094-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
   port: 42508
@@ -1128,7 +784,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-138-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-095-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
   port: 48307
@@ -1136,23 +792,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-139-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-096-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 15104
+  port: 13376
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-140-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 15270
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-141-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-097-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 20886
@@ -1160,7 +808,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-142-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-098-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 25202
@@ -1168,7 +816,343 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-143-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-099-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 32778
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-100-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 34846
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-101-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 37144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-102-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 12160
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-103-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 20485
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-104-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 23750
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-105-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 43785
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-106-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 44730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-107-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 16037
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-108-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 19158
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-109-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 19258
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-110-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 26042
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-111-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 44075
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-112-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 50118
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-113-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 14826
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-114-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 15046
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-115-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 17785
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-116-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 17868
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-117-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 44976
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-118-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 59147
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-119-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 20338
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-120-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 24546
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-121-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 28292
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-122-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 47090
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-123-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 50600
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-124-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 57441
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-125-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 14730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-126-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 24250
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-127-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 35841
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-128-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 37611
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-129-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 41756
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-130-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 47290
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-131-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 56633
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-132-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 17211
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-133-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 29122
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-134-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 36503
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-135-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 45061
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-136-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 59010
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-137-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 13376
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-138-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 15104
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-139-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 15270
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-140-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 20886
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-141-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 26720
@@ -1176,10 +1160,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-144-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-142-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 32778
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-143-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 37144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-144-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 58518
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1211,36 +1211,20 @@ proxies:
 - name: '[v3] FR-PRS-148-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 38460
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-149-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 49817
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-150-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
   port: 59988
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-151-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-149-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 16037
+  port: 14357
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-152-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-150-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 19158
@@ -1248,7 +1232,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-153-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-151-parisian-3-fr-nexorcdn-com'
+  type: http
+  server: parisian-3-fr.nexorcdn.com
+  port: 19258
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-152-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 24084
@@ -1256,15 +1248,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-154-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-153-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 34270
+  port: 26042
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-155-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-154-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 36296
@@ -1272,7 +1264,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-156-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-155-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 44075
@@ -1280,7 +1272,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-157-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-156-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 50118
@@ -1288,7 +1280,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-158-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-157-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 14826
@@ -1296,31 +1288,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] FR-PRS-158-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 15046
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] FR-PRS-159-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 17868
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-160-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 42256
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-161-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 44976
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-162-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 49878
@@ -1328,15 +1304,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-163-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 59147
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-164-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-160-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 20338
@@ -1344,7 +1312,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-165-camembert-6-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-161-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 24546
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-162-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
   port: 35344
@@ -1352,15 +1328,23 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-166-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-163-camembert-6-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 14730
+  server: camembert-6-fr.nexorcdn.com
+  port: 38010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-167-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-164-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 38144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-165-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 24250
@@ -1368,7 +1352,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-168-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-166-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 26559
@@ -1376,7 +1360,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-169-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-167-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 35841
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-168-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 37611
@@ -1384,7 +1376,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-170-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-169-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 39624
@@ -1392,15 +1384,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-171-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 42852
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-172-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-170-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
   port: 47290
@@ -1408,10 +1392,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-173-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-171-camembert-7-fr-nexorcdn-com'
+  type: http
+  server: camembert-7-fr.nexorcdn.com
+  port: 56633
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-172-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
   port: 17211
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-173-merlot-fr-nexorcdn-com'
+  type: http
+  server: merlot-fr.nexorcdn.com
+  port: 29122
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1435,7 +1435,7 @@ proxies:
 - name: '[v3] FR-PRS-176-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 55355
+  port: 59010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1451,7 +1451,7 @@ proxies:
 - name: '[v3] FR-PRS-178-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 15104
+  port: 15270
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1459,7 +1459,7 @@ proxies:
 - name: '[v3] FR-PRS-179-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 15270
+  port: 20886
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1467,7 +1467,7 @@ proxies:
 - name: '[v3] FR-PRS-180-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 20886
+  port: 25202
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1475,7 +1475,7 @@ proxies:
 - name: '[v3] FR-PRS-181-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 32778
+  port: 26720
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1483,20 +1483,12 @@ proxies:
 - name: '[v3] FR-PRS-182-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 34846
+  port: 32778
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-183-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 58518
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-184-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-183-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 11249
@@ -1504,10 +1496,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] FR-PRS-184-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 20485
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] FR-PRS-185-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 38460
+  port: 23750
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1515,7 +1515,7 @@ proxies:
 - name: '[v3] FR-PRS-186-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 44730
+  port: 31658
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1523,23 +1523,23 @@ proxies:
 - name: '[v3] FR-PRS-187-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
+  port: 43785
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-188-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
   port: 49817
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-188-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-189-parisian-2-fr-nexorcdn-com'
   type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 14357
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-189-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 19258
+  server: parisian-2-fr.nexorcdn.com
+  port: 59988
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1547,7 +1547,7 @@ proxies:
 - name: '[v3] FR-PRS-190-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 26042
+  port: 14357
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1555,7 +1555,7 @@ proxies:
 - name: '[v3] FR-PRS-191-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 34270
+  port: 19158
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1563,7 +1563,7 @@ proxies:
 - name: '[v3] FR-PRS-192-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 36296
+  port: 19258
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1571,7 +1571,7 @@ proxies:
 - name: '[v3] FR-PRS-193-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 44075
+  port: 34270
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1579,15 +1579,15 @@ proxies:
 - name: '[v3] FR-PRS-194-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 50118
+  port: 36296
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-195-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-195-parisian-3-fr-nexorcdn-com'
   type: http
-  server: pinot-fr.nexorcdn.com
-  port: 12804
+  server: parisian-3-fr.nexorcdn.com
+  port: 50118
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1595,7 +1595,7 @@ proxies:
 - name: '[v3] FR-PRS-196-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 14826
+  port: 12804
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1603,7 +1603,7 @@ proxies:
 - name: '[v3] FR-PRS-197-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 15046
+  port: 17785
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1611,7 +1611,7 @@ proxies:
 - name: '[v3] FR-PRS-198-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 17785
+  port: 44976
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1619,7 +1619,7 @@ proxies:
 - name: '[v3] FR-PRS-199-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 42256
+  port: 49878
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1651,7 +1651,7 @@ proxies:
 - name: '[v3] FR-PRS-203-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 28292
+  port: 24546
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1667,7 +1667,7 @@ proxies:
 - name: '[v3] FR-PRS-205-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 38144
+  port: 38010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1675,7 +1675,7 @@ proxies:
 - name: '[v3] FR-PRS-206-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 50600
+  port: 38144
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1683,31 +1683,31 @@ proxies:
 - name: '[v3] FR-PRS-207-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
+  port: 42160
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-208-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 47090
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-209-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 50600
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-210-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
   port: 57441
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-208-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 14730
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-209-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 26559
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-210-camembert-7-fr-nexorcdn-com'
-  type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 35841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1715,7 +1715,7 @@ proxies:
 - name: '[v3] FR-PRS-211-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 37611
+  port: 14730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1723,7 +1723,7 @@ proxies:
 - name: '[v3] FR-PRS-212-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 39624
+  port: 35841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1731,7 +1731,7 @@ proxies:
 - name: '[v3] FR-PRS-213-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 42852
+  port: 41756
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1739,7 +1739,7 @@ proxies:
 - name: '[v3] FR-PRS-214-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 47290
+  port: 42852
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1747,7 +1747,7 @@ proxies:
 - name: '[v3] FR-PRS-215-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 56633
+  port: 47290
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1755,7 +1755,7 @@ proxies:
 - name: '[v3] FR-PRS-216-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 17211
+  port: 29122
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1763,7 +1763,7 @@ proxies:
 - name: '[v3] FR-PRS-217-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 29122
+  port: 45061
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1771,7 +1771,7 @@ proxies:
 - name: '[v3] FR-PRS-218-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 42508
+  port: 49879
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1779,7 +1779,7 @@ proxies:
 - name: '[v3] FR-PRS-219-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 48307
+  port: 55355
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1787,15 +1787,15 @@ proxies:
 - name: '[v3] FR-PRS-220-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 55355
+  port: 59010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-221-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-221-parisian-1-fr-nexorcdn-com'
   type: http
-  server: merlot-fr.nexorcdn.com
-  port: 59010
+  server: parisian-1-fr.nexorcdn.com
+  port: 13376
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1803,7 +1803,7 @@ proxies:
 - name: '[v3] FR-PRS-222-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 15270
+  port: 25202
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1811,7 +1811,7 @@ proxies:
 - name: '[v3] FR-PRS-223-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 25202
+  port: 26720
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1819,7 +1819,7 @@ proxies:
 - name: '[v3] FR-PRS-224-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 26720
+  port: 32778
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1827,7 +1827,7 @@ proxies:
 - name: '[v3] FR-PRS-225-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 37144
+  port: 34846
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1843,7 +1843,7 @@ proxies:
 - name: '[v3] FR-PRS-227-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 11249
+  port: 20485
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1851,7 +1851,7 @@ proxies:
 - name: '[v3] FR-PRS-228-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 12160
+  port: 31658
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1859,7 +1859,7 @@ proxies:
 - name: '[v3] FR-PRS-229-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 20485
+  port: 38460
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1867,7 +1867,7 @@ proxies:
 - name: '[v3] FR-PRS-230-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 31658
+  port: 44730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1875,7 +1875,7 @@ proxies:
 - name: '[v3] FR-PRS-231-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 38460
+  port: 49817
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1883,23 +1883,23 @@ proxies:
 - name: '[v3] FR-PRS-232-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
-  port: 43785
+  port: 59988
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-233-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-233-parisian-3-fr-nexorcdn-com'
   type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 44730
+  server: parisian-3-fr.nexorcdn.com
+  port: 14357
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-234-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-234-parisian-3-fr-nexorcdn-com'
   type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 49817
+  server: parisian-3-fr.nexorcdn.com
+  port: 16037
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1907,7 +1907,7 @@ proxies:
 - name: '[v3] FR-PRS-235-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 19258
+  port: 19158
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1915,7 +1915,7 @@ proxies:
 - name: '[v3] FR-PRS-236-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 24084
+  port: 19258
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1923,7 +1923,7 @@ proxies:
 - name: '[v3] FR-PRS-237-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 26042
+  port: 24084
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1931,7 +1931,7 @@ proxies:
 - name: '[v3] FR-PRS-238-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 34270
+  port: 36296
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1939,7 +1939,7 @@ proxies:
 - name: '[v3] FR-PRS-239-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 36296
+  port: 44075
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1955,7 +1955,7 @@ proxies:
 - name: '[v3] FR-PRS-241-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 12804
+  port: 14826
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1963,7 +1963,7 @@ proxies:
 - name: '[v3] FR-PRS-242-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 14826
+  port: 15046
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1971,7 +1971,7 @@ proxies:
 - name: '[v3] FR-PRS-243-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 17785
+  port: 17868
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1979,7 +1979,7 @@ proxies:
 - name: '[v3] FR-PRS-244-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 17868
+  port: 44976
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1987,7 +1987,7 @@ proxies:
 - name: '[v3] FR-PRS-245-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 44976
+  port: 53406
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1995,7 +1995,7 @@ proxies:
 - name: '[v3] FR-PRS-246-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 53406
+  port: 59147
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2019,7 +2019,7 @@ proxies:
 - name: '[v3] FR-PRS-249-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 38144
+  port: 38010
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2027,31 +2027,31 @@ proxies:
 - name: '[v3] FR-PRS-250-camembert-6-fr-nexorcdn-com'
   type: http
   server: camembert-6-fr.nexorcdn.com
-  port: 47090
+  port: 38144
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-251-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-251-camembert-6-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 14730
+  server: camembert-6-fr.nexorcdn.com
+  port: 42160
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-252-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-252-camembert-6-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 26559
+  server: camembert-6-fr.nexorcdn.com
+  port: 50600
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-253-camembert-7-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-253-camembert-6-fr-nexorcdn-com'
   type: http
-  server: camembert-7-fr.nexorcdn.com
-  port: 37611
+  server: camembert-6-fr.nexorcdn.com
+  port: 57441
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2059,7 +2059,7 @@ proxies:
 - name: '[v3] FR-PRS-254-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 41756
+  port: 24250
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2067,7 +2067,7 @@ proxies:
 - name: '[v3] FR-PRS-255-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 47290
+  port: 35841
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2075,15 +2075,15 @@ proxies:
 - name: '[v3] FR-PRS-256-camembert-7-fr-nexorcdn-com'
   type: http
   server: camembert-7-fr.nexorcdn.com
-  port: 56633
+  port: 37611
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-257-merlot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-257-camembert-7-fr-nexorcdn-com'
   type: http
-  server: merlot-fr.nexorcdn.com
-  port: 36503
+  server: camembert-7-fr.nexorcdn.com
+  port: 42852
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2091,7 +2091,7 @@ proxies:
 - name: '[v3] FR-PRS-258-merlot-fr-nexorcdn-com'
   type: http
   server: merlot-fr.nexorcdn.com
-  port: 42508
+  port: 17211
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2112,23 +2112,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-261-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 55355
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-262-merlot-fr-nexorcdn-com'
-  type: http
-  server: merlot-fr.nexorcdn.com
-  port: 59010
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-263-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-261-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 15104
@@ -2136,7 +2120,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-264-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-262-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 15270
@@ -2144,15 +2128,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-265-parisian-1-fr-nexorcdn-com'
-  type: http
-  server: parisian-1-fr.nexorcdn.com
-  port: 20886
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-266-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-263-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 25202
@@ -2160,15 +2136,31 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-267-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-264-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
-  port: 34846
+  port: 26720
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-268-parisian-1-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-265-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 32778
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-266-parisian-1-fr-nexorcdn-com'
+  type: http
+  server: parisian-1-fr.nexorcdn.com
+  port: 37144
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-267-parisian-1-fr-nexorcdn-com'
   type: http
   server: parisian-1-fr.nexorcdn.com
   port: 58518
@@ -2176,7 +2168,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-269-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-268-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 11249
@@ -2184,31 +2176,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-270-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 12160
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-271-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 20485
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-272-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 23750
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-273-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-269-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 31658
@@ -2216,7 +2184,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-274-parisian-2-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-270-parisian-2-fr-nexorcdn-com'
+  type: http
+  server: parisian-2-fr.nexorcdn.com
+  port: 43785
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-271-parisian-2-fr-nexorcdn-com'
   type: http
   server: parisian-2-fr.nexorcdn.com
   port: 49817
@@ -2224,31 +2200,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-275-parisian-2-fr-nexorcdn-com'
-  type: http
-  server: parisian-2-fr.nexorcdn.com
-  port: 59988
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-276-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-272-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 14357
+  port: 19158
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-277-parisian-3-fr-nexorcdn-com'
-  type: http
-  server: parisian-3-fr.nexorcdn.com
-  port: 19258
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-278-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-273-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 34270
@@ -2256,15 +2216,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-279-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-274-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
-  port: 44075
+  port: 36296
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-280-parisian-3-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-275-parisian-3-fr-nexorcdn-com'
   type: http
   server: parisian-3-fr.nexorcdn.com
   port: 50118
@@ -2272,7 +2232,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-281-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-276-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 12804
@@ -2280,15 +2240,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-282-pinot-fr-nexorcdn-com'
-  type: http
-  server: pinot-fr.nexorcdn.com
-  port: 14826
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] FR-PRS-283-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-277-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 15046
@@ -2296,15 +2248,39 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-284-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-278-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 17785
+  port: 17868
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-285-pinot-fr-nexorcdn-com'
+- name: '[v3] FR-PRS-279-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 42256
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-280-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 44976
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-281-pinot-fr-nexorcdn-com'
+  type: http
+  server: pinot-fr.nexorcdn.com
+  port: 49878
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] FR-PRS-282-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
   port: 53406
@@ -2312,10 +2288,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] FR-PRS-286-pinot-fr-nexorcdn-com'
+- name: '[old] FR-PRS-283-camembert-6-fr-nexorcdn-com'
+  type: http
+  server: camembert-6-fr.nexorcdn.com
+  port: 20338
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[old] FR-PRS-284-pinot-fr-nexorcdn-com'
   type: http
   server: pinot-fr.nexorcdn.com
-  port: 59147
+  port: 14826
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -2339,17 +2323,17 @@ proxy-groups:
   - '[v3] FR-PRS-003-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-004-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-005-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-006-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-006-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-007-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-008-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-009-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-010-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-011-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-011-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-012-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-013-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-014-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-015-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-016-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-016-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-017-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-018-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-019-parisian-1-fr-nexorcdn-com'
@@ -2359,25 +2343,25 @@ proxy-groups:
   - '[v3] FR-PRS-023-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-024-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-025-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-026-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-027-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-026-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-027-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-028-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-029-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-030-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-031-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-032-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-033-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-034-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-035-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-030-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-031-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-032-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-033-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-034-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-035-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-036-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-037-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-038-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-039-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-040-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-041-pinot-fr-nexorcdn-com'
 - name: ⚡ Bitphox
   type: select
   proxies:
+  - '[v3] FR-PRS-038-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-039-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-040-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-041-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-042-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-043-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-044-camembert-6-fr-nexorcdn-com'
@@ -2386,101 +2370,101 @@ proxy-groups:
   - '[v3] FR-PRS-047-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-048-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-049-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-050-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-050-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-051-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-052-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-053-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-054-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-054-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-055-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-056-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-057-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-058-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-059-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-060-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-061-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-062-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-057-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-058-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-059-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-060-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-061-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-062-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-063-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-064-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-065-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-066-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-067-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-068-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-064-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-065-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-066-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-067-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-068-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-069-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-070-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-071-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-072-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-073-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-074-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-071-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-072-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-073-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-074-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-075-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-076-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-077-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-078-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-079-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-080-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-081-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-082-pinot-fr-nexorcdn-com'
 - name: 🌐 Freloop
   type: select
   proxies:
+  - '[v3] FR-PRS-077-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-078-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-079-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-080-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-081-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-082-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-083-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-084-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-085-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-086-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-087-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-088-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-089-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-085-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-086-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-087-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-088-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-089-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-090-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-091-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-092-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-093-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-094-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-095-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-096-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-097-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-098-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-099-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-100-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-101-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-102-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-103-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-104-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-105-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-092-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-093-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-094-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-095-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-096-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-097-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-098-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-099-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-100-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-101-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-102-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-103-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-104-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-105-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-106-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-107-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-108-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-109-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-110-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-111-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-107-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-108-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-109-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-110-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-111-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-112-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-113-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-114-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-115-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-116-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-117-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-113-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-114-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-115-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-116-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-117-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-118-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-119-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-120-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-121-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-122-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-123-pinot-fr-nexorcdn-com'
 - name: 💎 Hibchr
   type: select
   proxies:
+  - '[v3] FR-PRS-119-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-120-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-121-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-122-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-123-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-124-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-125-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-126-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-127-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-128-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-125-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-126-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-127-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-128-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-129-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-130-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-131-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-132-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-133-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-132-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-133-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-134-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-135-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-136-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-137-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-138-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-137-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-138-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-139-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-140-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-141-parisian-1-fr-nexorcdn-com'
@@ -2491,33 +2475,33 @@ proxy-groups:
   - '[v3] FR-PRS-146-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-147-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-148-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-149-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-150-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-149-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-150-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-151-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-152-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-153-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-154-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-155-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-156-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-157-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-157-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-158-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-159-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-160-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-161-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-162-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-163-pinot-fr-nexorcdn-com'
 - name: 🛰️ Hisball
   type: select
   proxies:
+  - '[v3] FR-PRS-160-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-161-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-162-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-163-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-164-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-165-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-165-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-166-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-167-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-168-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-169-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-170-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-171-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-172-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-172-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-173-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-174-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-175-merlot-fr-nexorcdn-com'
@@ -2528,19 +2512,19 @@ proxy-groups:
   - '[v3] FR-PRS-180-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-181-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-182-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-183-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-183-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-184-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-185-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-186-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-187-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-188-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-189-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-188-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-189-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-190-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-191-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-192-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-193-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-194-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-195-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-195-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-196-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-197-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-198-pinot-fr-nexorcdn-com'
@@ -2556,9 +2540,9 @@ proxy-groups:
   - '[v3] FR-PRS-205-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-206-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-207-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-208-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-209-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-210-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-208-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-209-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-210-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-211-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-212-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-213-camembert-7-fr-nexorcdn-com'
@@ -2569,7 +2553,7 @@ proxy-groups:
   - '[v3] FR-PRS-218-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-219-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-220-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-221-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-221-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-222-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-223-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-224-parisian-1-fr-nexorcdn-com'
@@ -2581,8 +2565,8 @@ proxy-groups:
   - '[v3] FR-PRS-230-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-231-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-232-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-233-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-234-parisian-2-fr-nexorcdn-com'
+  - '[v3] FR-PRS-233-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-234-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-235-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-236-parisian-3-fr-nexorcdn-com'
   - '[v3] FR-PRS-237-parisian-3-fr-nexorcdn-com'
@@ -2602,42 +2586,40 @@ proxy-groups:
   - '[v3] FR-PRS-248-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-249-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-250-camembert-6-fr-nexorcdn-com'
-  - '[v3] FR-PRS-251-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-252-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-253-camembert-7-fr-nexorcdn-com'
+  - '[v3] FR-PRS-251-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-252-camembert-6-fr-nexorcdn-com'
+  - '[v3] FR-PRS-253-camembert-6-fr-nexorcdn-com'
   - '[v3] FR-PRS-254-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-255-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-256-camembert-7-fr-nexorcdn-com'
-  - '[v3] FR-PRS-257-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-257-camembert-7-fr-nexorcdn-com'
   - '[v3] FR-PRS-258-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-259-merlot-fr-nexorcdn-com'
   - '[v3] FR-PRS-260-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-261-merlot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-262-merlot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-261-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-262-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-263-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-264-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-265-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-266-parisian-1-fr-nexorcdn-com'
   - '[v3] FR-PRS-267-parisian-1-fr-nexorcdn-com'
-  - '[v3] FR-PRS-268-parisian-1-fr-nexorcdn-com'
+  - '[v3] FR-PRS-268-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-269-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-270-parisian-2-fr-nexorcdn-com'
   - '[v3] FR-PRS-271-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-272-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-273-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-274-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-275-parisian-2-fr-nexorcdn-com'
-  - '[v3] FR-PRS-276-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-277-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-278-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-279-parisian-3-fr-nexorcdn-com'
-  - '[v3] FR-PRS-280-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-272-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-273-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-274-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-275-parisian-3-fr-nexorcdn-com'
+  - '[v3] FR-PRS-276-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-277-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-278-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-279-pinot-fr-nexorcdn-com'
+  - '[v3] FR-PRS-280-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-281-pinot-fr-nexorcdn-com'
   - '[v3] FR-PRS-282-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-283-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-284-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-285-pinot-fr-nexorcdn-com'
-  - '[v3] FR-PRS-286-pinot-fr-nexorcdn-com'
+  - '[old] FR-PRS-283-camembert-6-fr-nexorcdn-com'
+  - '[old] FR-PRS-284-pinot-fr-nexorcdn-com'
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
