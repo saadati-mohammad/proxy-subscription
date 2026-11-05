@@ -43,7 +43,7 @@ proxies:
 - name: '[v3] SG-002-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 47390
+  port: 18148
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -51,7 +51,7 @@ proxies:
 - name: '[v3] SG-003-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 47660
+  port: 47390
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -59,7 +59,7 @@ proxies:
 - name: '[v3] SG-004-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50714
+  port: 47660
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -67,7 +67,7 @@ proxies:
 - name: '[v3] SG-005-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50935
+  port: 50714
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -75,7 +75,7 @@ proxies:
 - name: '[v3] SG-006-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 56824
+  port: 50935
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -83,7 +83,7 @@ proxies:
 - name: '[v3] SG-007-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58519
+  port: 56824
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -91,15 +91,15 @@ proxies:
 - name: '[v3] SG-008-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58894
+  port: 58519
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-009-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-009-naga-sg-nexorcdn-com'
   type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 15606
+  server: naga-sg.nexorcdn.com
+  port: 58894
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -107,7 +107,7 @@ proxies:
 - name: '[v3] SG-010-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 27303
+  port: 17463
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -115,7 +115,7 @@ proxies:
 - name: '[v3] SG-011-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 29737
+  port: 27303
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -123,7 +123,7 @@ proxies:
 - name: '[v3] SG-012-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 41916
+  port: 29737
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: '[v3] SG-013-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 46913
+  port: 41916
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -139,7 +139,7 @@ proxies:
 - name: '[v3] SG-014-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 55242
+  port: 46913
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -147,7 +147,7 @@ proxies:
 - name: '[v3] SG-015-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57181
+  port: 55242
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -155,7 +155,7 @@ proxies:
 - name: '[v3] SG-016-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57690
+  port: 57181
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -163,15 +163,15 @@ proxies:
 - name: '[v3] SG-017-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 58128
+  port: 57690
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-018-singha-sg-nexorcdn-com'
+- name: '[v3] SG-018-octopus-5-sg-nexorcdn-com'
   type: http
-  server: singha-sg.nexorcdn.com
-  port: 10582
+  server: octopus-5-sg.nexorcdn.com
+  port: 58128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -195,7 +195,7 @@ proxies:
 - name: '[v3] SG-021-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 43521
+  port: 30348
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -267,7 +267,7 @@ proxies:
 - name: '[v3] SG-030-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 47660
+  port: 50714
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -275,7 +275,7 @@ proxies:
 - name: '[v3] SG-031-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50714
+  port: 50935
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -283,7 +283,7 @@ proxies:
 - name: '[v3] SG-032-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50935
+  port: 51745
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -291,7 +291,7 @@ proxies:
 - name: '[v3] SG-033-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 56824
+  port: 58519
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -323,7 +323,7 @@ proxies:
 - name: '[v3] SG-037-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 29737
+  port: 27303
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -331,7 +331,7 @@ proxies:
 - name: '[v3] SG-038-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 41916
+  port: 29737
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -339,7 +339,7 @@ proxies:
 - name: '[v3] SG-039-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 46913
+  port: 41916
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -355,7 +355,7 @@ proxies:
 - name: '[v3] SG-041-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57181
+  port: 57690
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -363,28 +363,12 @@ proxies:
 - name: '[v3] SG-042-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57690
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-043-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
   port: 58128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-044-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 10582
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-045-singha-sg-nexorcdn-com'
+- name: '[v3] SG-043-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
   port: 13868
@@ -392,10 +376,26 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-046-singha-sg-nexorcdn-com'
+- name: '[v3] SG-044-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
   port: 27220
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-045-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 30348
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-046-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 43521
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -459,7 +459,7 @@ proxies:
 - name: '[v3] SG-054-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50714
+  port: 47390
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -467,7 +467,7 @@ proxies:
 - name: '[v3] SG-055-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 50935
+  port: 47660
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -475,7 +475,7 @@ proxies:
 - name: '[v3] SG-056-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 51745
+  port: 50714
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -483,7 +483,7 @@ proxies:
 - name: '[v3] SG-057-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 56824
+  port: 51745
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -491,7 +491,7 @@ proxies:
 - name: '[v3] SG-058-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58519
+  port: 56824
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -499,15 +499,15 @@ proxies:
 - name: '[v3] SG-059-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58894
+  port: 58519
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-060-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-060-naga-sg-nexorcdn-com'
   type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 15606
+  server: naga-sg.nexorcdn.com
+  port: 58894
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -515,7 +515,7 @@ proxies:
 - name: '[v3] SG-061-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 17463
+  port: 15606
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -523,7 +523,7 @@ proxies:
 - name: '[v3] SG-062-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 27303
+  port: 17463
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -531,7 +531,7 @@ proxies:
 - name: '[v3] SG-063-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 29737
+  port: 27303
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -539,7 +539,7 @@ proxies:
 - name: '[v3] SG-064-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 41916
+  port: 29737
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -547,7 +547,7 @@ proxies:
 - name: '[v3] SG-065-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 46913
+  port: 41916
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -555,7 +555,7 @@ proxies:
 - name: '[v3] SG-066-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 55242
+  port: 46913
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -563,7 +563,7 @@ proxies:
 - name: '[v3] SG-067-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57181
+  port: 55242
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -571,7 +571,7 @@ proxies:
 - name: '[v3] SG-068-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57690
+  port: 57181
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -579,15 +579,15 @@ proxies:
 - name: '[v3] SG-069-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 58128
+  port: 57690
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-070-singha-sg-nexorcdn-com'
+- name: '[v3] SG-070-octopus-5-sg-nexorcdn-com'
   type: http
-  server: singha-sg.nexorcdn.com
-  port: 10582
+  server: octopus-5-sg.nexorcdn.com
+  port: 58128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -595,7 +595,7 @@ proxies:
 - name: '[v3] SG-071-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 13868
+  port: 10582
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -603,7 +603,7 @@ proxies:
 - name: '[v3] SG-072-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 27220
+  port: 13868
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -611,7 +611,7 @@ proxies:
 - name: '[v3] SG-073-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 43521
+  port: 27220
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -619,7 +619,7 @@ proxies:
 - name: '[v3] SG-074-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 43578
+  port: 30348
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -627,7 +627,7 @@ proxies:
 - name: '[v3] SG-075-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 54795
+  port: 43521
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -635,7 +635,7 @@ proxies:
 - name: '[v3] SG-076-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 55794
+  port: 43578
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -643,7 +643,7 @@ proxies:
 - name: '[v3] SG-077-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 55948
+  port: 54795
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -651,188 +651,12 @@ proxies:
 - name: '[v3] SG-078-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 56189
+  port: 55794
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-079-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 18148
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-080-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 47390
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-081-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 47660
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-082-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 50714
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-083-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 50935
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-084-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 56824
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-085-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 58519
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-086-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 15606
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-087-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 17463
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-088-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 27303
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-089-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 29737
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-090-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 41916
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-091-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 55242
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-092-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 57181
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-093-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 57690
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-094-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 10582
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-095-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 13868
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-096-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 27220
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-097-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 30348
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-098-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 43521
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-099-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 43578
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-100-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 54795
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-101-singha-sg-nexorcdn-com'
+- name: '[v3] SG-079-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
   port: 55948
@@ -840,23 +664,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-102-singha-sg-nexorcdn-com'
-  type: http
-  server: singha-sg.nexorcdn.com
-  port: 56189
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-103-naga-sg-nexorcdn-com'
-  type: http
-  server: naga-sg.nexorcdn.com
-  port: 13838
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-104-naga-sg-nexorcdn-com'
+- name: '[v3] SG-080-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 18148
@@ -864,7 +672,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-105-naga-sg-nexorcdn-com'
+- name: '[v3] SG-081-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 47390
@@ -872,7 +680,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-106-naga-sg-nexorcdn-com'
+- name: '[v3] SG-082-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 47660
@@ -880,7 +688,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-107-naga-sg-nexorcdn-com'
+- name: '[v3] SG-083-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 50714
@@ -888,7 +696,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-108-naga-sg-nexorcdn-com'
+- name: '[v3] SG-084-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 50935
@@ -896,7 +704,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-109-naga-sg-nexorcdn-com'
+- name: '[v3] SG-085-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 51745
@@ -904,7 +712,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-110-naga-sg-nexorcdn-com'
+- name: '[v3] SG-086-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 56824
@@ -912,7 +720,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-111-naga-sg-nexorcdn-com'
+- name: '[v3] SG-087-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 58519
@@ -920,7 +728,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-112-naga-sg-nexorcdn-com'
+- name: '[v3] SG-088-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
   port: 58894
@@ -928,7 +736,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-113-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-089-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 15606
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-090-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
   port: 17463
@@ -936,7 +752,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-114-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-091-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 27303
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-092-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
   port: 29737
@@ -944,7 +768,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-115-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-093-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
   port: 41916
@@ -952,15 +776,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-116-octopus-5-sg-nexorcdn-com'
-  type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 46913
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] SG-117-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-094-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
   port: 55242
@@ -968,10 +784,194 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] SG-095-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 57690
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-096-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 58128
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-097-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 10582
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-098-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 13868
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-099-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 27220
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-100-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 43521
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-101-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 43578
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-102-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 55794
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-103-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 56189
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-104-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 13838
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-105-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 18148
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-106-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 47390
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-107-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 47660
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-108-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 50714
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-109-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 50935
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-110-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 51745
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-111-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 56824
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-112-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 58519
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-113-naga-sg-nexorcdn-com'
+  type: http
+  server: naga-sg.nexorcdn.com
+  port: 58894
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-114-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 15606
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-115-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 17463
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-116-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 27303
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-117-octopus-5-sg-nexorcdn-com'
+  type: http
+  server: octopus-5-sg.nexorcdn.com
+  port: 46913
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] SG-118-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57181
+  port: 55242
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -995,7 +995,7 @@ proxies:
 - name: '[v3] SG-121-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 10582
+  port: 13868
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1003,7 +1003,7 @@ proxies:
 - name: '[v3] SG-122-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 13868
+  port: 27220
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1107,7 +1107,7 @@ proxies:
 - name: '[v3] SG-135-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 51745
+  port: 50935
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1115,7 +1115,7 @@ proxies:
 - name: '[v3] SG-136-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 56824
+  port: 51745
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1123,15 +1123,15 @@ proxies:
 - name: '[v3] SG-137-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58894
+  port: 56824
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-138-octopus-5-sg-nexorcdn-com'
+- name: '[v3] SG-138-naga-sg-nexorcdn-com'
   type: http
-  server: octopus-5-sg.nexorcdn.com
-  port: 15606
+  server: naga-sg.nexorcdn.com
+  port: 58519
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1139,7 +1139,7 @@ proxies:
 - name: '[v3] SG-139-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 17463
+  port: 15606
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1147,7 +1147,7 @@ proxies:
 - name: '[v3] SG-140-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 27303
+  port: 17463
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1155,7 +1155,7 @@ proxies:
 - name: '[v3] SG-141-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 29737
+  port: 27303
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1211,7 +1211,7 @@ proxies:
 - name: '[v3] SG-148-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 13868
+  port: 10582
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1251,7 +1251,7 @@ proxies:
 - name: '[v3] SG-153-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 55794
+  port: 54795
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1259,7 +1259,7 @@ proxies:
 - name: '[v3] SG-154-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 55948
+  port: 55794
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1267,15 +1267,15 @@ proxies:
 - name: '[v3] SG-155-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 56189
+  port: 55948
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-156-naga-sg-nexorcdn-com'
+- name: '[v3] SG-156-singha-sg-nexorcdn-com'
   type: http
-  server: naga-sg.nexorcdn.com
-  port: 13838
+  server: singha-sg.nexorcdn.com
+  port: 56189
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1283,7 +1283,7 @@ proxies:
 - name: '[v3] SG-157-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 18148
+  port: 13838
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1291,7 +1291,7 @@ proxies:
 - name: '[v3] SG-158-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 47390
+  port: 18148
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1299,7 +1299,7 @@ proxies:
 - name: '[v3] SG-159-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 47660
+  port: 47390
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1331,7 +1331,7 @@ proxies:
 - name: '[v3] SG-163-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 56824
+  port: 58519
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1339,15 +1339,15 @@ proxies:
 - name: '[v3] SG-164-naga-sg-nexorcdn-com'
   type: http
   server: naga-sg.nexorcdn.com
-  port: 58519
+  port: 58894
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-165-naga-sg-nexorcdn-com'
+- name: '[v3] SG-165-octopus-5-sg-nexorcdn-com'
   type: http
-  server: naga-sg.nexorcdn.com
-  port: 58894
+  server: octopus-5-sg.nexorcdn.com
+  port: 15606
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1379,7 +1379,7 @@ proxies:
 - name: '[v3] SG-169-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 55242
+  port: 41916
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1387,7 +1387,7 @@ proxies:
 - name: '[v3] SG-170-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57181
+  port: 46913
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1395,7 +1395,7 @@ proxies:
 - name: '[v3] SG-171-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 57690
+  port: 57181
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1403,15 +1403,15 @@ proxies:
 - name: '[v3] SG-172-octopus-5-sg-nexorcdn-com'
   type: http
   server: octopus-5-sg.nexorcdn.com
-  port: 58128
+  port: 57690
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] SG-173-singha-sg-nexorcdn-com'
+- name: '[v3] SG-173-octopus-5-sg-nexorcdn-com'
   type: http
-  server: singha-sg.nexorcdn.com
-  port: 10582
+  server: octopus-5-sg.nexorcdn.com
+  port: 58128
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1419,7 +1419,7 @@ proxies:
 - name: '[v3] SG-174-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 27220
+  port: 10582
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1427,7 +1427,7 @@ proxies:
 - name: '[v3] SG-175-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 30348
+  port: 13868
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1435,7 +1435,7 @@ proxies:
 - name: '[v3] SG-176-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 43521
+  port: 30348
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1443,7 +1443,7 @@ proxies:
 - name: '[v3] SG-177-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 43578
+  port: 43521
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1451,7 +1451,7 @@ proxies:
 - name: '[v3] SG-178-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
-  port: 54795
+  port: 43578
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1459,7 +1459,31 @@ proxies:
 - name: '[v3] SG-179-singha-sg-nexorcdn-com'
   type: http
   server: singha-sg.nexorcdn.com
+  port: 54795
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-180-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 55794
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-181-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
   port: 55948
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] SG-182-singha-sg-nexorcdn-com'
+  type: http
+  server: singha-sg.nexorcdn.com
+  port: 56189
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1486,7 +1510,7 @@ proxy-groups:
   - '[v3] SG-006-naga-sg-nexorcdn-com'
   - '[v3] SG-007-naga-sg-nexorcdn-com'
   - '[v3] SG-008-naga-sg-nexorcdn-com'
-  - '[v3] SG-009-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-009-naga-sg-nexorcdn-com'
   - '[v3] SG-010-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-011-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-012-octopus-5-sg-nexorcdn-com'
@@ -1495,7 +1519,7 @@ proxy-groups:
   - '[v3] SG-015-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-016-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-017-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-018-singha-sg-nexorcdn-com'
+  - '[v3] SG-018-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-019-singha-sg-nexorcdn-com'
   - '[v3] SG-020-singha-sg-nexorcdn-com'
   - '[v3] SG-021-singha-sg-nexorcdn-com'
@@ -1523,7 +1547,7 @@ proxy-groups:
   - '[v3] SG-040-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-041-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-042-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-043-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-043-singha-sg-nexorcdn-com'
   - '[v3] SG-044-singha-sg-nexorcdn-com'
   - '[v3] SG-045-singha-sg-nexorcdn-com'
   - '[v3] SG-046-singha-sg-nexorcdn-com'
@@ -1543,7 +1567,7 @@ proxy-groups:
   - '[v3] SG-057-naga-sg-nexorcdn-com'
   - '[v3] SG-058-naga-sg-nexorcdn-com'
   - '[v3] SG-059-naga-sg-nexorcdn-com'
-  - '[v3] SG-060-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-060-naga-sg-nexorcdn-com'
   - '[v3] SG-061-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-062-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-063-octopus-5-sg-nexorcdn-com'
@@ -1553,7 +1577,7 @@ proxy-groups:
   - '[v3] SG-067-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-068-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-069-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-070-singha-sg-nexorcdn-com'
+  - '[v3] SG-070-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-071-singha-sg-nexorcdn-com'
   - '[v3] SG-072-singha-sg-nexorcdn-com'
   - '[v3] SG-073-singha-sg-nexorcdn-com'
@@ -1562,37 +1586,37 @@ proxy-groups:
   - '[v3] SG-076-singha-sg-nexorcdn-com'
   - '[v3] SG-077-singha-sg-nexorcdn-com'
   - '[v3] SG-078-singha-sg-nexorcdn-com'
+  - '[v3] SG-079-singha-sg-nexorcdn-com'
 - name: 💎 Hibchr
   type: select
   proxies:
-  - '[v3] SG-079-naga-sg-nexorcdn-com'
   - '[v3] SG-080-naga-sg-nexorcdn-com'
   - '[v3] SG-081-naga-sg-nexorcdn-com'
   - '[v3] SG-082-naga-sg-nexorcdn-com'
   - '[v3] SG-083-naga-sg-nexorcdn-com'
   - '[v3] SG-084-naga-sg-nexorcdn-com'
   - '[v3] SG-085-naga-sg-nexorcdn-com'
-  - '[v3] SG-086-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-087-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-088-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-086-naga-sg-nexorcdn-com'
+  - '[v3] SG-087-naga-sg-nexorcdn-com'
+  - '[v3] SG-088-naga-sg-nexorcdn-com'
   - '[v3] SG-089-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-090-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-091-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-092-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-093-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-094-singha-sg-nexorcdn-com'
-  - '[v3] SG-095-singha-sg-nexorcdn-com'
-  - '[v3] SG-096-singha-sg-nexorcdn-com'
+  - '[v3] SG-094-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-095-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-096-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-097-singha-sg-nexorcdn-com'
   - '[v3] SG-098-singha-sg-nexorcdn-com'
   - '[v3] SG-099-singha-sg-nexorcdn-com'
   - '[v3] SG-100-singha-sg-nexorcdn-com'
   - '[v3] SG-101-singha-sg-nexorcdn-com'
   - '[v3] SG-102-singha-sg-nexorcdn-com'
+  - '[v3] SG-103-singha-sg-nexorcdn-com'
 - name: 🛰️ Hisball
   type: select
   proxies:
-  - '[v3] SG-103-naga-sg-nexorcdn-com'
   - '[v3] SG-104-naga-sg-nexorcdn-com'
   - '[v3] SG-105-naga-sg-nexorcdn-com'
   - '[v3] SG-106-naga-sg-nexorcdn-com'
@@ -1602,7 +1626,7 @@ proxy-groups:
   - '[v3] SG-110-naga-sg-nexorcdn-com'
   - '[v3] SG-111-naga-sg-nexorcdn-com'
   - '[v3] SG-112-naga-sg-nexorcdn-com'
-  - '[v3] SG-113-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-113-naga-sg-nexorcdn-com'
   - '[v3] SG-114-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-115-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-116-octopus-5-sg-nexorcdn-com'
@@ -1630,7 +1654,7 @@ proxy-groups:
   - '[v3] SG-135-naga-sg-nexorcdn-com'
   - '[v3] SG-136-naga-sg-nexorcdn-com'
   - '[v3] SG-137-naga-sg-nexorcdn-com'
-  - '[v3] SG-138-octopus-5-sg-nexorcdn-com'
+  - '[v3] SG-138-naga-sg-nexorcdn-com'
   - '[v3] SG-139-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-140-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-141-octopus-5-sg-nexorcdn-com'
@@ -1648,10 +1672,10 @@ proxy-groups:
   - '[v3] SG-153-singha-sg-nexorcdn-com'
   - '[v3] SG-154-singha-sg-nexorcdn-com'
   - '[v3] SG-155-singha-sg-nexorcdn-com'
+  - '[v3] SG-156-singha-sg-nexorcdn-com'
 - name: 🔥 Tronyza
   type: select
   proxies:
-  - '[v3] SG-156-naga-sg-nexorcdn-com'
   - '[v3] SG-157-naga-sg-nexorcdn-com'
   - '[v3] SG-158-naga-sg-nexorcdn-com'
   - '[v3] SG-159-naga-sg-nexorcdn-com'
@@ -1660,7 +1684,7 @@ proxy-groups:
   - '[v3] SG-162-naga-sg-nexorcdn-com'
   - '[v3] SG-163-naga-sg-nexorcdn-com'
   - '[v3] SG-164-naga-sg-nexorcdn-com'
-  - '[v3] SG-165-naga-sg-nexorcdn-com'
+  - '[v3] SG-165-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-166-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-167-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-168-octopus-5-sg-nexorcdn-com'
@@ -1668,13 +1692,16 @@ proxy-groups:
   - '[v3] SG-170-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-171-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-172-octopus-5-sg-nexorcdn-com'
-  - '[v3] SG-173-singha-sg-nexorcdn-com'
+  - '[v3] SG-173-octopus-5-sg-nexorcdn-com'
   - '[v3] SG-174-singha-sg-nexorcdn-com'
   - '[v3] SG-175-singha-sg-nexorcdn-com'
   - '[v3] SG-176-singha-sg-nexorcdn-com'
   - '[v3] SG-177-singha-sg-nexorcdn-com'
   - '[v3] SG-178-singha-sg-nexorcdn-com'
   - '[v3] SG-179-singha-sg-nexorcdn-com'
+  - '[v3] SG-180-singha-sg-nexorcdn-com'
+  - '[v3] SG-181-singha-sg-nexorcdn-com'
+  - '[v3] SG-182-singha-sg-nexorcdn-com'
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
