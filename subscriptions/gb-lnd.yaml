@@ -43,7 +43,7 @@ proxies:
 - name: '[v3] GB-LND-002-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 24296
+  port: 13092
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -51,7 +51,7 @@ proxies:
 - name: '[v3] GB-LND-003-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 35258
+  port: 24296
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -59,7 +59,7 @@ proxies:
 - name: '[v3] GB-LND-004-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 45134
+  port: 32640
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -67,7 +67,7 @@ proxies:
 - name: '[v3] GB-LND-005-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 46698
+  port: 35258
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -75,7 +75,7 @@ proxies:
 - name: '[v3] GB-LND-006-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 52140
+  port: 45134
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -83,7 +83,7 @@ proxies:
 - name: '[v3] GB-LND-007-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 53086
+  port: 52140
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -91,15 +91,15 @@ proxies:
 - name: '[v3] GB-LND-008-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 59512
+  port: 53086
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-009-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-009-erith-2-uk-nexorcdn-com'
   type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 17648
+  server: erith-2-uk.nexorcdn.com
+  port: 59512
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -107,7 +107,7 @@ proxies:
 - name: '[v3] GB-LND-010-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 20060
+  port: 17648
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -115,7 +115,7 @@ proxies:
 - name: '[v3] GB-LND-011-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 27384
+  port: 20060
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -131,7 +131,7 @@ proxies:
 - name: '[v3] GB-LND-013-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 34804
+  port: 32770
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -139,31 +139,31 @@ proxies:
 - name: '[v3] GB-LND-014-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
+  port: 33226
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-015-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 34804
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-016-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
   port: 49788
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-015-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-017-erith-3-uk-nexorcdn-com'
   type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 10124
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-016-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 24174
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-017-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 31016
+  server: erith-3-uk.nexorcdn.com
+  port: 52936
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -171,7 +171,7 @@ proxies:
 - name: '[v3] GB-LND-018-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 36124
+  port: 10124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -179,7 +179,7 @@ proxies:
 - name: '[v3] GB-LND-019-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 45952
+  port: 16080
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -187,7 +187,7 @@ proxies:
 - name: '[v3] GB-LND-020-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 36124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -195,7 +195,7 @@ proxies:
 - name: '[v3] GB-LND-021-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 49692
+  port: 45952
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -203,7 +203,7 @@ proxies:
 - name: '[v3] GB-LND-022-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 52186
+  port: 48748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -211,15 +211,15 @@ proxies:
 - name: '[v3] GB-LND-023-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 58580
+  port: 49692
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-024-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-024-erith-5-uk-nexorcdn-com'
   type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 10748
+  server: erith-5-uk.nexorcdn.com
+  port: 52186
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -227,7 +227,7 @@ proxies:
 - name: '[v3] GB-LND-025-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 36504
+  port: 10202
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -235,7 +235,7 @@ proxies:
 - name: '[v3] GB-LND-026-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 36804
+  port: 25006
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -243,7 +243,7 @@ proxies:
 - name: '[v3] GB-LND-027-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 39730
+  port: 36504
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -251,7 +251,7 @@ proxies:
 - name: '[v3] GB-LND-028-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 40272
+  port: 39730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -307,7 +307,7 @@ proxies:
 - name: '[v3] GB-LND-035-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 45134
+  port: 35258
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -315,7 +315,7 @@ proxies:
 - name: '[v3] GB-LND-036-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 52140
+  port: 46698
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -323,7 +323,7 @@ proxies:
 - name: '[v3] GB-LND-037-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 53086
+  port: 52140
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -347,7 +347,7 @@ proxies:
 - name: '[v3] GB-LND-040-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 30014
+  port: 20060
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -379,7 +379,7 @@ proxies:
 - name: '[v3] GB-LND-044-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 52936
+  port: 49788
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -387,15 +387,15 @@ proxies:
 - name: '[v3] GB-LND-045-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 56064
+  port: 52936
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-046-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-046-erith-3-uk-nexorcdn-com'
   type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 10124
+  server: erith-3-uk.nexorcdn.com
+  port: 56064
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -403,7 +403,7 @@ proxies:
 - name: '[v3] GB-LND-047-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 16080
+  port: 24174
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -419,7 +419,7 @@ proxies:
 - name: '[v3] GB-LND-049-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 45952
+  port: 36124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -427,7 +427,7 @@ proxies:
 - name: '[v3] GB-LND-050-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 45952
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -435,7 +435,7 @@ proxies:
 - name: '[v3] GB-LND-051-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 49692
+  port: 48748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -443,7 +443,7 @@ proxies:
 - name: '[v3] GB-LND-052-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 52186
+  port: 49692
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -451,7 +451,7 @@ proxies:
 - name: '[v3] GB-LND-053-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 58580
+  port: 52186
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -491,7 +491,7 @@ proxies:
 - name: '[v3] GB-LND-058-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 39730
+  port: 40272
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -499,7 +499,7 @@ proxies:
 - name: '[v3] GB-LND-059-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 40272
+  port: 44156
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -507,7 +507,7 @@ proxies:
 - name: '[v3] GB-LND-060-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 44156
+  port: 45444
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -515,20 +515,12 @@ proxies:
 - name: '[v3] GB-LND-061-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 45444
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-062-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
   port: 58844
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-063-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-062-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 11312
@@ -536,7 +528,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-064-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-063-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 13092
@@ -544,7 +536,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-065-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-064-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 24296
@@ -552,10 +544,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: '[v3] GB-LND-065-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 32640
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
 - name: '[v3] GB-LND-066-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 35258
+  port: 45134
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -571,23 +571,23 @@ proxies:
 - name: '[v3] GB-LND-068-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 52140
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-069-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 53086
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-070-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
   port: 59512
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-069-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 17648
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-070-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 20060
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -595,7 +595,7 @@ proxies:
 - name: '[v3] GB-LND-071-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 17648
+  port: 27384
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -616,31 +616,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-074-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 33226
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-075-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 52936
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-076-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 56064
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-077-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-074-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
   port: 10124
@@ -648,263 +624,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-078-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 24174
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-079-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 31016
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-080-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 45952
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-081-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 48748
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-082-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 49692
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-083-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 52186
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-084-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 58580
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-085-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 10202
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-086-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 10748
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-087-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 25006
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-088-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 36504
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-089-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 36804
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-090-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 40272
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-091-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 45444
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-092-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 11312
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-093-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 13092
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-094-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 24296
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-095-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 35258
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-096-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 45134
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-097-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 46698
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-098-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 52140
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-099-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 59512
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-100-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 17648
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-101-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 27384
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-102-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 30014
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-103-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 32770
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-104-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 33226
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-105-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 34804
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-106-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 49788
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-107-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 52936
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-108-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 56064
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-109-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 10124
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-110-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-075-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
   port: 16080
@@ -912,7 +632,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-111-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-076-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
   port: 24174
@@ -920,31 +640,31 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-112-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-077-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 31016
+  port: 36124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-113-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-078-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 45952
+  port: 49692
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-114-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-079-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 52186
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-115-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-080-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
   port: 58580
@@ -952,7 +672,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-116-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-081-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 10202
@@ -960,7 +680,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-117-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-082-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 10748
@@ -968,15 +688,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-118-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-083-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 25006
+  port: 36504
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-119-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-084-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 36804
@@ -984,7 +704,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-120-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-085-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 39730
@@ -992,15 +712,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-121-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-086-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 45444
+  port: 40272
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-122-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-087-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 58844
@@ -1008,7 +728,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-123-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-088-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 11312
@@ -1016,15 +736,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-124-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 13092
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-125-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-089-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 24296
@@ -1032,7 +744,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-126-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-090-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 32640
@@ -1040,7 +752,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-127-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-091-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 35258
@@ -1048,7 +760,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-128-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-092-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 45134
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-093-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 46698
@@ -1056,7 +776,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-129-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-094-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 52140
@@ -1064,7 +784,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-130-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-095-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
   port: 53086
@@ -1072,15 +792,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-131-erith-2-uk-nexorcdn-com'
-  type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 59512
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-132-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-096-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
   port: 17648
@@ -1088,15 +800,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-133-erith-3-uk-nexorcdn-com'
-  type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 20060
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-134-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-097-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
   port: 27384
@@ -1104,7 +808,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-135-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-098-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
   port: 30014
@@ -1112,10 +816,306 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-136-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-099-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
   port: 32770
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-100-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 33226
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-101-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 34804
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-102-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 49788
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-103-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 52936
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-104-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 56064
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-105-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 10124
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-106-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 16080
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-107-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 24174
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-108-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 31016
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-109-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 36124
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-110-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 45952
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-111-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 48748
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-112-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 49692
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-113-erith-5-uk-nexorcdn-com'
+  type: http
+  server: erith-5-uk.nexorcdn.com
+  port: 52186
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-114-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 10202
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-115-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 10748
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-116-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 25006
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-117-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 36504
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-118-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 36804
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-119-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 39730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-120-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 40272
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-121-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 58844
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-122-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 11312
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-123-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 13092
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-124-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 24296
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-125-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 35258
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-126-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 45134
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-127-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 46698
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-128-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 52140
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-129-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 53086
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-130-erith-2-uk-nexorcdn-com'
+  type: http
+  server: erith-2-uk.nexorcdn.com
+  port: 59512
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-131-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 17648
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-132-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 20060
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-133-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 27384
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-134-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 30014
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-135-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 32770
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-136-erith-3-uk-nexorcdn-com'
+  type: http
+  server: erith-3-uk.nexorcdn.com
+  port: 33226
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1136,10 +1136,10 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-139-erith-5-uk-nexorcdn-com'
+- name: '[v3] GB-LND-139-erith-3-uk-nexorcdn-com'
   type: http
-  server: erith-5-uk.nexorcdn.com
-  port: 16080
+  server: erith-3-uk.nexorcdn.com
+  port: 56064
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1147,7 +1147,7 @@ proxies:
 - name: '[v3] GB-LND-140-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 24174
+  port: 10124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1155,7 +1155,7 @@ proxies:
 - name: '[v3] GB-LND-141-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 31016
+  port: 16080
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1163,7 +1163,7 @@ proxies:
 - name: '[v3] GB-LND-142-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 36124
+  port: 31016
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1171,7 +1171,7 @@ proxies:
 - name: '[v3] GB-LND-143-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 45952
+  port: 36124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1179,7 +1179,7 @@ proxies:
 - name: '[v3] GB-LND-144-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 45952
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1187,7 +1187,7 @@ proxies:
 - name: '[v3] GB-LND-145-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 52186
+  port: 48748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1195,15 +1195,15 @@ proxies:
 - name: '[v3] GB-LND-146-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 58580
+  port: 49692
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-147-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-147-erith-5-uk-nexorcdn-com'
   type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 10202
+  server: erith-5-uk.nexorcdn.com
+  port: 58580
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1211,7 +1211,7 @@ proxies:
 - name: '[v3] GB-LND-148-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 10748
+  port: 10202
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1219,7 +1219,7 @@ proxies:
 - name: '[v3] GB-LND-149-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 25006
+  port: 10748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1227,7 +1227,7 @@ proxies:
 - name: '[v3] GB-LND-150-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 36804
+  port: 36504
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1235,7 +1235,7 @@ proxies:
 - name: '[v3] GB-LND-151-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 40272
+  port: 36804
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1243,7 +1243,7 @@ proxies:
 - name: '[v3] GB-LND-152-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 44156
+  port: 40272
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1251,15 +1251,15 @@ proxies:
 - name: '[v3] GB-LND-153-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 45444
+  port: 44156
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-154-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-154-erith-2-uk-nexorcdn-com'
   type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 58844
+  server: erith-2-uk.nexorcdn.com
+  port: 11312
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1283,7 +1283,7 @@ proxies:
 - name: '[v3] GB-LND-157-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 46698
+  port: 35258
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1291,7 +1291,7 @@ proxies:
 - name: '[v3] GB-LND-158-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 52140
+  port: 45134
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1299,15 +1299,15 @@ proxies:
 - name: '[v3] GB-LND-159-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 59512
+  port: 46698
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-160-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-160-erith-2-uk-nexorcdn-com'
   type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 17648
+  server: erith-2-uk.nexorcdn.com
+  port: 53086
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1339,7 +1339,7 @@ proxies:
 - name: '[v3] GB-LND-164-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 32770
+  port: 33226
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1347,7 +1347,7 @@ proxies:
 - name: '[v3] GB-LND-165-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 34804
+  port: 49788
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1355,7 +1355,7 @@ proxies:
 - name: '[v3] GB-LND-166-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 49788
+  port: 52936
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1363,15 +1363,15 @@ proxies:
 - name: '[v3] GB-LND-167-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 52936
+  port: 56064
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-168-erith-3-uk-nexorcdn-com'
+- name: '[v3] GB-LND-168-erith-5-uk-nexorcdn-com'
   type: http
-  server: erith-3-uk.nexorcdn.com
-  port: 56064
+  server: erith-5-uk.nexorcdn.com
+  port: 10124
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1411,7 +1411,7 @@ proxies:
 - name: '[v3] GB-LND-173-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 45952
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1419,7 +1419,7 @@ proxies:
 - name: '[v3] GB-LND-174-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 49692
+  port: 48748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1467,7 +1467,7 @@ proxies:
 - name: '[v3] GB-LND-180-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 36804
+  port: 36504
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1475,7 +1475,7 @@ proxies:
 - name: '[v3] GB-LND-181-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 40272
+  port: 36804
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1483,7 +1483,7 @@ proxies:
 - name: '[v3] GB-LND-182-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 44156
+  port: 39730
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1491,15 +1491,15 @@ proxies:
 - name: '[v3] GB-LND-183-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
-  port: 58844
+  port: 40272
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-184-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-184-erith-6-uk-nexorcdn-com'
   type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 11312
+  server: erith-6-uk.nexorcdn.com
+  port: 44156
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1507,7 +1507,7 @@ proxies:
 - name: '[v3] GB-LND-185-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 13092
+  port: 11312
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1515,7 +1515,7 @@ proxies:
 - name: '[v3] GB-LND-186-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 24296
+  port: 13092
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1523,7 +1523,7 @@ proxies:
 - name: '[v3] GB-LND-187-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 32640
+  port: 24296
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1539,7 +1539,7 @@ proxies:
 - name: '[v3] GB-LND-189-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 46698
+  port: 52140
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1547,15 +1547,15 @@ proxies:
 - name: '[v3] GB-LND-190-erith-2-uk-nexorcdn-com'
   type: http
   server: erith-2-uk.nexorcdn.com
-  port: 52140
+  port: 59512
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-191-erith-2-uk-nexorcdn-com'
+- name: '[v3] GB-LND-191-erith-3-uk-nexorcdn-com'
   type: http
-  server: erith-2-uk.nexorcdn.com
-  port: 59512
+  server: erith-3-uk.nexorcdn.com
+  port: 17648
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1587,7 +1587,7 @@ proxies:
 - name: '[v3] GB-LND-195-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 33226
+  port: 32770
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1595,7 +1595,7 @@ proxies:
 - name: '[v3] GB-LND-196-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 34804
+  port: 33226
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1603,7 +1603,7 @@ proxies:
 - name: '[v3] GB-LND-197-erith-3-uk-nexorcdn-com'
   type: http
   server: erith-3-uk.nexorcdn.com
-  port: 52936
+  port: 34804
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1635,7 +1635,7 @@ proxies:
 - name: '[v3] GB-LND-201-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 31016
+  port: 24174
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1643,7 +1643,7 @@ proxies:
 - name: '[v3] GB-LND-202-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 36124
+  port: 45952
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1651,7 +1651,7 @@ proxies:
 - name: '[v3] GB-LND-203-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 45952
+  port: 48748
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1659,7 +1659,7 @@ proxies:
 - name: '[v3] GB-LND-204-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 48748
+  port: 49692
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1667,7 +1667,7 @@ proxies:
 - name: '[v3] GB-LND-205-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 49692
+  port: 52186
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1675,20 +1675,12 @@ proxies:
 - name: '[v3] GB-LND-206-erith-5-uk-nexorcdn-com'
   type: http
   server: erith-5-uk.nexorcdn.com
-  port: 52186
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-207-erith-5-uk-nexorcdn-com'
-  type: http
-  server: erith-5-uk.nexorcdn.com
   port: 58580
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-208-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-207-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 10202
@@ -1696,15 +1688,7 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-209-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 10748
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-210-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-208-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 25006
@@ -1712,7 +1696,15 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-211-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-209-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 36504
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-210-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 36804
@@ -1720,10 +1712,18 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
-- name: '[v3] GB-LND-212-erith-6-uk-nexorcdn-com'
+- name: '[v3] GB-LND-211-erith-6-uk-nexorcdn-com'
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 39730
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+  skip-cert-verify: true
+- name: '[v3] GB-LND-212-erith-6-uk-nexorcdn-com'
+  type: http
+  server: erith-6-uk.nexorcdn.com
+  port: 40272
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1740,14 +1740,6 @@ proxies:
   type: http
   server: erith-6-uk.nexorcdn.com
   port: 45444
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: '[v3] GB-LND-215-erith-6-uk-nexorcdn-com'
-  type: http
-  server: erith-6-uk.nexorcdn.com
-  port: 58844
   username: ef37886e2aacd6fa622e3de3810299c2
   password: 9jkvAVV-9ufV6IGd
   tls: true
@@ -1774,22 +1766,22 @@ proxy-groups:
   - '[v3] GB-LND-006-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-007-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-008-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-009-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-009-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-010-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-011-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-012-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-013-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-014-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-015-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-016-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-017-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-015-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-016-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-017-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-018-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-019-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-020-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-021-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-022-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-023-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-024-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-024-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-025-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-026-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-027-erith-6-uk-nexorcdn-com'
@@ -1814,7 +1806,7 @@ proxy-groups:
   - '[v3] GB-LND-043-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-044-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-045-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-046-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-046-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-047-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-048-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-049-erith-5-uk-nexorcdn-com'
@@ -1830,76 +1822,76 @@ proxy-groups:
   - '[v3] GB-LND-059-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-060-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-061-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-062-erith-6-uk-nexorcdn-com'
 - name: 🌐 Freloop
   type: select
   proxies:
+  - '[v3] GB-LND-062-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-063-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-064-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-065-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-066-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-067-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-068-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-069-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-070-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-069-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-070-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-071-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-072-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-073-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-074-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-075-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-076-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-074-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-075-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-076-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-077-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-078-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-079-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-080-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-081-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-082-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-083-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-084-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-081-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-082-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-083-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-084-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-085-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-086-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-087-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-088-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-089-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-090-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-091-erith-6-uk-nexorcdn-com'
 - name: 💎 Hibchr
   type: select
   proxies:
+  - '[v3] GB-LND-088-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-089-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-090-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-091-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-092-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-093-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-094-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-095-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-096-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-097-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-098-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-099-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-096-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-097-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-098-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-099-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-100-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-101-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-102-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-103-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-104-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-105-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-106-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-107-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-108-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-105-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-106-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-107-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-108-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-109-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-110-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-111-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-112-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-113-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-114-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-115-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-114-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-115-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-116-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-117-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-118-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-119-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-120-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-121-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-122-erith-6-uk-nexorcdn-com'
 - name: 🛰️ Hisball
   type: select
   proxies:
+  - '[v3] GB-LND-122-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-123-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-124-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-125-erith-2-uk-nexorcdn-com'
@@ -1908,7 +1900,7 @@ proxy-groups:
   - '[v3] GB-LND-128-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-129-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-130-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-131-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-131-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-132-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-133-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-134-erith-3-uk-nexorcdn-com'
@@ -1916,7 +1908,7 @@ proxy-groups:
   - '[v3] GB-LND-136-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-137-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-138-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-139-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-139-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-140-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-141-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-142-erith-5-uk-nexorcdn-com'
@@ -1924,23 +1916,23 @@ proxy-groups:
   - '[v3] GB-LND-144-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-145-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-146-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-147-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-147-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-148-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-149-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-150-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-151-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-152-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-153-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-154-erith-6-uk-nexorcdn-com'
 - name: 🚀 Tronlit
   type: select
   proxies:
+  - '[v3] GB-LND-154-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-155-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-156-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-157-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-158-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-159-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-160-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-160-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-161-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-162-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-163-erith-3-uk-nexorcdn-com'
@@ -1948,7 +1940,7 @@ proxy-groups:
   - '[v3] GB-LND-165-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-166-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-167-erith-3-uk-nexorcdn-com'
-  - '[v3] GB-LND-168-erith-3-uk-nexorcdn-com'
+  - '[v3] GB-LND-168-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-169-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-170-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-171-erith-5-uk-nexorcdn-com'
@@ -1964,17 +1956,17 @@ proxy-groups:
   - '[v3] GB-LND-181-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-182-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-183-erith-6-uk-nexorcdn-com'
+  - '[v3] GB-LND-184-erith-6-uk-nexorcdn-com'
 - name: 🔥 Tronyza
   type: select
   proxies:
-  - '[v3] GB-LND-184-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-185-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-186-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-187-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-188-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-189-erith-2-uk-nexorcdn-com'
   - '[v3] GB-LND-190-erith-2-uk-nexorcdn-com'
-  - '[v3] GB-LND-191-erith-2-uk-nexorcdn-com'
+  - '[v3] GB-LND-191-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-192-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-193-erith-3-uk-nexorcdn-com'
   - '[v3] GB-LND-194-erith-3-uk-nexorcdn-com'
@@ -1990,7 +1982,7 @@ proxy-groups:
   - '[v3] GB-LND-204-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-205-erith-5-uk-nexorcdn-com'
   - '[v3] GB-LND-206-erith-5-uk-nexorcdn-com'
-  - '[v3] GB-LND-207-erith-5-uk-nexorcdn-com'
+  - '[v3] GB-LND-207-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-208-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-209-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-210-erith-6-uk-nexorcdn-com'
@@ -1998,7 +1990,6 @@ proxy-groups:
   - '[v3] GB-LND-212-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-213-erith-6-uk-nexorcdn-com'
   - '[v3] GB-LND-214-erith-6-uk-nexorcdn-com'
-  - '[v3] GB-LND-215-erith-6-uk-nexorcdn-com'
 - name: 🇮🇷 Iran Direct
   type: select
   proxies:
